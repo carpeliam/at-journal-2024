@@ -10,9 +10,16 @@ module.exports = {
     transformIgnorePatterns: [`node_modules/(?!(gatsby|gatsby-script|gatsby-link|@react-leaflet|react-leaflet)/)`],
     globals: {
       __PATH_PREFIX__: ``,
+      fetch: global.fetch,
+      Request: global.Request,
+      Response: global.Response,   
+      TextEncoder: global.TextEncoder, 
+      TransformStream: global.TransformStream,
+      BroadcastChannel: global.BroadcastChannel,
     },
     testEnvironmentOptions: {
       url: `http://localhost`,
+      customExportConditions: [''],
     },
     setupFiles: [`<rootDir>/loadershim.js`],
     testEnvironment: `jsdom`,

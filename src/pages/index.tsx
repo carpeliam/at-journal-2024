@@ -158,7 +158,6 @@ const IndexPage: React.FC<PageProps> = () => {
     fetch(data.file.publicURL)
       .then(resp => resp.json())
       .then(json => {
-        console.log(json);
         setGeoJson(json);
       });
   }, []);
