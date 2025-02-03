@@ -5,7 +5,7 @@ import { MapContainer, Marker, Popup, TileLayer, GeoJSON } from "react-leaflet"
 
 const pageStyles = {
   color: "#232129",
-  padding: 96,
+  // padding: 96,
   fontFamily: "-apple-system, Roboto, sans-serif, serif",
 }
 const headingStyles = {
@@ -138,6 +138,22 @@ const links = [
   },
 ]
 
+const GeoJSONForUrl = ({url} : {url: string }) => {
+  const [geoJson, setGeoJson] = useState();
+  useEffect(() => {
+    fetch(url)
+      .then(resp => resp.json())
+      .then(json => {
+        setGeoJson(json);
+      });
+  })
+  return geoJson && <GeoJSON data={geoJson} eventHandlers={{
+    click: (e) => {
+      console.log('marker clicked', e, JSON.stringify(e.propagatedFrom.feature))
+    }
+  }} />;
+}
+
 const IndexPage: React.FC<PageProps> = () => {
   const data = useStaticQuery(graphql`
     {
@@ -153,31 +169,16 @@ const IndexPage: React.FC<PageProps> = () => {
       }
     }
   `)
-  const [geoJson, setGeoJson] = useState();
-  useEffect(() => {
-    fetch(data.file.publicURL)
-      .then(resp => resp.json())
-      .then(json => {
-        setGeoJson(json);
-      });
-  }, []);
+  const geojsonUrls : string[] = data.allFile.edges.map((edge: any) => edge.node.publicURL);
+  const geojsonComponents = geojsonUrls.map((url) => <GeoJSONForUrl url={url} key={url} />);
   return (
     <main style={pageStyles}>
-      <MapContainer style={{ height: '400px' }} center={[51.505, -0.09]} zoom={13} scrollWheelZoom={false}>
+      <MapContainer style={{ height: '100vh', width: 400 }} center={[39.325481, -77.740578]} zoom={5} scrollWheelZoom={false}>
       <TileLayer
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
       />
-      <Marker position={[51.505, -0.09]}>
-        <Popup>
-          A pretty CSS3 popup. <br /> Easily customizable.
-        </Popup>
-      </Marker>
-      {geoJson && <GeoJSON data={geoJson} eventHandlers={{
-        click: (e) => {
-          console.log('marker clicked', e, JSON.stringify(e.propagatedFrom.feature))
-        }
-      }} />}
+      {geojsonComponents}
     </MapContainer>
       <h1 style={headingStyles}>
         Congratulations!
