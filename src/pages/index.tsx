@@ -1,5 +1,7 @@
-import * as React from "react"
+import React, { useEffect, useState } from 'react'
 import type { HeadFC, PageProps } from "gatsby"
+import { useStaticQuery, graphql } from "gatsby"
+import { MapContainer, Marker, Popup, TileLayer, GeoJSON } from "react-leaflet"
 
 const pageStyles = {
   color: "#232129",
@@ -137,10 +139,49 @@ const links = [
 ]
 
 const IndexPage: React.FC<PageProps> = () => {
+  const data = useStaticQuery(graphql`
+    {
+      allFile(filter: {sourceInstanceName: {eq: "geojson"}}) {
+        edges {
+          node {
+            publicURL
+          }
+        }
+      }
+      file(sourceInstanceName: {eq: "geojson"}) {
+        publicURL
+      }
+    }
+  `)
+  const [geoJson, setGeoJson] = useState();
+  useEffect(() => {
+    fetch(data.file.publicURL)
+      .then(resp => resp.json())
+      .then(json => {
+        console.log(json);
+        setGeoJson(json);
+      });
+  }, []);
   return (
     <main style={pageStyles}>
+      <MapContainer style={{ height: '400px' }} center={[51.505, -0.09]} zoom={13} scrollWheelZoom={false}>
+      <TileLayer
+        attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+      />
+      <Marker position={[51.505, -0.09]}>
+        <Popup>
+          A pretty CSS3 popup. <br /> Easily customizable.
+        </Popup>
+      </Marker>
+      {geoJson && <GeoJSON data={geoJson} eventHandlers={{
+        click: (e) => {
+          console.log('marker clicked', e, JSON.stringify(e.propagatedFrom.feature))
+        }
+      }} />}
+    </MapContainer>
       <h1 style={headingStyles}>
-        Congratulations
+        Congratulations!
         <br />
         <span style={headingAccentStyles}>— you just made a Gatsby site! 🎉🎉🎉</span>
       </h1>

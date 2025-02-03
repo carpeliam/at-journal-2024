@@ -28,7 +28,17 @@ const config: GatsbyConfig = {
       "path": "./src/pages/"
     },
     __key: "pages"
-  }]
+  },
+  {
+    resolve: 'gatsby-source-filesystem',
+    options: {
+      "name": "geojson",
+      "path": "./src/geojson/"
+    },
+    __key: "geojson"
+  },
+  'gatsby-plugin-react-leaflet'
+]
 };
 
 export default config;
