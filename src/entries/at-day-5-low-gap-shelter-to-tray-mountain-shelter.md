@@ -8,14 +8,7 @@ miles: 15.4
 sleep: Tent
 mood: 🙂
 ---
-Saw Tom on trail, we tried to figure out with 1 bar whether hiker feed was on Mondays (as AT Guide said) or
-Wednesdays and Thursdays as some Far Out comments said. I realized that my 15 mile plan had me getting to
-Hiawassee from Dick s Creek instead of Unicoi, and I met Sink not far from the shelter close to Unicoi who said
-it was going to rain Tuesday, with thunderstorms on Thursday. I made a game time decision to stretch for
-Dick s Creek Gap, and told Sink to tell Tom that I d try to meet him there. The heat is going to start and I don t
-know if I m going to like it!
-Got hotdog and milk at Unicoi trail magic. Only a few hours apparently behind Dema/forklift. Trail magic lady
-gives out cool trail names, including Fat Bottomed Burl for the guy who found a big burl at the bottom of a tree.
-Met him and Chicken Little at an overlook a few hours later.
+I caught up to Tom on trail, and we took a break together, trying to figure out (with 1 bar of cell service) whether the hiker feed was on Mondays as reported by the AT Guide, or whether it was on Wednesdays and Thursdays as indicated by some comments in FarOut. Some time later, I realized that my 15 mile plan had me arriving at Hiawassee from Dick's Creek instead of Unicoi Gap, and Sink told me that it was supposed to rain on Tuesday, with thunderstorms on Thursday. I made a game time decision to stretch for
+Dick's Creek Gap tomorrow, and told Sink to tell Tom that I'd try to meet him there.
 
-Sleep score: 61
+So far, I've been able to hike virtually all day without sweating, as the southern latitude of Georgia pairs nicely with the early April weather, but I can feel it starting to heat up and I don't know if I'm going to like it! Unicoi Gap had more trail magic (I'm getting spoiled and I won't complain); I got myself a hotdog and some chocolate milk. The woman running the stand said that Dema and Forklift passed through just a few hours before. She also has a penchant for giving out some epic trail names: earlier today, when one hiker was excited about a particularly large burl protruding from a tree, she dubbed him *Fat Bottomed Burl*. I met him and his hiking partner Chicken Little at an overlook just a few hours later.
