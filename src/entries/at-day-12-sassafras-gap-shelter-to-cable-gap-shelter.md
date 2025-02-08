@@ -8,11 +8,6 @@ miles: 15.4
 sleep: Tent
 mood: 🙂
 ---
-My knees and ankles are letting me know, they re not happy about everything
-Today started off really hard, good to know it was hard for others
-Met Midnight Snack and Twelve, hopefully I see more of them, but I m afraid I won t see either soon- I might
-finish the whole thing without establishing much of a tramily
-💩 at Brown Fork Gap shelter- got to the privy and realized I didn t have my poop kit, was too tired to go back
-and get it so I used leaves instead. I think they did the job.
+Today started off really hard. Last night's sleep was terrible. My knees and ankles are letting me know that they're not happy about everything.
 
-Sleep score: 55
+I grabbed some lunch at Brown Fork shelter, and met Midnight Snack. He seemed to have pains of his own, but his disposition about it was something to aspire to. Hopefully I see more of him, but I'm afraid I won't - I might finish this whole thing without establishing much of a tramily. When I went to the privy, I realized I had forgotten my poop kit back at the shelter, and I was too tired to walk back and fetch it, so I used leaves instead. I think they did the job.
