@@ -8,8 +8,8 @@ miles: 14.7
 sleep: Tent
 mood: 🙂
 ---
-My watch told me to rest again.
-Snail Mail s friends are Fire Magic and Honeybuns. Fire Magic started a fire and I watched. Man s first invention
-is still the most interesting one.
-We ve hiked exactly as far as the LT today.
-Sleep score: 59
+My watch told me to rest again. Boo.
+
+I saw Snail Mail and her friends (fellow End-to-Ender Fire Magic, and Honeybuns) at Deer Park too - it looks like we're all heading into Hot Springs tomorrow.Fire Magic lived up to her trail name by getting a fire started in the fire pit, while Honeybuns secured the kindling and I watched. Fire is likely the first thing that mankind ever invented, and it's still by far the most interesting one.
+
+Oh hey, I finished today at mile 272 - that's exactly as far as the Long Trail, depending on the year. As of tomorrow, this will be the longest hike I've ever been on.
