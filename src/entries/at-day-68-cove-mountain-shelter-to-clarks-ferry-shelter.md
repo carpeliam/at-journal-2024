@@ -10,5 +10,5 @@ mood: 🙂
 ---
 Duncannon. Was planning to hang with Patrick, but he was feeling pretty terrible, not about to drive 7 hours.
 Got breakfast at Goodies, then latte (with half & half) at Doyle s, then hung out at Kind of Outdoorsy with
-Martian and PBG, and did some grocery shopping. Haven t slept great, and didn t want to hike faster than my
+Martian and PBG, and did some grocery shopping. Haven't slept great, and didn't want to hike faster than my
 shoes will arrive, so just did a few to the first shelter.

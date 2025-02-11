@@ -9,4 +9,4 @@ sleep: Tent
 mood: 🙂
 ---
 Blackberry milkshake and blackberry cobbler at Meadows
-I m gonna miss the ability to just buy calories in the middle of the day
+I'm gonna miss the ability to just buy calories in the middle of the day

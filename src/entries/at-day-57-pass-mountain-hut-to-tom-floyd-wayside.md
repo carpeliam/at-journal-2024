@@ -12,4 +12,4 @@ Spent most of the day trying to catch No Plan, never did. Maybe passed her? As s
 that I was right behind her. Oh well.
 Another thunderstorm! Waited this one out at the Mt Marshall trailhead. Felt a little smart not trying to hike
 through it, and my clothes were mostly dry after it passed.
-I m out of Shenandoah now, Front Royal tomorrow.
+I'm out of Shenandoah now, Front Royal tomorrow.

@@ -20,7 +20,7 @@ The weather continued to hedge between being rainy and stormy, until finally it 
 
 
 I noticed today that the trail in these parts is cut into the side of the incline. This is maybe an act of kindness,
-so you don t have to go over the top of the hill directly, but it feels unnatural- I remember “On Trails” which
+so you don't have to go over the top of the hill directly, but it feels unnatural- I remember "On Trails" which
 talks about the evolution of trails where iterations find easier, more straightforward paths. This on the other
 hand feels very intentional, which it is. Is intentional the same thing as unnatural? Maybe not, but it feels more
 akin to the product of western thinking than to my ancient forefathers. 

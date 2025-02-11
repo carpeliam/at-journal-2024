@@ -9,7 +9,7 @@ sleep: Tent
 mood: 🙂
 ---
 Maine continues to have cool features. I passed a lake! With a tide! It was big! Today was mostly speedy, with a
-few sections where I felt like I was running out of gas. Lots of roots, and I d like to think I m ok with them, but
+few sections where I felt like I was running out of gas. Lots of roots, and I'd like to think I'm ok with them, but
 they were getting tired after a while.
 
 

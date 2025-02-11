@@ -10,5 +10,5 @@ mood: 🙂
 ---
 Trekked hard in the rain, and made it to the shelter with about an hour before sunset. Had a hard time finding a
 privy in the morning which set me back (thought it was back a half mile, turned out I was right next to it!).
-Shelter is packed, this doesn t bode well for future nights. Hopefully I ll be able to dry my tent out a bit in the
+Shelter is packed, this doesn't bode well for future nights. Hopefully I ll be able to dry my tent out a bit in the
 morning!

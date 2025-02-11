@@ -8,4 +8,4 @@ miles: 14.0
 sleep: Shelter
 mood: 🙂
 ---
-Saw a moose! Could have kept going to tent site, but I m going into town tomorrow with Bonk and DK.
+Saw a moose! Could have kept going to tent site, but I'm going into town tomorrow with Bonk and DK.
