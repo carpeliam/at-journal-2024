@@ -58,7 +58,7 @@ type IndexData = {
   }
 }
 
-function Preface() {
+function Preface({ metadata }) {
   const { setActiveEntry } = useContext(ActiveEntryContext);
   const { ref } = useInView({
     /* Optional options */
@@ -75,10 +75,10 @@ function Preface() {
       <div className="w-full bg-center bg-cover"
         style={{backgroundImage: `url(${imgHeader})`}}>
         <div className="bg-gray-300/15 py-36">
-            <h1 className="text-center lg:text-5xl text-gray-100">Marathon From Georgia To Maine</h1>
+            <h1 className="text-center lg:text-5xl text-gray-100">{metadata.title}</h1>
         </div>
       </div>
-      Between April 3rd and August 13th of 2024, I hiked 2197 miles from Georgia to Maine. This is the story of the steps.
+      {metadata.description}
     </header>
   )
 }
@@ -136,7 +136,7 @@ function IndexPage({ data }: PageProps<IndexData>) {
         </MapContainer>
       </div>
       <div style={{ marginLeft: 425, padding: 10 }}>
-        <Preface />
+        <Preface metadata={data.site.siteMetadata} />
         {data.allMarkdownRemark.edges.map(({ node }) => (
           <Entry key={node.fields.slug} {...node} />
         ))}
@@ -148,6 +148,13 @@ function IndexPage({ data }: PageProps<IndexData>) {
 
 export const pageQuery = graphql`
   query {
+    site {
+      siteMetadata {
+        description
+        siteUrl
+        title
+      }
+    }
     allMarkdownRemark(
       filter: {fileAbsolutePath: {glob: "/**/src/entries/*"}}
       sort: {frontmatter: {date: ASC}}
@@ -200,4 +207,4 @@ export const pageQuery = graphql`
 
 export default IndexPage
 
-export const Head: HeadFC = () => <title>Marathon From Georgia to Maine</title>
+export const Head: HeadFC = ({ data }) => <title>{data.site.siteMetadata.title}</title>;

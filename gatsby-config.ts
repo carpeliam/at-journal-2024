@@ -2,7 +2,8 @@ import type { GatsbyConfig } from "gatsby";
 
 const config: GatsbyConfig = {
   siteMetadata: {
-    title: `AT 2024 Day by Day`,
+    title: 'Marathon From Georgia To Maine',
+    description: 'Between April 3rd and August 13th of 2024, I hiked 2197 miles from Georgia to Maine. This is the story of the steps.',
     siteUrl: `https://www.yourdomain.tld`
   },
   // More easily incorporate content into your pages through automatic TypeScript type generation and better GraphQL IntelliSense.
