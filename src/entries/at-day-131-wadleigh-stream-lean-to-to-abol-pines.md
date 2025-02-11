@@ -10,8 +10,8 @@ mood: 🙂
 ---
 Originally was going to stay at Hurd, but decided to press as there seems to be a lot of people summiting and I
 wanted to make sure I get a spot at Birches.
-Got some views of Katahdin, but had to take breaks to pay Shaw s and message Ted. Meeting up with him on
+Got some views of Katahdin, but had to take breaks to pay Shaw's and message Ted. Meeting up with him on
 the summit still feels like a loose plan but I think it ll work out!
 
-Sleep now, Ranger s station in the morning. Boo, it s raining… I just spent 2 days getting things dry. This too
+Sleep now, Ranger's station in the morning. Boo, it's raining… I just spent 2 days getting things dry. This too
 shall pass.

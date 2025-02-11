@@ -1,5 +1,5 @@
 ---
-title: "AT Day 51: Cow Camp Gap Shelter to Harper s Creek Shelter"
+title: "AT Day 51: Cow Camp Gap Shelter to Harper's Creek Shelter"
 date: 2024-05-23
 location: Cow Camp Gap Shelter
 start: 813.2

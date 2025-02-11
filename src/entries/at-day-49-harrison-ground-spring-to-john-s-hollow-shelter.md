@@ -1,5 +1,5 @@
 ---
-title: "AT Day 49: Harrison Ground Spring to John s Hollow Shelter"
+title: "AT Day 49: Harrison Ground Spring to John's Hollow Shelter"
 date: 2024-05-21
 location: Harrison Ground Spring
 start: 776.1

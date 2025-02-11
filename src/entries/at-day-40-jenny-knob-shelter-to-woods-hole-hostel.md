@@ -11,4 +11,4 @@ mood: 🙂
 I ate so much I pooped twice
 Tired day, lots of rocks at the end
 Played codenames, came from behind to win
-Today was Mother s Day, called mom
+Today was Mother's Day, called mom

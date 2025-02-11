@@ -13,7 +13,7 @@ away, though there were a few
 Went to coffee shop and grocery store in Salisbury, hung out with Bandit and Bluegrass and other hikers- got
 ride back to trail from guy with leather armbands I think from the local church- it was threatening to
 thunderstorm and he said the upcoming section was exposed and offered to let me stay at his place for a bit,
-but I got on the trail. Almost as soon as I did, it started raining a bit. A woman on a bike went by, saying “it s a
+but I got on the trail. Almost as soon as I did, it started raining a bit. A woman on a bike went by, saying “it's a
 bad day for hiking”. The rain started coming down heavier as the trail went into a field, and I kind of ran for the
 trees. I got my rain gear on, took stock, then hiked a bit, finding a small tree to hunker under. I then walked a
 little further, resolving not to climb or leave tree cover, and I came across a privy by a trail head. I went in,

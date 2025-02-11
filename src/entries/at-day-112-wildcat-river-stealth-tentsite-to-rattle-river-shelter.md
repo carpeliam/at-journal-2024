@@ -8,7 +8,7 @@ miles: 13.3
 sleep: Tent
 mood: 😐
 ---
-On one hand, I confirmed this morning that my bathtub is leaking, after last night s rain. On the other, I know
+On one hand, I confirmed this morning that my bathtub is leaking, after last night's rain. On the other, I know
 where it is, and emailed Durston. We ll see what they say.
 Ate breakfast and dried my tent out at the hut this morning, and chatted with croo/SOBOs. One of my latest
 starts, but it was probably worth it, and I don t think I would have gone any further had I started much earlier.

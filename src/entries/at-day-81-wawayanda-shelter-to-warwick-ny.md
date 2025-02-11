@@ -17,7 +17,7 @@ around the 7 mile mark, the scrambles gave way to smooth ground, and I cruised, 
 Baby Kong and Colonel. We shuttled into town, set up tent at the drive in. I got lox and an iced coffee (with half
 & half).
 Killed time either by chilling out or eating food or both.
-Live Mas arrived, and I caught up with him a bunch. Seems we ve changed places a bit, where now he s doing
-big miles and I m on vacation. It s cool.
+Live Mas arrived, and I caught up with him a bunch. Seems we ve changed places a bit, where now he's doing
+big miles and I m on vacation. It's cool.
 Movie was Inside Out 2, and it was fun. I ve now seen more movies on trail than I ve seen in much longer off
-trail, but hey, I m on vacation! Hopefully tonight s rain will be more chill than last night s.
+trail, but hey, I m on vacation! Hopefully tonight's rain will be more chill than last night s.

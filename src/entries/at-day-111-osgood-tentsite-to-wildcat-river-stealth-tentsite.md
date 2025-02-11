@@ -8,7 +8,7 @@ miles: 10.7
 sleep: Tent
 mood: 🙂
 ---
-Planned to shuttle into Gorham with Java and Stumbles, but met a trail angel/fan of Waffles /son s YouTube
+Planned to shuttle into Gorham with Java and Stumbles, but met a trail angel/fan of Waffles /son's YouTube
 channel who gave me and others some homemade blueberry pie and a ride into town, a ride to Walmart, then a
 ride back to the trailhead. I hiked on to Carter Hut, but they were already full for Work For Stay, so they
 suggested I hike down the Wildcat River trail, and there was a tent stealth spot just after where the Forest

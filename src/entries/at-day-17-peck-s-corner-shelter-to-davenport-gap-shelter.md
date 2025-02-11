@@ -1,7 +1,7 @@
 ---
-title: "AT Day 17: Peck s Corner Shelter to Davenport Gap Shelter"
+title: "AT Day 17: Peck's Corner Shelter to Davenport Gap Shelter"
 date: 2024-04-19
-location: Peck s Corner Shelter
+location: Peck's Corner Shelter
 start: 218.5
 end: 238.3
 miles: 19.8

@@ -10,4 +10,4 @@ mood: 🙂
 ---
 Felt pretty meh most of today. Saw the sunrise, but then went back to sleep, then needed to use the privy (with
 a broken door!), so got a late start, and just felt sluggish. Then with just a few miles left to go, I saw that you can
-camp at this pond, and it s beautiful! Mood lifted.
+camp at this pond, and it's beautiful! Mood lifted.

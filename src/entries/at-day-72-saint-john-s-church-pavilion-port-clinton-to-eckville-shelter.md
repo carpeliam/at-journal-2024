@@ -1,7 +1,7 @@
 ---
-title: "AT Day 72: Saint John s Church Pavilion, Port Clinton to Eckville Shelter"
+title: "AT Day 72: Saint John's Church Pavilion, Port Clinton to Eckville Shelter"
 date: 2024-06-13
-location: Saint John s Church Pavilion, Port Clinton
+location: Saint John's Church Pavilion, Port Clinton
 start: 1220.4
 end: 1235.4
 miles: 15.0
