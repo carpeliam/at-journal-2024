@@ -1,7 +1,7 @@
 ---
-title: "AT Day 93: Tom Levardi s, Dalton MA to Bascom Lodge, Mount Greylock"
+title: "AT Day 93: Tom Levardi's, Dalton MA to Bascom Lodge, Mount Greylock"
 date: 2024-07-04
-location: Tom Levardi s, Dalton MA
+location: Tom Levardi's, Dalton MA
 start: 1576.1
 end: 1593.3
 miles: 17.2
