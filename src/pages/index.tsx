@@ -1,13 +1,12 @@
 import React, { useEffect, useState, useContext } from 'react';
 import type { HeadFC, PageProps } from 'gatsby';
 import { graphql } from 'gatsby';
-import { MapContainer, TileLayer, GeoJSON, useMap } from 'react-leaflet';
+import { StaticImage } from 'gatsby-plugin-image';
+import { MapContainer, TileLayer, GeoJSON, useMap, Circle } from 'react-leaflet';
 import { useInView } from 'react-intersection-observer';;
-import { ActiveEntryContext } from './ActiveEntryContext';
+import { ActiveEntryContext } from '../ActiveEntryContext';
 import { LatLngBounds } from 'leaflet';
-import imgHeader from '../images/trail-with-blaze.jpeg';
 
-console.log(imgHeader);
 function GeoJSONForUrl({ publicURL, name } : GeoJSONFileNode) {
   const { activeEntry } = useContext(ActiveEntryContext);
   const [geoJson, setGeoJson] = useState();
@@ -26,11 +25,23 @@ function GeoJSONForUrl({ publicURL, name } : GeoJSONFileNode) {
       .then(resp => resp.json())
       .then(setGeoJson);
   }, []);
-  return geoJson && <GeoJSON data={geoJson} style={{ color }} eventHandlers={{
-    click: (e) => {
-      document.getElementById(name.split('_')[0]).scrollIntoView(true);
-    }
-  }} />;
+  // [geoJson.features[0].geometry.coordinates[1], geoJson.features[0].geometry.coordinates[0]]
+  const firstCoordinateCenter = (coords) => [coords[0][1], coords[0][0]];
+  const lastCoordinateCenter = (coords) => {
+    const lastCoord = coords[coords.length - 1];
+    return [lastCoord[1], lastCoord[0]];
+  }
+  return geoJson &&
+    <>
+      <GeoJSON data={geoJson} style={{ color }} eventHandlers={{
+        click: (e) => { document.getElementById(name.split('_')[0]).scrollIntoView(true); }
+      }} />
+      {isActive &&
+        <>
+          <Circle center={firstCoordinateCenter(geoJson.features[0].geometry.coordinates)} radius={75} color={color} pathOptions={{ fillOpacity: 0.9 }} />
+          <Circle center={lastCoordinateCenter(geoJson.features[0].geometry.coordinates)} radius={75} color="black" pathOptions={{ fillOpacity: 0.5 }} />
+        </>}
+    </>;
 }
 
 type GeoJSONFileNode = {
@@ -72,11 +83,16 @@ function Preface({ metadata }) {
   });
   return (
     <header className="mb-12" ref={ref}>
-      <div className="w-full bg-center bg-cover"
-        style={{backgroundImage: `url(${imgHeader})`}}>
-        <div className="bg-gray-300/15 py-36">
-            <h1 className="text-center lg:text-5xl text-gray-100">{metadata.title}</h1>
-        </div>
+      <div style={{ display: "grid" }}>
+      <StaticImage
+        src="../images/trail-with-blaze.jpeg" alt="My tent on the trail"
+        style={{ gridArea: "1/1" }}
+        layout="fullWidth"
+        aspectRatio={2 / 1}
+      />
+      <div className="relative grid place-items-center" style={{ gridArea: "1/1" }}>
+        <h1 className="text-center lg:text-5xl text-gray-100">{metadata.title}</h1>
+      </div>
       </div>
       {metadata.description}
     </header>

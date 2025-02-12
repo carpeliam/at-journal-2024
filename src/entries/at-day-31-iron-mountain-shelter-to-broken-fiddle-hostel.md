@@ -8,7 +8,7 @@ miles: 26.5
 sleep: Building
 mood: 🙂
 ---
-Marathon! And I crushed it.
+I hiked the Damascus Marathon! And I crushed it.
 
 Got started with the sunrise, right around 6:30am. I noticed after the first hour that I was keeping a 3.25 mile/hour pace; if I could keep this going, I could finish in about 8 hours. Just after a hill, I passed a guy named Trek coming the other way, and assumed he was a local. (We're not supposed to have southbounders just yet, I don't think?) I guess he's doing a section, but he's done this before, and had lots of stories to tell. I passed an old building with the AT logo painted big on the side.
 
