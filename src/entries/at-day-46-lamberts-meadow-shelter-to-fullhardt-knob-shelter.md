@@ -8,9 +8,8 @@ miles: 14.4
 sleep: Shelter
 mood: 🙂
 ---
-Resupplied in Daleville
-Too much coffee, then bbq, then $$ at Kroger, then hung out at coffee while charging things
-Still trying to figure out how much food to buy- it seems as though the amount of calories that will fit in my bag
-is not enough calories to keep me from losing weight
-Walk out of town was nice and gentle
-Sheltered with Gambit and Star Trooper
+I resupplied in Daleville today. The walk into town was a strange one. There's a new development going up right where the trail meets the highway, and a whole ton of deer that just watched me walk by. It'll be strange, I think, when these houses are finished and have people living in them, but then again I guess it was strange to be walking by peoples' houses in Damascus too. I didn't have to hitch or anything into town, as the Kroger's was only a half mile or so on the road, though it wasn't the most peaceful road walk. The shopping area had a Kroger's, a barbecue spot, a cafe, and a Wendy's (and a Bojangles, but I didn't, even if it's more local). I made sure to get breakfast before resupply. I'm still trying to figure out how much food to buy - it seems as though the amount of calories that will fit in my bag is not enough calories to keep me from losing weight. At the cafe, I asked the woman behind the counter whether she could make an affogato - she didn't know what it was, but when I told her that I think it's just espresso plus ice cream, she said that could make both of those things! So, I had my first affogato on trail today!
+
+I went back to the cafe after resupplying because I still needed to charge my power bank, so I had way too much coffee today. The walk out of town was pretty nice and gentle. I ended up at the shelter with Gambit and Star Trooper, who I had met at the coffee shop.
+
+Another milestone: I passed a sign that said "1/3 of the way to Katahdin"! Feels like just yesterday that I was 1/4 of the way.
