@@ -14,4 +14,4 @@ I saw a sign that said "please, no deer carcasses." I can get behind that statem
 
 I crossed the 600 mile mark today! My shoes could have been retired 100 miles ago, but they're still going strong. They've got a little hole in them around where my Lone Peaks blew out (after only a week), but it's been so dry that the hole doesn't really bother me.
 
-I'm never too far away from hiking with someone I know - I'm back with Brightside, Grave Digger, and Live Mas. And I finally met the other Liam from Boston! "Kachow" has been hanging out with these guys, and he's from the south shore (Hingham I think?), which is close enough to Boston. They're headed to Woods Hole hostel tomorrow, so I think I'll tag along.
+I guess I'm never too far away from hiking with someone I know - I'm back again with Brightside, Grave Digger, Live Mas, Forklift, and Mosey. And I finally met the other Liam from Boston! "Kachow" has been hanging out with these guys, and he's from the south shore (Hingham I think?), which is close enough to Boston. Brightside extended an invite to Woods Hole hostel tomorrow, so I think I'll tag along.

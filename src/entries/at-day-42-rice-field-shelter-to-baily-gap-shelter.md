@@ -8,3 +8,4 @@ miles: 16.4
 sleep: Shelter
 mood: 🙂
 ---
+Always the last person out of camp. Technically there were some peeps in the shelter that looked like they were waiting for weather to improve, but other than that, I was the last one out. Eventually I caught up to Live Mas and Kachow around Pine Swamp Branch shelter where we chatted with a section hiker and I took a food break. I'm feeling a bit tired today.
