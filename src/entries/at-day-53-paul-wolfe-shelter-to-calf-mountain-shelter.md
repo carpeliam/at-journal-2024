@@ -8,6 +8,8 @@ miles: 12.5
 sleep: Shelter
 mood: 🙂
 ---
-Resupplied in Waynesboro, texted for helpful ride at Kings Popcorn
-No see ums still suck, 4 hours sleep? Bibo = brown in/brown out, his brother and sister are doing Shenandoah
-with him. Talked to sister about labor unions, to brother about huel
+I got into Waynesboro by around 9am. I remember when I'd still be under my quilt at 9am! The trail came up to a turnpike, and across the turnpike was a hollowed out Howard Johnson's and a delightful popcorn stand. I'm glad I stopped at the popcorn stand - there was a bunch of phone numbers of people who volunteered to shuttle hikers into town! I had success with the first number I texted, and ate popcorn while I waited for them to come pick me up.
+
+I asked her if she could drop me off at a cafe (of course), and I settled down to charge electronics and consume baked goods (no affogato). After hanging out for a little while and squaring away my Shenandoah permit, I made my way over to Kroger, then the laundromat, and grabbed a burrito while my clothes spun. I was able to snag a ride back with the same person that gave me a ride in, and gifted her my remaining popcorn for the trouble. I'm never sure if I should pay for a hitch? And cash is such a difficult commodity, I'm scared to part with it.
+
+It's a little unclear to me how much I was in Shenandoah National Park today - it seems like I entered? But Calf Mountain Shelter is not technically in the park? But the shelter is packed - looks like I'll be staying in the shelter itself tonight as all the tent spots are taken, and I'm not excited about visits from the No-See-Ums. I met Bibo (short for brown in/brown out). His family joined him to do the Shenandoah section together. I talked to his sister about labor unions, and to his brother about Huel.
