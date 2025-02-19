@@ -13,3 +13,7 @@ p { margin: 1.12em 0 }
 a {
     color: blue;
 }
+
+.ReactModal__Body--open {
+    overflow: hidden;
+}

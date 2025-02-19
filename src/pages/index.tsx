@@ -1,11 +1,14 @@
 import React, { useEffect, useState, useContext } from 'react';
 import type { HeadFC, PageProps } from 'gatsby';
 import { graphql } from 'gatsby';
-import { StaticImage } from 'gatsby-plugin-image';
-import { MapContainer, TileLayer, GeoJSON, useMap, Circle } from 'react-leaflet';
+import { StaticImage, GatsbyImage, IGatsbyImageData } from 'gatsby-plugin-image';
+import { MapContainer, TileLayer, GeoJSON, useMap, Circle, Marker } from 'react-leaflet';
 import { useInView } from 'react-intersection-observer';;
 import { ActiveEntryContext } from '../ActiveEntryContext';
 import { LatLngBounds } from 'leaflet';
+import Modal from 'react-modal';
+
+Modal.setAppElement("#___gatsby");
 
 function GeoJSONForUrl({ publicURL, name } : GeoJSONFileNode) {
   const { activeEntry } = useContext(ActiveEntryContext);
@@ -44,10 +47,40 @@ function GeoJSONForUrl({ publicURL, name } : GeoJSONFileNode) {
     </>;
 }
 
+function ImageAtLocation({ fields, birthTime, childImageSharp: { gatsbyImageData } }: ImageFileNode) {
+  const { activeEntry } = useContext(ActiveEntryContext);
+  const [isOpen, setOpen] = useState(false);
+  const map = useMap();
+  const isActive = birthTime.startsWith(activeEntry);
+  return isActive && <>
+    <Marker position={[fields.coordinates.latitude, fields.coordinates.longitude]} eventHandlers={{
+      click: (e) => {
+        setOpen(true);
+      }
+    }} />
+    <Modal style={{ overlay: { display: 'flex', justifyContent: 'center' }, content: { position: 'static', margin: 40, maxWidth: gatsbyImageData.width, maxHeight: gatsbyImageData.height }}} isOpen={isOpen} onRequestClose={() => { setOpen(false); }}>
+      <GatsbyImage image={gatsbyImageData} style={{ maxWidth: '100%', maxHeight: '100%' }} alt={`image taken at ${birthTime}`} />
+    </Modal>
+  </>;
+}
+
 type GeoJSONFileNode = {
   publicURL: string;
   name: string;
 }
+type ImageFileNode = {
+  fields: {
+    coordinates: {
+      latitude: number;
+      longitude: number;
+    }
+  }
+  id: string;
+  birthTime: string;
+  childImageSharp: {
+    gatsbyImageData: IGatsbyImageData;
+  }
+};
 type MarkdownNode = {
   frontmatter: {
     title: string;
@@ -61,8 +94,11 @@ type MarkdownNode = {
   html: string;
 }
 type IndexData = {
-  allFile: {
+  geojson: {
     edges: { node: GeoJSONFileNode }[]
+  }
+  images: {
+    edges: { node: ImageFileNode }[]
   }
   allMarkdownRemark: {
     edges: {node: MarkdownNode}[]
@@ -136,7 +172,8 @@ function ScreenListener() {
 }
 
 function IndexPage({ data }: PageProps<IndexData>) {
-  const geojsonComponents = data.allFile.edges.map(({node }) => <GeoJSONForUrl key={node.name} {...node} />);
+  const geojsonComponents = data.geojson.edges.map(({node }) => <GeoJSONForUrl key={node.name} {...node} />);
+  const images = data.images.edges.map(({ node }) => <ImageAtLocation key={node.id} {...node} />);
   const [activeEntry, setActiveEntry] = useState<String>();
   return (
     <main>
@@ -149,6 +186,7 @@ function IndexPage({ data }: PageProps<IndexData>) {
             url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
           />
           {geojsonComponents}
+          {images}
         </MapContainer>
       </div>
       <div style={{ marginLeft: 425, padding: 10 }}>
@@ -189,7 +227,7 @@ export const pageQuery = graphql`
         }
       }
     }
-    allFile(filter: {sourceInstanceName: {eq: "geojson"}}) {
+    geojson: allFile(filter: {sourceInstanceName: {eq: "geojson"}}) {
       edges {
         node {
           publicURL
@@ -197,28 +235,27 @@ export const pageQuery = graphql`
         }
       }
     }
-  }
-`;
-/*
- Fetching all images with GPS data
- allFile(
-      filter: {sourceInstanceName: {eq: "images"}, fields: {liamgps: {latitude: {ne: null}, longitude: {ne: null}}}}
+    images: allFile(
+      filter: {sourceInstanceName: {eq: "images"}, fields: {coordinates: {latitude: {ne: null}, longitude: {ne: null}}}}
     ) {
       edges {
         node {
-          birthTime
           fields {
-            liamgps {
+            coordinates {
               latitude
               longitude
             }
           }
-          publicURL
-          relativePath
+          id
+          birthTime
+          childImageSharp {
+            gatsbyImageData
+          }
         }
       }
     }
-*/
+  }
+`;
 
 
 export default IndexPage
