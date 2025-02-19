@@ -3,7 +3,8 @@ import type { HeadFC, PageProps } from 'gatsby';
 import { graphql } from 'gatsby';
 import { StaticImage, GatsbyImage, IGatsbyImageData } from 'gatsby-plugin-image';
 import { MapContainer, TileLayer, GeoJSON, useMap, Circle, Marker } from 'react-leaflet';
-import { useInView } from 'react-intersection-observer';;
+import MarkerClusterGroup from 'react-leaflet-cluster';
+import { useInView } from 'react-intersection-observer';
 import { ActiveEntryContext } from '../ActiveEntryContext';
 import { LatLngBounds } from 'leaflet';
 import Modal from 'react-modal';
@@ -186,7 +187,9 @@ function IndexPage({ data }: PageProps<IndexData>) {
             url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
           />
           {geojsonComponents}
-          {images}
+          <MarkerClusterGroup maxClusterRadius={15} showCoverageOnHover={false}>
+            {images}
+          </MarkerClusterGroup>
         </MapContainer>
       </div>
       <div style={{ marginLeft: 425, padding: 10 }}>
