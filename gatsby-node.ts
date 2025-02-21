@@ -1,7 +1,16 @@
 import slugify from '@sindresorhus/slugify';
 import { read as readExif } from 'fast-exif';
+import type { CreateNodeArgs, GatsbyNode } from 'gatsby';
 
-export const onCreateNode = async ({ node, actions }) => {
+
+type SiteNode = Record<string, unknown> & {
+  frontmatter: {
+    title: string;
+  }
+  absolutePath: string;
+}
+
+export const onCreateNode: GatsbyNode["onCreateNode"] = async ({ node, actions }: CreateNodeArgs<SiteNode>) => {
   const { createNodeField } = actions
   if (node.internal.type === `Mdx` || node.internal.type === 'MarkdownRemark') {
     createNodeField({
@@ -22,13 +31,6 @@ export const onCreateNode = async ({ node, actions }) => {
           }
         });
       }
-      // if (exif?.exif?.DateTimeOriginal) {
-      //   createNodeField({
-      //     node,
-      //     name: 'dateTimeOriginal',
-      //     value: exif.exif.DateTimeOriginal,
-      //   });
-      // }
     }
   }
 }
@@ -37,18 +39,18 @@ function degreesMinutesSecondsToDecimal([degrees, minutes, seconds]: number[]) {
   return degrees + (minutes / 60) + (seconds / 3600);
 }
 
-function decimalLatitudeFor(gps) {
+function decimalLatitudeFor(gps: Record<string, unknown>) {
   if (gps?.GPSLatitude) {
-    const decimal = degreesMinutesSecondsToDecimal(gps.GPSLatitude);
+    const decimal = degreesMinutesSecondsToDecimal(gps.GPSLatitude as number[]);
     return (gps.GPSLatitudeRef === 'N') ? decimal : -decimal;
   } else {
     console.debug('no latitude for', gps);
   }
 }
 
-function decimalLongitudeFor(gps) {
+function decimalLongitudeFor(gps: Record<string, unknown>) {
   if (gps?.GPSLongitude) {
-    const decimal = degreesMinutesSecondsToDecimal(gps.GPSLongitude);
+    const decimal = degreesMinutesSecondsToDecimal(gps.GPSLongitude as number[]);
     return (gps.GPSLongitudeRef === 'E') ? decimal : -decimal;
   } else {
     console.log('no longitude for', gps);

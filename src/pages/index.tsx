@@ -1,26 +1,27 @@
 import React, { useEffect, useState, useContext } from 'react';
-import type { HeadFC, PageProps } from 'gatsby';
+import type { PageProps } from 'gatsby';
 import { graphql } from 'gatsby';
 import { StaticImage, GatsbyImage, IGatsbyImageData } from 'gatsby-plugin-image';
 import { MapContainer, TileLayer, GeoJSON, useMap, Circle, Marker } from 'react-leaflet';
 import MarkerClusterGroup from 'react-leaflet-cluster';
-import { useInView } from 'react-intersection-observer';
-import { ActiveEntryContext } from '../ActiveEntryContext';
-import { LatLngBounds } from 'leaflet';
+import { LatLngBounds, LatLngTuple } from 'leaflet';
 import Modal from 'react-modal';
+import { useInView } from 'react-intersection-observer';
+import type { Feature, LineString } from 'geojson';
+import { ActiveEntryContext } from '../ActiveEntryContext';
 
 Modal.setAppElement("#___gatsby");
 
 function GeoJSONForUrl({ publicURL, name } : GeoJSONFileNode) {
-  const { activeEntry } = useContext(ActiveEntryContext);
-  const [geoJson, setGeoJson] = useState();
+  const { activeEntry } = useContext(ActiveEntryContext)!;
+  const [geoJson, setGeoJson] = useState<Feature<LineString>>();
   const map = useMap();
-  const isActive = name.startsWith(activeEntry) && geoJson?.features[0]?.properties?.activityType === 'hiking';
+  const isActive = name.startsWith(activeEntry!) && geoJson?.properties?.activityType === 'hiking';
   const color = isActive ? '#228B22' : 'gray';
   if (geoJson && isActive) {
     const bounds = new LatLngBounds(
-      [geoJson.bbox[1], geoJson.bbox[0]], // Southwest corner
-      [geoJson.bbox[3], geoJson.bbox[2]]  // Northeast corner
+      [geoJson.bbox![1], geoJson.bbox![0]], // Southwest corner
+      [geoJson.bbox![4]!, geoJson.bbox![3]]  // Northeast corner
     );
     map.flyToBounds(bounds, { duration: 1 });
   }
@@ -29,35 +30,31 @@ function GeoJSONForUrl({ publicURL, name } : GeoJSONFileNode) {
       .then(resp => resp.json())
       .then(setGeoJson);
   }, []);
-  // [geoJson.features[0].geometry.coordinates[1], geoJson.features[0].geometry.coordinates[0]]
-  const firstCoordinateCenter = (coords) => [coords[0][1], coords[0][0]];
-  const lastCoordinateCenter = (coords) => {
+  const firstCoordinateCenter = (coords: number[][]) => [coords[0][1], coords[0][0]] as LatLngTuple;
+  const lastCoordinateCenter = (coords: number[][]) => {
     const lastCoord = coords[coords.length - 1];
-    return [lastCoord[1], lastCoord[0]];
+    return [lastCoord[1], lastCoord[0]] as LatLngTuple;
   }
   return geoJson &&
     <>
       <GeoJSON data={geoJson} style={{ color }} eventHandlers={{
-        click: (e) => { document.getElementById(name.split('_')[0]).scrollIntoView(true); }
+        click: () => { document.getElementById(name.split('_')[0])!.scrollIntoView(true); }
       }} />
       {isActive &&
         <>
-          <Circle center={firstCoordinateCenter(geoJson.features[0].geometry.coordinates)} radius={75} color={color} pathOptions={{ fillOpacity: 0.9 }} />
-          <Circle center={lastCoordinateCenter(geoJson.features[0].geometry.coordinates)} radius={75} color="black" pathOptions={{ fillOpacity: 0.5 }} />
+          <Circle center={firstCoordinateCenter(geoJson.geometry.coordinates)} radius={75} color={color} pathOptions={{ fillOpacity: 0.9 }} />
+          <Circle center={lastCoordinateCenter(geoJson.geometry.coordinates)} radius={75} color="black" pathOptions={{ fillOpacity: 0.5 }} />
         </>}
     </>;
 }
 
 function ImageAtLocation({ fields, birthTime, childImageSharp: { gatsbyImageData } }: ImageFileNode) {
-  const { activeEntry } = useContext(ActiveEntryContext);
+  const { activeEntry } = useContext(ActiveEntryContext)!;
   const [isOpen, setOpen] = useState(false);
-  const map = useMap();
-  const isActive = birthTime.startsWith(activeEntry);
+  const isActive = birthTime.startsWith(activeEntry!);
   return isActive && <>
     <Marker position={[fields.coordinates.latitude, fields.coordinates.longitude]} eventHandlers={{
-      click: (e) => {
-        setOpen(true);
-      }
+      click: () => { setOpen(true); }
     }} />
     <Modal style={{ overlay: { display: 'flex', justifyContent: 'center' }, content: { position: 'static', margin: 40, maxWidth: gatsbyImageData.width, maxHeight: gatsbyImageData.height }}} isOpen={isOpen} onRequestClose={() => { setOpen(false); }}>
       <GatsbyImage image={gatsbyImageData} style={{ maxWidth: '100%', maxHeight: '100%' }} alt={`image taken at ${birthTime}`} />
@@ -95,26 +92,33 @@ type MarkdownNode = {
   html: string;
 }
 type IndexData = {
+  site: {
+    siteMetadata: {
+      description: string;
+      siteUrl: string;
+      title: string;
+    }
+  }
   geojson: {
-    edges: { node: GeoJSONFileNode }[]
+    edges: { node: GeoJSONFileNode }[];
   }
   images: {
-    edges: { node: ImageFileNode }[]
+    edges: { node: ImageFileNode }[];
   }
   allMarkdownRemark: {
-    edges: {node: MarkdownNode}[]
+    edges: {node: MarkdownNode}[];
   }
 }
 
-function Preface({ metadata }) {
-  const { setActiveEntry } = useContext(ActiveEntryContext);
+function Preface({ metadata }: { metadata: IndexData["site"]["siteMetadata"] }) {
+  const { setActiveEntry } = useContext(ActiveEntryContext)!;
   const { ref } = useInView({
     /* Optional options */
     threshold: 0,
     rootMargin: '0px 0px -96% 0px',
-    onChange: (inView, entry) => {
+    onChange: (_inView, entry) => {
       if (entry.isIntersecting) {
-        setActiveEntry(null);
+        setActiveEntry(undefined);
       }
     }
   });
@@ -137,13 +141,13 @@ function Preface({ metadata }) {
 }
 
 function Entry({ fields, frontmatter, html, excerpt }: MarkdownNode) {
-  const { setActiveEntry } = useContext(ActiveEntryContext);
+  const { setActiveEntry } = useContext(ActiveEntryContext)!;
   const { ref } = useInView({
     /* Optional options */
     threshold: 0,
     rootMargin: '0px 0px -96% 0px',
     // TODO consider sending more updates to context and letting a reducer sift through and return the active entry
-    onChange: (inView, entry) => {
+    onChange: (_inView, entry) => {
       if (entry.isIntersecting) {
         setActiveEntry(frontmatter.date.split('T')[0]);
       }
@@ -164,18 +168,18 @@ function Entry({ fields, frontmatter, html, excerpt }: MarkdownNode) {
 }
 
 function ScreenListener() {
-  const { activeEntry } = useContext(ActiveEntryContext);
+  const { activeEntry } = useContext(ActiveEntryContext)!;
   const map = useMap();
-  if (activeEntry === null) {
+  if (activeEntry === undefined) {
     map.flyTo([39.717330464, -77.503664652], 5, { duration: 0.75 });
   }
   return false;
 }
 
-function IndexPage({ data }: PageProps<IndexData>) {
+export default function IndexPage({ data }: PageProps<IndexData>) {
   const geojsonComponents = data.geojson.edges.map(({node }) => <GeoJSONForUrl key={node.name} {...node} />);
   const images = data.images.edges.map(({ node }) => <ImageAtLocation key={node.id} {...node} />);
-  const [activeEntry, setActiveEntry] = useState<String>();
+  const [activeEntry, setActiveEntry] = useState<string>();
   return (
     <main>
       <ActiveEntryContext.Provider value={{ activeEntry, setActiveEntry }}>
@@ -260,7 +264,6 @@ export const pageQuery = graphql`
   }
 `;
 
-
-export default IndexPage
-
-export const Head: HeadFC = ({ data }) => <title>{data.site.siteMetadata.title}</title>;
+export function Head ({ data }: PageProps<IndexData>) {
+  return <title>{data.site.siteMetadata.title}</title>;
+}

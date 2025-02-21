@@ -1,3 +1,7 @@
 import { createContext } from 'react';
 
-export const ActiveEntryContext = createContext({ activeEntry: null, setActiveEntry: null });
+type ActiveEntryContextType = {
+    activeEntry: string | undefined;
+    setActiveEntry: (entry: string | undefined) => void;
+}
+export const ActiveEntryContext = createContext<ActiveEntryContextType | undefined>(undefined);
