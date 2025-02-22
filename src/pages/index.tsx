@@ -2,7 +2,7 @@ import React, { useEffect, useState, useContext } from 'react';
 import type { PageProps } from 'gatsby';
 import { graphql } from 'gatsby';
 import { StaticImage, GatsbyImage, IGatsbyImageData } from 'gatsby-plugin-image';
-import { MapContainer, TileLayer, GeoJSON, useMap, Circle, Marker } from 'react-leaflet';
+import { MapContainer, TileLayer, GeoJSON, useMap, Marker, CircleMarker } from 'react-leaflet';
 import MarkerClusterGroup from 'react-leaflet-cluster';
 import { LatLngBounds, LatLngTuple } from 'leaflet';
 import Modal from 'react-modal';
@@ -42,8 +42,8 @@ function GeoJSONForUrl({ publicURL, name } : GeoJSONFileNode) {
       }} />
       {isActive &&
         <>
-          <Circle center={firstCoordinateCenter(geoJson.geometry.coordinates)} radius={75} color={color} pathOptions={{ fillOpacity: 0.9 }} />
-          <Circle center={lastCoordinateCenter(geoJson.geometry.coordinates)} radius={75} color="black" pathOptions={{ fillOpacity: 0.5 }} />
+          <CircleMarker center={firstCoordinateCenter(geoJson.geometry.coordinates)} radius={6} color={color} pathOptions={{ fillOpacity: 0.9 }} />
+          <CircleMarker center={lastCoordinateCenter(geoJson.geometry.coordinates)} radius={6} color="black" pathOptions={{ fillOpacity: 0.5 }} />
         </>}
     </>;
 }
