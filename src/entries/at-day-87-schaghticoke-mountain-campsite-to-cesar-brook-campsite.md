@@ -8,5 +8,10 @@ miles: 17.0
 sleep: Tent
 mood: 🙂
 ---
-Slipped on a rock and took quite a spill, upside down with my head inches away from a big rock, only ended up
-with a scratch but it woke me up!
+I walked into Kent with Beat Box and Beatnik today, and came up close to the other side of well-to-do CT: the prices. I chilled out in a nice bakery/cafe (even if they couldn't make me an affogato) and packed out a dinner, and one day's worth of food equated to roughly 4 day's worth of food in GA. I don't mind paying a premium for town calories, though, so it's all good.
+
+I think CT heard me making fun of how glampy it is. I was coming down a little steep rocky sandy section and slipped on a rock. A second later, I had fallen a few feet and landed upside down with my head just a few inches away from a good-sized rock. It happened slowly enough that I was able to brace myself, and so all I have is just a little scratch (both on me as well as one on my pack) but it sure woke me up! I think I also freaked out Beat Box, who saw it happen right in front of him. All's well though!
+
+Another nice part about CT's well-to-do-ness: they have little tri-fold handouts at their bulletin boards with information, including who to contact about trail issues. I passed some crazy blowdowns today, and the next time I pass one of those bulletins, I'll grab that email address again.
+
+Tonight's campsite was a good deal more packed than last night, with pretty much every spot for a tent occupied. There are 4 zones in the campground, and my zone alone is sporting 3 tents. One of the guys in my area, Bandit, was a pretty cool dude to chat with.
