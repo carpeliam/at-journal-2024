@@ -8,7 +8,7 @@ miles: 14.9
 sleep: Tent
 mood: 🙂
 ---
-The shelter worked out pretty well! There were some mosquitos, but not too many.
+I'm home! In my home state, at least. The shelter worked out pretty well last night! There were some mosquitos, but not too many.
 
 Today I resupplied in Salisbury. The coffee shop had these nice little linen seat cushions, and when I got up to leave, I noticed mine was a bit dirtier than the others. You can't take me anywhere!
 
