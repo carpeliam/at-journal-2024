@@ -14,4 +14,6 @@ I think CT heard me making fun of how glampy it is. I was coming down a little s
 
 Another nice part about CT's well-to-do-ness: they have little tri-fold handouts at their bulletin boards with information, including who to contact about trail issues. I passed some crazy blowdowns today, and the next time I pass one of those bulletins, I'll grab that email address again.
 
+CT also has a few of the same old stone walls that I really liked in Vermont. There's something that I really like about a trail that makes a gap in a stone wall, and reminds me of Robert Frost's "Mending Wall". *Something there is that doesn't love a wall, that wants it gone.* I want to revisit this when I get to Vermont, and see if I look at its stone walls the same way I did last year.
+
 Tonight's campsite was a good deal more packed than last night, with pretty much every spot for a tent occupied. There are 4 zones in the campground, and my zone alone is sporting 3 tents. One of the guys in my area, Bandit, was a pretty cool dude to chat with.
