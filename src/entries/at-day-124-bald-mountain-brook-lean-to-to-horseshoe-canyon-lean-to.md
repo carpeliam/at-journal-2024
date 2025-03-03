@@ -8,11 +8,8 @@ miles: 13.0
 sleep: Shelter
 mood: 🙂
 ---
-Two stream crossings
-Pretty straightforward day. Only one mountain, and it had the good sense to be the first thing I did. Just the
-same, I dragged a bit, as I don't have enough snacks, so I was rationing. Still, it was thankfully a very easy day.
-Got to shelter at 1 30 - it started thundering around 2, and stormed around 2 30. Again, I was lucky not to have
-to hike in that. Not too many at shelter tonight- one section hiker going south, and 1 tent with two guys I saw at
-yesterday's shelter, also headed NOBO. I ll probably see some familiar faces at Shaw's tomorrow.
+Two more stream crossings today! And only one mountain, and it had the good sense to be the first thing I did. The first stream crossing a few miles after the descent, but a FarOut comment with the instruction to stay to the right of a log made it pretty straightforward. The second one was just a few miles before finishing, and it was a bit deeper, but not moving too swiftly. Pretty straightforward day; the horseflies were probably the only difficult part. 
+
+Just the same, I dragged a bit, as I don't have enough snacks, so I was rationing. Still, it was thankfully a very easy day. I got to shelter at 1:30 - it started thundering around 2, and stormed around 2:30. Again, I was lucky not to have to hike in that. Not too many at the shelter tonight- one section hiker going south, and 1 tent with two guys I saw at yesterday's shelter, also headed NOBO. I'll probably see some familiar faces at Shaw's tomorrow.
 
 I hope everything works out with my Mail Drop!
