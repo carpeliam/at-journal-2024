@@ -8,15 +8,15 @@ import { LatLngBounds, LatLngTuple } from 'leaflet';
 import Modal from 'react-modal';
 import { useInView } from 'react-intersection-observer';
 import type { Feature, LineString } from 'geojson';
-import { ActiveEntryContext } from '../ActiveEntryContext';
+import { ActiveEntryContext, isActiveEntry } from '../ActiveEntryContext';
 
 Modal.setAppElement("#___gatsby");
 
 function GeoJSONForUrl({ publicURL, name } : GeoJSONFileNode) {
-  const { activeEntry } = useContext(ActiveEntryContext)!;
   const [geoJson, setGeoJson] = useState<Feature<LineString>>();
   const map = useMap();
-  const isActive = name.startsWith(activeEntry!) && geoJson?.properties?.activityType === 'hiking';
+  const [date, _activityType] = name.split('_');
+  const isActive = isActiveEntry(date) && geoJson?.properties?.activityType === 'hiking';
   const color = isActive ? '#228B22' : 'gray';
   if (geoJson && isActive) {
     const bounds = new LatLngBounds(
@@ -38,7 +38,7 @@ function GeoJSONForUrl({ publicURL, name } : GeoJSONFileNode) {
   return geoJson &&
     <>
       <GeoJSON data={geoJson} style={{ color }} eventHandlers={{
-        click: () => { document.getElementById(name.split('_')[0])!.scrollIntoView(true); }
+        click: () => { document.getElementById(date)!.scrollIntoView(true); }
       }} />
       {isActive &&
         <>
@@ -49,15 +49,13 @@ function GeoJSONForUrl({ publicURL, name } : GeoJSONFileNode) {
 }
 
 function ImageAtLocation({ fields, birthTime, childImageSharp: { gatsbyImageData } }: ImageFileNode) {
-  const { activeEntry } = useContext(ActiveEntryContext)!;
   const [isOpen, setOpen] = useState(false);
-  const isActive = birthTime.startsWith(activeEntry!);
-  return isActive && <>
+  return isActiveEntry(birthTime) && <>
     <Marker position={[fields.coordinates.latitude, fields.coordinates.longitude]} eventHandlers={{
       click: () => { setOpen(true); }
     }} />
     <Modal style={{ overlay: { display: 'flex', justifyContent: 'center' }, content: { position: 'static', margin: 40, maxWidth: gatsbyImageData.width, maxHeight: gatsbyImageData.height }}} isOpen={isOpen} onRequestClose={() => { setOpen(false); }}>
-      <GatsbyImage image={gatsbyImageData} style={{ maxWidth: '100%', maxHeight: '100%' }} alt={`image taken at ${birthTime}`} />
+      <GatsbyImage image={gatsbyImageData} style={{ maxWidth: '100%', maxHeight: '100%' }} alt={`image taken at ${new Date(birthTime).toLocaleString('en-US', { timeZone: 'America/New_York' })}`} />
     </Modal>
   </>;
 }
@@ -160,7 +158,7 @@ function Entry({ fields, frontmatter, html, excerpt }: MarkdownNode) {
       <h3 style={{margin: 0}} id={pocId}>
         {frontmatter.title}
       </h3>
-      <small>{frontmatter.date}</small>
+      <small>{new Date(frontmatter.date).toLocaleDateString('en-US', { timeZone: 'UTC'})}</small>
       <div>{frontmatter.miles} miles</div>
       <div dangerouslySetInnerHTML={{ __html: html }}>{excerpt}</div>
     </article>
