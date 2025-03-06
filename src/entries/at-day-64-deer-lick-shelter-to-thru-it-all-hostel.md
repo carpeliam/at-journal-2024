@@ -1,12 +1,20 @@
 ---
-title: "AT Day 64: Deer Lick Shelter to Thru It All Hostel"
-date: 2024-06-05
+day: 64
+date: 2024-06-05T00:00:00.000Z
+dateStr: 6/5/2024
 location: Deer Lick Shelter
+destination: Thru It All Hostel
 start: 1072.3
 end: 1085.5
-miles: 13.2
 sleep: Tent
 mood: 🙂
+title: "AT Day 64: Deer Lick Shelter to Thru It All Hostel"
+sleepScore: 68
+garminFeedback: FOCUS_ON_SLEEP_QUALITY
+recoveryTime: 67
+recoveryTimeFactorFeedback: GOOD
+sleepHistoryFactorFeedback: POOR
+trainingReadiness: 43
 ---
 Last night I ended up at the same shelter as a guy named Guinness, who I think I also saw briefly at the last trail magic spot. We caught up with each other this morning at some trail magic at a park about 2 miles in, as well as a guy named Mad Hermit who had passed by this morning while I was still taking down my tent. They caught up again when I was getting water at the next shelter, and again when I was chasing down blue blazes for views (spoiler: views aren't so great when it's cloudy). They're both headed to a hostel tonight that does free dinners on Wednesdays, and Guinness convinced me to come too. It seems like a pretty good deal: $12 to tent, free dinner, score!
 

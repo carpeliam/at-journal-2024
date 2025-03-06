@@ -1,12 +1,20 @@
 ---
-title: "AT Day 132: Abol Pines to The Birches Lean-to"
-date: 2024-08-12
+day: 132
+date: 2024-08-12T00:00:00.000Z
+dateStr: 8/12/2024
 location: Abol Pines
+destination: The Birches Lean-to
 start: 2182.4
 end: 2192.1
-miles: 9.7
 sleep: Tent
 mood: 🙂
+title: "AT Day 132: Abol Pines to The Birches Lean-to"
+sleepScore: 45
+garminFeedback: FIND_TIME_TO_RELAX
+recoveryTime: 448
+recoveryTimeFactorFeedback: GOOD
+sleepHistoryFactorFeedback: MODERATE
+trainingReadiness: 32
 ---
 I'm on the list! It'll be me, Bonk, DK, Chattaa, Judge, Gremlin, Smiley, MacGyver, Sweaty Beattie, and Lady Slipper. Out of all of those people, MacGyver and Sweaty Beattie are the only two I met in the 100 mile wilderness; I met Lady Slipper around the beginning of Maine, Smiley in NH, Chattaa and crew at the ice cream challenge, and I think I met Bonk and DK in PA, or at least somewhere close to a Wawa.
 

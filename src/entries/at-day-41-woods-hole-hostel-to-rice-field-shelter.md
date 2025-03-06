@@ -1,12 +1,20 @@
 ---
-title: "AT Day 41: Woods Hole Hostel to Rice Field Shelter"
-date: 2024-05-13
+day: 41
+date: 2024-05-13T00:00:00.000Z
+dateStr: 5/13/2024
 location: Woods Hole Hostel
+destination: Rice Field Shelter
 start: 625.8
 end: 644.5
-miles: 18.7
 sleep: Tent
 mood: 🙂
+title: "AT Day 41: Woods Hole Hostel to Rice Field Shelter"
+sleepScore: 65
+garminFeedback: TAKE_IT_EASY
+recoveryTime: 1
+recoveryTimeFactorFeedback: GOOD
+sleepHistoryFactorFeedback: MODERATE
+trainingReadiness: 48
 ---
 On my way out of Woods Hole, Hitman shouted out to me, "See you in 3 weeks!" There are a few people I'd definitely like to see again before this trip is out, and Hitman is on that list.
 

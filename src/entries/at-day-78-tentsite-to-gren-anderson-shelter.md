@@ -1,12 +1,20 @@
 ---
-title: "AT Day 78: Tentsite to Gren Anderson Shelter"
-date: 2024-06-19
+day: 78
+date: 2024-06-19T00:00:00.000Z
+dateStr: 6/19/2024
 location: Tentsite
+destination: Gren Anderson Shelter
 start: 1311.1
-end: 1329.0
-miles: 17.9
+end: 1329
 sleep: Tent
 mood: 🙂
+title: "AT Day 78: Tentsite to Gren Anderson Shelter"
+sleepScore: 41
+garminFeedback: TIME_TO_SLOW_DOWN
+recoveryTime: 712
+recoveryTimeFactorFeedback: GOOD
+sleepHistoryFactorFeedback: MODERATE
+trainingReadiness: 11
 ---
 I really don't like digging cat holes. I'm not good at it, it takes a while, and I'm not good at it. The shelters around here are pretty spread out, so today I walked about a mile out of my way to visit an outhouse.
 

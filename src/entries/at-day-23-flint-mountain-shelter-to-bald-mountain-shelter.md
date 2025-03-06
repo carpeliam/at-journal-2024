@@ -1,12 +1,20 @@
 ---
-title: "AT Day 23: Flint Mountain Shelter to Bald Mountain Shelter"
-date: 2024-04-25
+day: 23
+date: 2024-04-25T00:00:00.000Z
+dateStr: 4/25/2024
 location: Flint Mountain Shelter
+destination: Bald Mountain Shelter
 start: 308.8
 end: 327.7
-miles: 18.9
 sleep: Shelter
 mood: 🙂
+title: "AT Day 23: Flint Mountain Shelter to Bald Mountain Shelter"
+sleepScore: 66
+garminFeedback: LISTEN_TO_YOUR_BODY
+recoveryTime: 724
+recoveryTimeFactorFeedback: GOOD
+sleepHistoryFactorFeedback: POOR
+trainingReadiness: 31
 ---
 There were happy goodbyes this morning as Phoenix and Fire were together again. Phoenix complimented me by calling me a dancer, and when I misunderstood and said that no, I'm not a dancer, she explained that I appear to dance when coming down the trail with my trekking poles. I took this as high praise, as I never really hiked with trekking poles before last year, and I've been working to get used to them.
 

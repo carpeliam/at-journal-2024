@@ -1,12 +1,20 @@
 ---
-title: "AT Day 16: Double Spring Gap Shelter to Peck's Corner Shelter"
-date: 2024-04-18
+day: 16
+date: 2024-04-18T00:00:00.000Z
+dateStr: 4/18/2024
 location: Double Spring Gap Shelter
+destination: Peck's Corner Shelter
 start: 197.5
 end: 218.5
-miles: 21.0
 sleep: Shelter
 mood: 🙂
+title: "AT Day 16: Double Spring Gap Shelter to Peck's Corner Shelter"
+sleepScore: 50
+garminFeedback: LISTEN_TO_YOUR_BODY
+recoveryTime: 407
+recoveryTimeFactorFeedback: GOOD
+sleepHistoryFactorFeedback: MODERATE
+trainingReadiness: 34
 ---
 We did it - we woke up far too early to hike 3 miles to the tallest point on the AT. And it wasn't even that hard. The top of Clingmans Dome has a concrete observation tower, and we were there bright and early (with only a small crowd of people who were there before us, the Smokies are the most popular park in the country and this might be its most popular destination) to see the sun diffuse through heavy clouds. I heard later that the clouds melted off by 9am or so, and if we had just gotten up at a normal hour, we would have had a better view (not to mention a better sleep), but doing things reasonably is for suckers. If I wanted to do things reasonably, would I really be out here in the first place?
 

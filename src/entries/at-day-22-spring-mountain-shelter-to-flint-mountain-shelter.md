@@ -1,12 +1,20 @@
 ---
-title: "AT Day 22: Spring Mountain Shelter to Flint Mountain Shelter"
-date: 2024-04-24
+day: 22
+date: 2024-04-24T00:00:00.000Z
+dateStr: 4/24/2024
 location: Spring Mountain Shelter
+destination: Flint Mountain Shelter
 start: 286.2
 end: 308.8
-miles: 22.6
 sleep: Shelter
 mood: 🙂
+title: "AT Day 22: Spring Mountain Shelter to Flint Mountain Shelter"
+sleepScore: 41
+garminFeedback: TIME_TO_SLOW_DOWN
+recoveryTime: 2174
+recoveryTimeFactorFeedback: POOR
+sleepHistoryFactorFeedback: POOR
+trainingReadiness: 1
 ---
 Today I hiked more or less the whole day with Fire Magic. We made a stop for cookies - there were signs for a Cookie Lady about 5 miles into the day, and it was a short walk to a cabin. There was a policy of 1 free cookie, $2 for any additional - I won't say how many cookies I ate, but it was the right amount. We also passed Big Butt Bypass toward the end of the day (the side trail names for this area are really getting me), and surpassed the 300 mile mark! There was the number 300 spelled out in a rock formation on the ground to mark the spot, and we managed to grab a photo of the milestone.
 

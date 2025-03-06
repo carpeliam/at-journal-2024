@@ -1,12 +1,20 @@
 ---
-title: "AT Day 68: Cove Mountain Shelter to Clarks Ferry Shelter"
-date: 2024-06-09
+day: 68
+date: 2024-06-09T00:00:00.000Z
+dateStr: 6/9/2024
 location: Cove Mountain Shelter
+destination: Clarks Ferry Shelter
 start: 1146.2
 end: 1154.5
-miles: 8.3
 sleep: Tent
 mood: 🙂
+title: "AT Day 68: Cove Mountain Shelter to Clarks Ferry Shelter"
+sleepScore: 41
+garminFeedback: TIME_TO_SLOW_DOWN
+recoveryTime: 275
+recoveryTimeFactorFeedback: GOOD
+sleepHistoryFactorFeedback: MODERATE
+trainingReadiness: 21
 ---
 Duncannon. Saw a text this morning from Patrick when I got to the bottom of the hill. He's still feeling pretty terrible, and definitely not about to drive 7 hours. And then it started raining. Walking into town, Duncannon has a much more industrial feeling than any of the other trail towns so far. 2pak (who I think I saw right before Damascus?) called out from one of the side streets, he's hiking with his nephew for a few days. I got some breakfast at Goodies, then a latte (with half & half, pro move) at Doyle's, then hung out at the Kind of Outdoorsy hostel with Martian and PBG. The woman running the hostel was nice even though I wasn't staying, she made me a walking-friendly map to get to groceries and back. Even still, the road to Karns Foods/Dollar General was actively hostile toward anyone on foot. Karns and Dollar General are literally right next to each other, but you have to walk around a blind turn to get from Karns to DG.
 

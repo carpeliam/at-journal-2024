@@ -1,12 +1,20 @@
 ---
-title: "AT Day 70: Yellow Springs Campsite to 501 Shelter"
-date: 2024-06-11
+day: 70
+date: 2024-06-11T00:00:00.000Z
+dateStr: 6/11/2024
 location: Yellow Springs Campsite
+destination: 501 Shelter
 start: 1174.6
 end: 1196.7
-miles: 22.1
 sleep: Tent
 mood: 🙂
+title: "AT Day 70: Yellow Springs Campsite to 501 Shelter"
+sleepScore: 61
+garminFeedback: READY_FOR_THE_DAY
+recoveryTime: 6
+recoveryTimeFactorFeedback: GOOD
+sleepHistoryFactorFeedback: POOR
+trainingReadiness: 52
 ---
 I didn't want to trust that it would actually happen, but I got a new pair of shoes today! I was there to greet the UPS driver as he arrived. I took some pictures of old vs. new, and it's amazing what a difference almost 1200 miles makes. The new shoes have clean soles! The new shoes don't have any holes in them! Who knows what the future brings, but if these shoes last me the rest of the journey, I'll be very very happy.
 

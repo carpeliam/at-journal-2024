@@ -1,12 +1,20 @@
 ---
-title: "AT Day 54: Calf Mountain Shelter to Pinefield Hut"
-date: 2024-05-26
+day: 54
+date: 2024-05-26T00:00:00.000Z
+dateStr: 5/26/2024
 location: Calf Mountain Shelter
+destination: Pinefield Hut
 start: 872.3
 end: 898.5
-miles: 26.2
 sleep: Tent
 mood: 🙂
+title: "AT Day 54: Calf Mountain Shelter to Pinefield Hut"
+sleepScore: 43
+garminFeedback: FIND_TIME_TO_RELAX
+recoveryTime: 390
+recoveryTimeFactorFeedback: GOOD
+sleepHistoryFactorFeedback: GOOD
+trainingReadiness: 33
 ---
 Ugh. I didn't sleep at all last night, maybe like 45 minutes or so. I tried covering as many inches of skin as I could with clothing, but the No-See-Ums just focused on whatever wasn't covered. I tried burying my entire self underneath the quilt, but I just did laundry yesterday, I really didn't want to sweat through everything already. I need to make sure I arrive to shelters early enough to score a tent spot, I can't do another night of No-See-Ums.
 

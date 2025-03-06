@@ -1,12 +1,20 @@
 ---
-title: "AT Day 19: Roaring Fork Shelter to Deer Park Mountain Shelter"
-date: 2024-04-21
+day: 19
+date: 2024-04-21T00:00:00.000Z
+dateStr: 4/21/2024
 location: Roaring Fork Shelter
+destination: Deer Park Mountain Shelter
 start: 257.3
-end: 272.0
-miles: 14.7
+end: 272
 sleep: Tent
 mood: 🙂
+title: "AT Day 19: Roaring Fork Shelter to Deer Park Mountain Shelter"
+sleepScore: 59
+garminFeedback: TAKE_ON_THE_DAY
+recoveryTime: 499
+recoveryTimeFactorFeedback: GOOD
+sleepHistoryFactorFeedback: MODERATE
+trainingReadiness: 50
 ---
 My watch told me to rest again. Boo.
 

@@ -80,12 +80,16 @@ type ImageFileNode = {
 type MarkdownNode = {
   frontmatter: {
     title: string;
+    day: number;
+    location: string;
+    destination: string | undefined;
     date: string;
-    miles: string;
+    start: number;
+    end: number;
   }
-  fields: {
-    slug: string;
-  }
+  // fields: {
+  //   slug: string;
+  // }
   excerpt: string;
   html: string;
 }
@@ -104,7 +108,10 @@ type IndexData = {
     edges: { node: ImageFileNode }[];
   }
   allMarkdownRemark: {
-    edges: {node: MarkdownNode}[];
+    edges: {
+      node: MarkdownNode;
+      previous: Pick<MarkdownNode, "frontmatter"> | null;
+    }[];
   }
 }
 
@@ -138,7 +145,24 @@ function Preface({ metadata }: { metadata: IndexData["site"]["siteMetadata"] }) 
   )
 }
 
-function Entry({ fields, frontmatter, html, excerpt }: MarkdownNode) {
+function title(today: MarkdownNode["frontmatter"], yesterday: Pick<MarkdownNode["frontmatter"], "destination" | "end"> | undefined) {
+  let startLocation;
+  let daySummary;
+  if (!yesterday) {
+    startLocation = 'Amicalola Falls';
+  } else {
+    startLocation = yesterday.destination || `Mile ${yesterday.end}`;
+  }
+  const endLocation = today.destination || `Mile ${today.end}`;
+  if (startLocation === endLocation) {
+    daySummary = endLocation;
+  } else {
+    daySummary = `${startLocation} to ${endLocation}`;
+  }
+  return `AT Day ${today.day}: ${daySummary}`
+}
+
+function Entry({ frontmatter, html, excerpt, previous }: MarkdownNode & { previous: Pick<MarkdownNode["frontmatter"], "destination" | "end"> | undefined }) {
   const { setActiveEntry } = useContext(ActiveEntryContext)!;
   const { ref } = useInView({
     /* Optional options */
@@ -153,13 +177,15 @@ function Entry({ fields, frontmatter, html, excerpt }: MarkdownNode) {
   });
   // FIXME use the slug, if we can get that into activeEntry
   const pocId = frontmatter.date.split('T')[0];
+  const miles = (frontmatter.end - (previous?.end || 0)).toFixed(1);
+
   return (
-    <article key={fields.slug} ref={ref}>
+    <article ref={ref}>
       <h3 style={{margin: 0}} id={pocId}>
-        {frontmatter.title}
+        {title(frontmatter, previous)}
       </h3>
       <small>{new Date(frontmatter.date).toLocaleDateString('en-US', { timeZone: 'UTC'})}</small>
-      <div>{frontmatter.miles} miles</div>
+      <div>{miles} miles</div>
       <div dangerouslySetInnerHTML={{ __html: html }}>{excerpt}</div>
     </article>
   )
@@ -196,8 +222,8 @@ export default function IndexPage({ data }: PageProps<IndexData>) {
       </div>
       <div style={{ marginLeft: 425, padding: 10 }}>
         <Preface metadata={data.site.siteMetadata} />
-        {data.allMarkdownRemark.edges.map(({ node }) => (
-          <Entry key={node.fields.slug} {...node} />
+        {data.allMarkdownRemark.edges.map(({ node, previous }) => (
+          <Entry key={node.frontmatter.day} previous={previous?.frontmatter} {...node} />
         ))}
       </div>
       </ActiveEntryContext.Provider>
@@ -222,12 +248,20 @@ export const pageQuery = graphql`
         node {
           frontmatter {
             title
+            day
+            location
+            destination
             date
-            miles
+            start
+            end
           }
           html
-          fields {
-            slug
+        }
+        previous {
+          frontmatter {
+            location
+            destination
+            end
           }
         }
       }

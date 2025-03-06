@@ -1,12 +1,20 @@
 ---
-title: "AT Day 35: Wise Shelter to Trimpi Shelter"
-date: 2024-05-07
+day: 35
+date: 2024-05-07T00:00:00.000Z
+dateStr: 5/7/2024
 location: Wise Shelter
+destination: Trimpi Shelter
 start: 504.5
 end: 524.6
-miles: 20.1
 sleep: Shelter
 mood: 🙂
+title: "AT Day 35: Wise Shelter to Trimpi Shelter"
+sleepScore: 44
+garminFeedback: FOCUS_ON_RECOVERY
+recoveryTime: 513
+recoveryTimeFactorFeedback: GOOD
+sleepHistoryFactorFeedback: POOR
+trainingReadiness: 11
 ---
 Another day with Noah and Rabbit! And Noah is now named Fluff! We said goodbye to the ponies, seeing a few of them within 10 minutes of starting this morning. We started at just after 7am, which for me is actually really good, but I was still the last one ready.
 

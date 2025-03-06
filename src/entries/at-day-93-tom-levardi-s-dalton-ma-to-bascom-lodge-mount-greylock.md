@@ -1,12 +1,20 @@
 ---
-title: "AT Day 93: Tom Levardi's, Dalton MA to Bascom Lodge, Mount Greylock"
-date: 2024-07-04
+day: 93
+date: 2024-07-04T00:00:00.000Z
+dateStr: 7/4/2024
 location: Tom Levardi's, Dalton MA
+destination: Bascom Lodge, Mount Greylock
 start: 1576.1
 end: 1593.3
-miles: 17.2
 sleep: Building
 mood: 🙂
+title: "AT Day 93: Tom Levardi's, Dalton MA to Bascom Lodge, Mount Greylock"
+sleepScore: 48
+garminFeedback: FIND_TIME_TO_RELAX
+recoveryTime: 174
+recoveryTimeFactorFeedback: GOOD
+sleepHistoryFactorFeedback: MODERATE
+trainingReadiness: 38
 ---
 As John is sick, I decided to modify my plan. Originally, I was planning on going up and over Greylock to stay at Wilbur Clearing shelter, but a cyclist in Cheshire mentioned they feed you at a cabin at the top of Greylock.
 

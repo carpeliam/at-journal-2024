@@ -1,12 +1,20 @@
 ---
-title: "AT Day 25: Uncle Johnny's Hostel to Beauty Spot"
-date: 2024-04-27
+day: 25
+date: 2024-04-27T00:00:00.000Z
+dateStr: 4/27/2024
 location: Uncle Johnny's Hostel
+destination: Beauty Spot
 start: 344.5
 end: 355.2
-miles: 10.7
 sleep: Tent
 mood: 🙂
+title: "AT Day 25: Uncle Johnny's Hostel to Beauty Spot"
+sleepScore: 44
+garminFeedback: TIME_TO_SLOW_DOWN
+recoveryTime: 600
+recoveryTimeFactorFeedback: GOOD
+sleepHistoryFactorFeedback: POOR
+trainingReadiness: 3
 ---
 If anybody ever tries to convince me that sleeping in a bunk is more of a vacation than sleeping in a tent, I'll remember this moment. I think the dude on the bunk directly below me has sleep apnea. I slept terribly. And the bed wasn't that comfortable. And I paid more money for the privilege. Next time, I'm taking the tent, even if it's wet outside.
 

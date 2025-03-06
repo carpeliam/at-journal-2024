@@ -1,12 +1,20 @@
 ---
-title: "AT Day 82: Warwick, NY to Fingerboard Shelter"
-date: 2024-06-23
+day: 82
+date: 2024-06-23T00:00:00.000Z
+dateStr: 6/23/2024
 location: Warwick, NY
-start: 1376.0
+destination: Fingerboard Shelter
+start: 1376
 end: 1392.6
-miles: 16.6
 sleep: Shelter
 mood: 🙂
+title: "AT Day 82: Warwick, NY to Fingerboard Shelter"
+sleepScore: 32
+garminFeedback: TIME_TO_SLOW_DOWN
+recoveryTime: 420
+recoveryTimeFactorFeedback: GOOD
+sleepHistoryFactorFeedback: MODERATE
+trainingReadiness: 1
 ---
 New York has been more of a challenge than expected so far. Tall, unkempt grass coupled with scrambling. I actually like it - it's like the ground is preparing to be New Hampshire - but I think it threw the Colonel for a loop. And today was just slow.
 

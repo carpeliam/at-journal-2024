@@ -1,12 +1,20 @@
 ---
-title: "AT Day 91: South Mount Wilcox Shelter to Upper Goose Pond Cabin"
-date: 2024-07-02
+day: 91
+date: 2024-07-02T00:00:00.000Z
+dateStr: 7/2/2024
 location: South Mount Wilcox Shelter
+destination: Upper Goose Pond Cabin
 start: 1539.8
 end: 1555.7
-miles: 15.9
 sleep: Building
 mood: 🙂
+title: "AT Day 91: South Mount Wilcox Shelter to Upper Goose Pond Cabin"
+sleepScore: 62
+garminFeedback: FOCUS_ON_SLEEP_QUALITY
+recoveryTime: 1250
+recoveryTimeFactorFeedback: MODERATE
+sleepHistoryFactorFeedback: MODERATE
+trainingReadiness: 26
 ---
 Last night I managed to get some sleep by covering myself completely with the quilt but carving out a little air hole to the side. I could hear the occasional buzz, but they were far less insidious than no-see-ums.
 

@@ -1,12 +1,20 @@
 ---
-title: "AT Day 94: Bascom Lodge, Mount Greylock to Sherman Brook Campsite"
-date: 2024-07-05
+day: 94
+date: 2024-07-05T00:00:00.000Z
+dateStr: 7/5/2024
 location: Bascom Lodge, Mount Greylock
+destination: Sherman Brook Campsite
 start: 1593.3
 end: 1601.3
-miles: 8.0
 sleep: Tent
 mood: 🙂
+title: "AT Day 94: Bascom Lodge, Mount Greylock to Sherman Brook Campsite"
+sleepScore: 35
+garminFeedback: TIME_TO_RECHARGE
+recoveryTime: 1528
+recoveryTimeFactorFeedback: MODERATE
+sleepHistoryFactorFeedback: POOR
+trainingReadiness: 1
 ---
 Out of all the days to get logistics right or wrong, I'm glad this day went well, as I got to hang out with my mom and my aunt today in North Adams.
 

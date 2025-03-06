@@ -1,12 +1,20 @@
 ---
-title: "AT Day 88: Cesar Brook Campsite to Limestone Spring Shelter"
-date: 2024-06-29
+day: 88
+date: 2024-06-29T00:00:00.000Z
+dateStr: 6/29/2024
 location: Cesar Brook Campsite
-start: 1487.0
+destination: Limestone Spring Shelter
+start: 1487
 end: 1503.1
-miles: 16.1
 sleep: Shelter
 mood: 🙂
+title: "AT Day 88: Cesar Brook Campsite to Limestone Spring Shelter"
+sleepScore: 59
+garminFeedback: FIND_TIME_TO_RELAX
+recoveryTime: 758
+recoveryTimeFactorFeedback: GOOD
+sleepHistoryFactorFeedback: MODERATE
+trainingReadiness: 49
 ---
 Last night was another late night peeing fiasco. I woke up with a dire need to pee, but I'd have to walk past around 4 tents to get to the privy, so I tried to walk without turning on my headlamp, but peeing in the middle of the night is also an audible activity. Before long, the woman from the next zone over had turned on her headlamp, as she was probably even *more* concerned about strange noises that weren't accompanied by a light in the distance. I had no choice but to turn on my headlamp and walk to the privy. Ugh.
 

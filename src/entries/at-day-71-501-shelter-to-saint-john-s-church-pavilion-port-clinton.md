@@ -1,12 +1,20 @@
 ---
-title: "AT Day 71: 501 Shelter to Saint John's Church Pavilion, Port Clinton"
-date: 2024-06-12
+day: 71
+date: 2024-06-12T00:00:00.000Z
+dateStr: 6/12/2024
 location: 501 Shelter
+destination: Saint John's Church Pavilion, Port Clinton
 start: 1196.7
 end: 1220.4
-miles: 23.7
 sleep: Tent
 mood: 😐
+title: "AT Day 71: 501 Shelter to Saint John's Church Pavilion, Port Clinton"
+sleepScore: 76
+garminFeedback: FOCUS_ON_SLEEP_QUALITY
+recoveryTime: 1259
+recoveryTimeFactorFeedback: MODERATE
+sleepHistoryFactorFeedback: POOR
+trainingReadiness: 42
 ---
 Today just felt like the hardest day on the trail. I mentioned this to DK tonight at the shelter, and I don't think it made any sense to either of us why today would be so especially hard for me today. It probably didn't help for me to bust out 11 miles in under 4 hours last night on a brand new pair of shoes. I forget that sometimes shoes need to be broken in just a little bit, and my heels are a little tender now.
 

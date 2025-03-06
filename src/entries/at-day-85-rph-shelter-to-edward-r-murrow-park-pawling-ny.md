@@ -1,12 +1,20 @@
 ---
-title: "AT Day 85: RPH Shelter to Edward R Murrow Park, Pawling, NY"
-date: 2024-06-26
+day: 85
+date: 2024-06-26T00:00:00.000Z
+dateStr: 6/26/2024
 location: RPH Shelter
+destination: Edward R Murrow Park, Pawling, NY
 start: 1434.5
 end: 1451.9
-miles: 17.4
 sleep: Tent
 mood: 🙂
+title: "AT Day 85: RPH Shelter to Edward R Murrow Park, Pawling, NY"
+sleepScore: 47
+garminFeedback: TIME_TO_RECHARGE
+recoveryTime: 536
+recoveryTimeFactorFeedback: GOOD
+sleepHistoryFactorFeedback: MODERATE
+trainingReadiness: 16
 ---
 *DELI BLAZING IS AMAZING.* I was so concerned about the logistics of deli blazing, but it's pretty simple: every day, plan on having at least one meal at a deli. I don't know how long it'll last, but I don't look a gift deli in the mouth. I had a great late breakfast/early lunch today.
 

@@ -1,12 +1,20 @@
 ---
-title: "AT Day 7: Plum Orchard Gap Shelter to Standing Indian Shelter"
-date: 2024-04-09
+day: 7
+date: 2024-04-09T00:00:00.000Z
+dateStr: 4/9/2024
 location: Plum Orchard Gap Shelter
+destination: Standing Indian Shelter
 start: 73.9
 end: 86.1
-miles: 12.2
 sleep: Tent
 mood: 🙂
+title: "AT Day 7: Plum Orchard Gap Shelter to Standing Indian Shelter"
+sleepScore: 58
+garminFeedback: TIME_TO_RECHARGE
+recoveryTime: 2099
+recoveryTimeFactorFeedback: MODERATE
+sleepHistoryFactorFeedback: MODERATE
+trainingReadiness: 10
 ---
 Today was the first rainy day on the trail, *and* I crossed a state line! Another few milestones. As I was figuring out the best way to pack up my wet tent (solution: the same as normal, except wetter), I found a tent stake in the mud left over at the tent closest to mine. Some guys waiting out the rain by the shelter said she left just a little bit before me, so I did the best I could to catch up - but I didn't get a tenth of the mile up the trail before realizing I had left my inReach satellite device back at the tent site. I definitely can't be losing things like that, not this early! I ended up catching up to the tent stake's proper owner about 4 miles in, just before we got to the Georgia/North Carolina state border. We both spent a few minutes desperately trying to unlock our phones to in order to take a photo, but it was so wet that the touch screen wasn't registering my finger very well. Finally, I got mine open, and we both took a photo with the sign. I'll have to send her photo when I get into town. Right after the border was this really cool tree that I've seen pictures of in other peoples' journals, but I didn't realize that it was in this part of the trail! Even though it was wet, it was exciting to cross into North Carolina, and none of the mud here is anything like what I saw in Vermont last year.
 

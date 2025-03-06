@@ -1,12 +1,20 @@
 ---
-title: "AT Day 133: The Birches Lean-to to Mount Katahdin"
-date: 2024-08-13
+day: 133
+date: 2024-08-13T00:00:00.000Z
+dateStr: 8/13/2024
 location: The Birches Lean-to
+destination: Mount Katahdin
 start: 2192.1
 end: 2197.4
-miles: 5.3
 sleep: Building
 mood: 🙂
+title: "AT Day 133: The Birches Lean-to to Mount Katahdin"
+sleepScore: 59
+garminFeedback: FIND_TIME_TO_RELAX
+recoveryTime: 15
+recoveryTimeFactorFeedback: GOOD
+sleepHistoryFactorFeedback: POOR
+trainingReadiness: 38
 ---
 Of course I was the last one out of camp this morning. Of course I had to get up in the middle of the night to pee.
 

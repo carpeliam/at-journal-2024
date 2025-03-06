@@ -1,12 +1,20 @@
 ---
-title: "AT Day 44: Sarver Hollow Shelter to Lost Spectacles Gap"
-date: 2024-05-16
+day: 44
+date: 2024-05-16T00:00:00.000Z
+dateStr: 5/16/2024
 location: Sarver Hollow Shelter
+destination: Lost Spectacles Gap
 start: 682.1
 end: 703.3
-miles: 21.2
 sleep: Tent
 mood: 🙂
+title: "AT Day 44: Sarver Hollow Shelter to Lost Spectacles Gap"
+sleepScore: 78
+garminFeedback: READY_FOR_THE_DAY
+recoveryTime: 468
+recoveryTimeFactorFeedback: GOOD
+sleepHistoryFactorFeedback: MODERATE
+trainingReadiness: 64
 ---
 If I ever do the AT again (unlikely), I should make sure not to go over Dragon's Tooth at the end of the day, having just hiked 20 miles. That was kind of stupid. I wanted to stay and get more out of it, climb around a bit, but I was pretty tired by the time I got there.
 

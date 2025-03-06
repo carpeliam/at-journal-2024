@@ -1,12 +1,20 @@
 ---
-title: "AT Day 77: Church of the Mountain Hiker Center to Tentsite"
-date: 2024-06-18
+day: 77
+date: 2024-06-18T00:00:00.000Z
+dateStr: 6/18/2024
 location: Church of the Mountain Hiker Center
+destination: Tentsite
 start: 1297.4
 end: 1311.1
-miles: 13.7
 sleep: Tent
 mood: 🙂
+title: "AT Day 77: Church of the Mountain Hiker Center to Tentsite"
+sleepScore: 59
+garminFeedback: FIND_TIME_TO_RELAX
+recoveryTime: 15
+recoveryTimeFactorFeedback: GOOD
+sleepHistoryFactorFeedback: POOR
+trainingReadiness: 42
 ---
 You know how they say, when it's hot you should start early? We just couldn't do it today. It's so hot, we didn't want to leave. But we finally got a move on, and now I'm out of Pennsylvania, and past the 1300 mile mark!
 

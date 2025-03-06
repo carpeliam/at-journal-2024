@@ -1,12 +1,20 @@
 ---
-title: "AT Day 129: Mile 2113.2 to Cooper Brook Falls Lean-to"
-date: 2024-08-09
+day: 129
+date: 2024-08-09T00:00:00.000Z
+dateStr: 8/9/2024
 location: undefined
+destination: Cooper Brook Falls Lean-to
 start: 2113.2
 end: 2137.7
-miles: 24.5
 sleep: Tent
 mood: 🙂
+title: "AT Day 129: Mile 2113.2 to Cooper Brook Falls Lean-to"
+sleepScore: 46
+garminFeedback: FIND_TIME_TO_RELAX
+recoveryTime: 337
+recoveryTimeFactorFeedback: GOOD
+sleepHistoryFactorFeedback: POOR
+trainingReadiness: 29
 ---
 I trekked hard in the rain today. So long Hermitage, so long Gulf Hagas (maybe some day I'll come back), it was hard to see much so I kept my head down and pushed on. I was lucky I had camped last night so close to the river; it wasn't that high when I forded it this morning, but it'd probably be a lot higher now. I also had a hard time finding a privy in the morning (I thought it was behind me by half a mile, but it turned out I had camped right next to it!), which set me back almost an hour.
 

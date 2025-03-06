@@ -1,12 +1,20 @@
 ---
-title: "AT Day 121: Hostel of Maine to Little Bigelow Lean-to"
-date: 2024-08-01
+day: 121
+date: 2024-08-01T00:00:00.000Z
+dateStr: 8/1/2024
 location: Hostel of Maine
-start: 2009.0
+destination: Little Bigelow Lean-to
+start: 2009
 end: 2024.3
-miles: 15.3
 sleep: Shelter
 mood: 🙂
+title: "AT Day 121: Hostel of Maine to Little Bigelow Lean-to"
+sleepScore: 40
+garminFeedback: FIND_TIME_TO_RELAX
+recoveryTime: 289
+recoveryTimeFactorFeedback: GOOD
+sleepHistoryFactorFeedback: MODERATE
+trainingReadiness: 25
 ---
 I did not go to sleep early as planned. Breakfast, though, was really good, so if food can make up at all for lack of sleep, this morning's breakfast did its damnedest.
 

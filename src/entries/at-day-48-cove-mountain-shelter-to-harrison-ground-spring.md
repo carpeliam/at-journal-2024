@@ -1,12 +1,20 @@
 ---
-title: "AT Day 48: Cove Mountain Shelter to Harrison Ground Spring"
-date: 2024-05-20
+day: 48
+date: 2024-05-20T00:00:00.000Z
+dateStr: 5/20/2024
 location: Cove Mountain Shelter
+destination: Harrison Ground Spring
 start: 755.6
 end: 776.1
-miles: 20.5
 sleep: Tent
 mood: 😐
+title: "AT Day 48: Cove Mountain Shelter to Harrison Ground Spring"
+sleepScore: 78
+garminFeedback: WELL_RECOVERED
+recoveryTime: 1
+recoveryTimeFactorFeedback: GOOD
+sleepHistoryFactorFeedback: MODERATE
+trainingReadiness: 84
 ---
 I spent most of the day just powering through, but when I got to camp, I just ... sat down, for like a good solid 10 minutes or so. I got to the site before Gambit did, but he had practically finished setting up before I could even start moving again. I definitely didn't eat enough snacks today.
 

@@ -1,12 +1,20 @@
 ---
-title: "AT Day 65: Thru It All Hostel to Toms Run Shelter"
-date: 2024-06-06
+day: 65
+date: 2024-06-06T00:00:00.000Z
+dateStr: 6/6/2024
 location: Thru It All Hostel
+destination: Toms Run Shelter
 start: 1085.5
 end: 1101.7
-miles: 16.2
 sleep: Tent
 mood: 🙂
+title: "AT Day 65: Thru It All Hostel to Toms Run Shelter"
+sleepScore: 76
+garminFeedback: GOOD_RECOVERY
+recoveryTime: 1
+recoveryTimeFactorFeedback: GOOD
+sleepHistoryFactorFeedback: MODERATE
+trainingReadiness: 53
 ---
 On the way out of town this morning, we stopped at a barbecue spot. This seems like the epitome of good local establishment - we had stopped by yesterday on the way to the hostel, but FarOut was a little confusing, and we were peering into the windows of a closed shop. The owner noticed us, and invited us in for a minute for a cold drink. We came back this morning and I'm pretty sure that both Guinness and I tipped well for yesterday's kindness.
 

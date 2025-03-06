@@ -1,12 +1,20 @@
 ---
-title: "AT Day 2: Stover Creek Shelter to Gooch Mountain Shelter"
-date: 2024-04-04
+day: 2
+date: 2024-04-04T00:00:00.000Z
+dateStr: 4/4/2024
 location: Stover Creek Shelter
+destination: Gooch Mountain Shelter
 start: 2.8
 end: 15.7
-miles: 12.9
 sleep: Tent
 mood: 🙂
+title: "AT Day 2: Stover Creek Shelter to Gooch Mountain Shelter"
+sleepScore: 58
+garminFeedback: TIME_TO_RECHARGE
+recoveryTime: 2267
+recoveryTimeFactorFeedback: POOR
+sleepHistoryFactorFeedback: POOR
+trainingReadiness: 2
 ---
 It was cold, waking up. As I lay under my quilt, I could already hear the other tents around me, packing up and chatting to each other quietly. Two people accidentally kicked one of my tent stakes -- either camp is crowded, or I need to do a better job pounding stakes into the ground, or both.
 

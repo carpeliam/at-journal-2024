@@ -1,12 +1,20 @@
 ---
-title: "AT Day 95: Sherman Brook Campsite to Goddard Shelter"
-date: 2024-07-06
+day: 95
+date: 2024-07-06T00:00:00.000Z
+dateStr: 7/6/2024
 location: Sherman Brook Campsite
+destination: Goddard Shelter
 start: 1601.3
 end: 1628.1
-miles: 26.8
 sleep: Tent
 mood: 🙂
+title: "AT Day 95: Sherman Brook Campsite to Goddard Shelter"
+sleepScore: 49
+garminFeedback: TIME_TO_RECHARGE
+recoveryTime: 582
+recoveryTimeFactorFeedback: GOOD
+sleepHistoryFactorFeedback: POOR
+trainingReadiness: 23
 ---
 It took me 2 days last year to get as far as I got today. At my first shelter last year, I remember hearing AT thru hikers talking about hiking 20+ mile days, and here I am, just doing it.
 

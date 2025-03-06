@@ -1,12 +1,20 @@
 ---
-title: "AT Day 123: Pierce Pond Lean-to to Bald Mountain Brook Lean-to"
-date: 2024-08-03
+day: 123
+date: 2024-08-03T00:00:00.000Z
+dateStr: 8/3/2024
 location: Pierce Pond Lean-to
-start: 2042.0
+destination: Bald Mountain Brook Lean-to
+start: 2042
 end: 2060.7
-miles: 18.7
 sleep: Tent
 mood: 🙂
+title: "AT Day 123: Pierce Pond Lean-to to Bald Mountain Brook Lean-to"
+sleepScore: 59
+garminFeedback: FIND_TIME_TO_RELAX
+recoveryTime: 15
+recoveryTimeFactorFeedback: GOOD
+sleepHistoryFactorFeedback: POOR
+trainingReadiness: 45
 ---
 Another Long day! It started with pancakes, and they were worth it. Tim, the guy running it, had a little keyboard, and he invited me to play - I didn't even have to ask! I noodled a bit, and wound up making a little melody that stuck with me for a bit. While we were eating, Tim played a mix of covers and originals. He's got a cozy little spot here, and I think I respect him for doing what he can to hold on to it.
 

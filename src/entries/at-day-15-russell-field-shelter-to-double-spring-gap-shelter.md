@@ -1,12 +1,20 @@
 ---
-title: "AT Day 15: Russell Field Shelter to Double Spring Gap Shelter"
-date: 2024-04-17
+day: 15
+date: 2024-04-17T00:00:00.000Z
+dateStr: 4/17/2024
 location: Russell Field Shelter
+destination: Double Spring Gap Shelter
 start: 181.1
 end: 197.5
-miles: 16.4
 sleep: Shelter
 mood: 🙂
+title: "AT Day 15: Russell Field Shelter to Double Spring Gap Shelter"
+sleepScore: 69
+garminFeedback: READY_FOR_THE_DAY
+recoveryTime: 506
+recoveryTimeFactorFeedback: GOOD
+sleepHistoryFactorFeedback: MODERATE
+trainingReadiness: 56
 ---
 The flowers are starting to come out! The trail is littered with them. No megafauna though. I passed 3 shelters today. I stopped at Derrick Knob for a short lunch when I saw Brightside and Kyler chilling by the fire pit. Clingmans Dome, the highest point on the AT, is tomorrow. They're planning to get to Double Spring Gap Shelter tonight; the 15 mile plan I've been loosely following has me staying at Siler's Bald Shelter, but Double Spring Gap is just 1.7 more miles, which feels really doable. Besides, I already stayed at Siler Bald Shelter, staying at *Siler's Bald* as well would just be confusing.
 

@@ -1,12 +1,20 @@
 ---
-title: "AT Day 17: Peck's Corner Shelter to Davenport Gap Shelter"
-date: 2024-04-19
+day: 17
+date: 2024-04-19T00:00:00.000Z
+dateStr: 4/19/2024
 location: Peck's Corner Shelter
+destination: Davenport Gap Shelter
 start: 218.5
 end: 238.3
-miles: 19.8
 sleep: Shelter
 mood: 🙂
+title: "AT Day 17: Peck's Corner Shelter to Davenport Gap Shelter"
+sleepScore: 73
+garminFeedback: LISTEN_TO_YOUR_BODY
+recoveryTime: 368
+recoveryTimeFactorFeedback: GOOD
+sleepHistoryFactorFeedback: POOR
+trainingReadiness: 48
 ---
 Today was my last full day in the Smokies, and the first day of the trail that felt like a green tunnel! So much of the Smokies is high up (and Newfound Gap was at 5000 feet above sea level), but now that I'm coming down from elevation, the leaves are starting to appear.
 

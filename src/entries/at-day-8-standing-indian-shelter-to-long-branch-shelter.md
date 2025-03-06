@@ -1,12 +1,20 @@
 ---
-title: "AT Day 8: Standing Indian Shelter to Long Branch Shelter"
-date: 2024-04-10
+day: 8
+date: 2024-04-10T00:00:00.000Z
+dateStr: 4/10/2024
 location: Standing Indian Shelter
+destination: Long Branch Shelter
 start: 86.1
 end: 102.4
-miles: 16.3
 sleep: Shelter
 mood: 🙂
+title: "AT Day 8: Standing Indian Shelter to Long Branch Shelter"
+sleepScore: 48
+garminFeedback: TIME_TO_RECHARGE
+recoveryTime: 1053
+recoveryTimeFactorFeedback: GOOD
+sleepHistoryFactorFeedback: MODERATE
+trainingReadiness: 7
 ---
 I couldn't sleep last night - I thought I could hear the bear taking down the bear bags! But when I woke up, everybody's bear bag was unharmed. Well, there was one casualty, but it was from a mini-bear: I accidentally left the baggy of freeze-dried strawberries in the shoulder strap pocket of my pack (outside my tent, in the vestibule), and a mouse chewed through it and ate all the strawberries. I wasn't too concerned about the strawberries, but I'm not crazy about the hole in the shoulder strap pocket. Oh well, I guess it needed to get "broken in".
 

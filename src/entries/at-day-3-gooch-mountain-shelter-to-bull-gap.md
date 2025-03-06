@@ -1,12 +1,20 @@
 ---
-title: "AT Day 3: Gooch Mountain Shelter to Bull Gap"
-date: 2024-04-05
+day: 3
+date: 2024-04-05T00:00:00.000Z
+dateStr: 4/5/2024
 location: Gooch Mountain Shelter
+destination: Bull Gap
 start: 15.7
 end: 32.4
-miles: 16.7
 sleep: Tent
 mood: 🙂
+title: "AT Day 3: Gooch Mountain Shelter to Bull Gap"
+sleepScore: 50
+garminFeedback: TIME_TO_RECHARGE
+recoveryTime: 1850
+recoveryTimeFactorFeedback: MODERATE
+sleepHistoryFactorFeedback: POOR
+trainingReadiness: 1
 ---
 I woke up to the sound of Clark and Olivia chatting and making plans. It turns out, Olivia came down with norovirus and started presenting symptoms this morning. I guess symptoms show up around 12 hours after contracting the virus, so I'm really glad now that I didn't borrow that sit pad from Clark. Their plan of hiking for a week through Georgia has been cut short, and now their new plan is to get off trail as soon as possible. I gave them the photo of all the Georgia shuttle drivers, and told them that my shuttle driver Ron was great, but I guess Ron has a full plate and won't be able to get them out until this afternoon. I made oatmeal and coffee, partly as a means to boil the water I had in yet another attempt to keep norovirus at bay, and chatted with them while they planned. This morning was an even later start to my hike than yesterday, not leaving camp until around 9:45. More or less everybody had cleared out before me.
 

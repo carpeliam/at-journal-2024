@@ -1,12 +1,20 @@
 ---
-title: "AT Day 53: Paul Wolfe Shelter to Calf Mountain Shelter"
-date: 2024-05-25
+day: 53
+date: 2024-05-25T00:00:00.000Z
+dateStr: 5/25/2024
 location: Paul Wolfe Shelter
+destination: Calf Mountain Shelter
 start: 859.8
 end: 872.3
-miles: 12.5
 sleep: Shelter
 mood: 🙂
+title: "AT Day 53: Paul Wolfe Shelter to Calf Mountain Shelter"
+sleepScore: 79
+garminFeedback: WELL_RECOVERED
+recoveryTime: 97
+recoveryTimeFactorFeedback: GOOD
+sleepHistoryFactorFeedback: GOOD
+trainingReadiness: 77
 ---
 I got into Waynesboro by around 9am. I remember when I'd still be under my quilt at 9am! The trail came up to a turnpike, and across the turnpike was a hollowed out Howard Johnson's and a delightful popcorn stand. I'm glad I stopped at the popcorn stand - there was a bunch of phone numbers of people who volunteered to shuttle hikers into town! I had success with the first number I texted, and ate popcorn while I waited for them to come pick me up.
 

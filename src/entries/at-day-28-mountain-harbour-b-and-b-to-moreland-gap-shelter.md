@@ -1,12 +1,20 @@
 ---
-title: "AT Day 28: Mountain Harbour B&B to Moreland Gap Shelter"
-date: 2024-04-30
+day: 28
+date: 2024-04-30T00:00:00.000Z
+dateStr: 4/30/2024
 location: Mountain Harbour B&B
+destination: Moreland Gap Shelter
 start: 395.6
-end: 414.0
-miles: 18.4
+end: 414
 sleep: Shelter
 mood: 🙂
+title: "AT Day 28: Mountain Harbour B&B to Moreland Gap Shelter"
+sleepScore: 42
+garminFeedback: FOCUS_ON_RECOVERY
+recoveryTime: 1048
+recoveryTimeFactorFeedback: GOOD
+sleepHistoryFactorFeedback: MODERATE
+trainingReadiness: 1
 ---
 Two things about Mountain Harbour. Number one, that might be the best breakfast of my life. Unsure. Number two, the tenting area was pretty close to the highway. Maybe slept better than when above the guy with sleep apnea? Unsure.
 

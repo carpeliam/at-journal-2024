@@ -1,12 +1,20 @@
 ---
-title: "AT Day 61: Mile 1029.6 to Ed Garvey Shelter"
-date: 2024-06-02
+day: 61
+date: 2024-06-02T00:00:00.000Z
+dateStr: 6/2/2024
 location: undefined
+destination: Ed Garvey Shelter
 start: 1029.6
-end: 1033.0
-miles: 3.4
+end: 1033
 sleep: Tent
 mood: 🙂
+title: "AT Day 61: Mile 1029.6 to Ed Garvey Shelter"
+sleepScore: 31
+garminFeedback: TIME_TO_RECHARGE
+recoveryTime: 498
+recoveryTimeFactorFeedback: GOOD
+sleepHistoryFactorFeedback: MODERATE
+trainingReadiness: 22
 ---
 This hostel has a bit of a weird vibe to it, which just kind of exacerbates a feeling of "this wasn't my first choice". They have a bathroom scale, and now I'm down to 135 pounds. They also have a shaving razor, though, so maybe losing 2 months of beard accounts for some of that weight loss. I hung out with Rachel, and we planned to stop by a spot to eat that I saw yesterday in Harpers Ferry, but (it being a Sunday perhaps?) we couldn't find any parking, and so we ended up abandoning that plan in much the same fashion that I had abandoned staying in town yesterday.
 

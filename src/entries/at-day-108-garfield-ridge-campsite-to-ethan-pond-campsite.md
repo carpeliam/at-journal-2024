@@ -1,12 +1,20 @@
 ---
-title: "AT Day 108: Garfield Ridge Campsite to Ethan Pond Campsite"
-date: 2024-07-19
+day: 108
+date: 2024-07-19T00:00:00.000Z
+dateStr: 7/19/2024
 location: Garfield Ridge Campsite
+destination: Ethan Pond Campsite
 start: 1834.3
 end: 1848.9
-miles: 14.6
 sleep: Tent
 mood: 😐
+title: "AT Day 108: Garfield Ridge Campsite to Ethan Pond Campsite"
+sleepScore: 48
+garminFeedback: FIND_TIME_TO_RELAX
+recoveryTime: 333
+recoveryTimeFactorFeedback: GOOD
+sleepHistoryFactorFeedback: POOR
+trainingReadiness: 26
 ---
 I felt pretty tired and weak today. I definitely didn't sleep super well last night (surprise surprise), and the descent down Garfield was hair raising. Kind of like the descent down Moosilauke the other day, except maybe a bit less steep, and instead of being next to a waterfall, the trail itself was practically a waterfall, which required a lot of caution. Which would have been no problem if I had gotten enough sleep last night, but ah well.
 

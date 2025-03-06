@@ -1,12 +1,20 @@
 ---
-title: "AT Day 29: Moreland Gap Shelter to Boots Off Hostel"
-date: 2024-05-01
+day: 29
+date: 2024-05-01T00:00:00.000Z
+dateStr: 5/1/2024
 location: Moreland Gap Shelter
-start: 414.0
+destination: Boots Off Hostel
+start: 414
 end: 428.8
-miles: 14.8
 sleep: Tent
 mood: 🙂
+title: "AT Day 29: Moreland Gap Shelter to Boots Off Hostel"
+sleepScore: 75
+garminFeedback: TAKE_IT_EASY
+recoveryTime: 127
+recoveryTimeFactorFeedback: GOOD
+sleepHistoryFactorFeedback: POOR
+trainingReadiness: 37
 ---
 Tennessee continues to impress; I saw a cool broken down house alongside the trail this morning. And the surroundings just feel *different*. I don't know if I'm just projecting, but each state seems to take on an ever so slightly different geology. Yesterday, Tennessee gave me a babbling brook, and today, it gave me a roaring waterfall, and then it invited me to walk next to the falls for a bit. Tennessee is overdelivering for sure. I almost stepped on a turtle right after passing two hikers, so I waited for them to catch up so I could point the turtle out to them, and one of them commented that the turtle is NOBO. All he needs I guess is a hang tag.
 

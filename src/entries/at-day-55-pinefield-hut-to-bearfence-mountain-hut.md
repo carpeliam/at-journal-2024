@@ -1,12 +1,20 @@
 ---
-title: "AT Day 55: Pinefield Hut to Bearfence Mountain Hut"
-date: 2024-05-27
+day: 55
+date: 2024-05-27T00:00:00.000Z
+dateStr: 5/27/2024
 location: Pinefield Hut
+destination: Bearfence Mountain Hut
 start: 898.5
 end: 919.1
-miles: 20.6
 sleep: Tent
 mood: 🙂
+title: "AT Day 55: Pinefield Hut to Bearfence Mountain Hut"
+sleepScore: 84
+garminFeedback: GOOD_SLEEP_LAST_NIGHT
+recoveryTime: 1
+recoveryTimeFactorFeedback: GOOD
+sleepHistoryFactorFeedback: POOR
+trainingReadiness: 68
 ---
 Kicked off the day with another milestone, 900 miles! This is the last mile marker in triple digit country. I also think I saw a grouse on the trail this morning, going southbound? It looked well fed, and didn't stir at all as I passed. I'm guessing the animals in the park have plenty of food available.
 

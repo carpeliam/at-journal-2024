@@ -1,12 +1,20 @@
 ---
-title: "AT Day 58: Tom Floyd Wayside to Whiskey Hollow Shelter"
-date: 2024-05-30
+day: 58
+date: 2024-05-30T00:00:00.000Z
+dateStr: 5/30/2024
 location: Tom Floyd Wayside
+destination: Whiskey Hollow Shelter
 start: 969.5
 end: 987.6
-miles: 18.1
 sleep: Tent
 mood: 🙂
+title: "AT Day 58: Tom Floyd Wayside to Whiskey Hollow Shelter"
+sleepScore: 69
+garminFeedback: READY_FOR_THE_DAY
+recoveryTime: 551
+recoveryTimeFactorFeedback: GOOD
+sleepHistoryFactorFeedback: MODERATE
+trainingReadiness: 58
 ---
 I got to the road for Front Royal around 9:15am, and was just taking a picture of their trolley schedule when a car pulled up and a hiker got out of the passenger seat. I asked the driver if he was headed back into Front Royal, and he said he was; I asked him if he could give me a ride, and he said he could. This was an even easier hitch than in Glasgow! I hopped in. The driver had hiked a good portion of the trail himself, and had a trail name of Smooth. He taught marksmanship at a local firing range, and he applied the same lesson he taught there to the trail:
 > Slow is smooth, smooth is fast.

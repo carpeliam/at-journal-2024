@@ -1,12 +1,20 @@
 ---
-title: "AT Day 38: Knot Maul Branch Shelter to Jenkins Shelter"
-date: 2024-05-10
+day: 38
+date: 2024-05-10T00:00:00.000Z
+dateStr: 5/10/2024
 location: Knot Maul Branch Shelter
+destination: Jenkins Shelter
 start: 560.7
 end: 580.8
-miles: 20.1
 sleep: Shelter
 mood: 🙂
+title: "AT Day 38: Knot Maul Branch Shelter to Jenkins Shelter"
+sleepScore: 48
+garminFeedback: FOCUS_ON_RECOVERY
+recoveryTime: 1678
+recoveryTimeFactorFeedback: MODERATE
+sleepHistoryFactorFeedback: POOR
+trainingReadiness: 1
 ---
 I wasn't the last person out of camp this morning! I was second to last.
 

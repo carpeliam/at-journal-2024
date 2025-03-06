@@ -1,12 +1,20 @@
 ---
-title: "AT Day 118: Bemis Mountain Lean-to to Piazza Rock Lean-to"
-date: 2024-07-29
+day: 118
+date: 2024-07-29T00:00:00.000Z
+dateStr: 7/29/2024
 location: Bemis Mountain Lean-to
+destination: Piazza Rock Lean-to
 start: 1959.1
 end: 1978.6
-miles: 19.5
 sleep: Shelter
 mood: 🙂
+title: "AT Day 118: Bemis Mountain Lean-to to Piazza Rock Lean-to"
+sleepScore: 39
+garminFeedback: TIME_TO_RECHARGE
+recoveryTime: 1148
+recoveryTimeFactorFeedback: MODERATE
+sleepHistoryFactorFeedback: MODERATE
+trainingReadiness: 18
 ---
 We got an even better glimpse of those water features from yesterday. Maine is beautiful! Bonk, Rabbit and I were chilling by an overlook, and a minute or so after Bonk pushed on, some guy (Sir Stops a Lot, amazing trail angel name) stopped and asked Rabbit and I if we wanted any trail magic. *Did we want any trail magic.* Heck yeah! He was a delight. We felt bad though for Bonk, who had missed out by only a minute or so.
 

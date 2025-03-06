@@ -1,12 +1,20 @@
 ---
-title: "AT Day 75: George W. Outerbridge Shelter to Campsite before Wind Gap"
-date: 2024-06-16
+day: 75
+date: 2024-06-16T00:00:00.000Z
+dateStr: 6/16/2024
 location: George W. Outerbridge Shelter
+destination: Campsite before Wind Gap
 start: 1260.3
 end: 1280.6
-miles: 20.3
 sleep: Tent
 mood: 🙂
+title: "AT Day 75: George W. Outerbridge Shelter to Campsite before Wind Gap"
+sleepScore: 39
+garminFeedback: TIME_TO_RECHARGE
+recoveryTime: 478
+recoveryTimeFactorFeedback: GOOD
+sleepHistoryFactorFeedback: POOR
+trainingReadiness: 14
 ---
 The hike out of Palmerton was so wonderful! It was everything I wanted a rocky scramble to be, and got me excited about getting back into elevation again.
 

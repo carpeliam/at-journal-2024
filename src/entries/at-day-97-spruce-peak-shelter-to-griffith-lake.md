@@ -1,12 +1,20 @@
 ---
-title: "AT Day 97: Spruce Peak Shelter to Griffith Lake"
-date: 2024-07-08
+day: 97
+date: 2024-07-08T00:00:00.000Z
+dateStr: 7/8/2024
 location: Spruce Peak Shelter
+destination: Griffith Lake
 start: 1655.3
 end: 1668.7
-miles: 13.4
 sleep: Tent
 mood: 🙂
+title: "AT Day 97: Spruce Peak Shelter to Griffith Lake"
+sleepScore: 74
+garminFeedback: GOOD_RECOVERY
+recoveryTime: 195
+recoveryTimeFactorFeedback: GOOD
+sleepHistoryFactorFeedback: MODERATE
+trainingReadiness: 57
 ---
 Once again, I had good luck getting a hitch into town, just by asking for one. There was a couple in the parking lot about to leave, and while they weren't headed into Manchester Center, they were willing to drop me off given how close it was.
 

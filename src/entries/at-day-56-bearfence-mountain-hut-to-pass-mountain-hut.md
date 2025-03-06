@@ -1,12 +1,20 @@
 ---
-title: "AT Day 56: Bearfence Mountain Hut to Pass Mountain Hut"
-date: 2024-05-28
+day: 56
+date: 2024-05-28T00:00:00.000Z
+dateStr: 5/28/2024
 location: Bearfence Mountain Hut
+destination: Pass Mountain Hut
 start: 919.1
 end: 945.9
-miles: 26.8
 sleep: Tent
 mood: 🙂
+title: "AT Day 56: Bearfence Mountain Hut to Pass Mountain Hut"
+sleepScore: 63
+garminFeedback: READY_FOR_THE_DAY
+recoveryTime: 567
+recoveryTimeFactorFeedback: GOOD
+sleepHistoryFactorFeedback: MODERATE
+trainingReadiness: 56
 ---
 The blackberry milkshake is a thing! And I almost missed it. I had to backtrack when I realized that I had hiked a half mile past Big Meadows. I got there and met up again with No Plan, who had also hiked past the Wayside. I ordered pretty much *everything* off the menu, but I especially enjoyed a blackberry cobbler, even more than the blackberry milkshake. I'm really going to miss the ability to just buy calories in the middle of the day. I bought postcards to send back home too, hopefully they stay dry.
 

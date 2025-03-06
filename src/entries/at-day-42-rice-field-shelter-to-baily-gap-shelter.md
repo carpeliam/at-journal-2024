@@ -1,12 +1,20 @@
 ---
-title: "AT Day 42: Rice Field Shelter to Bailey Gap Shelter"
-date: 2024-05-14
+day: 42
+date: 2024-05-14T00:00:00.000Z
+dateStr: 5/14/2024
 location: Rice Field Shelter
+destination: Bailey Gap Shelter
 start: 644.5
 end: 660.9
-miles: 16.4
 sleep: Shelter
 mood: 🙂
+title: "AT Day 42: Rice Field Shelter to Bailey Gap Shelter"
+sleepScore: 76
+garminFeedback: TAKE_ON_THE_DAY
+recoveryTime: 142
+recoveryTimeFactorFeedback: GOOD
+sleepHistoryFactorFeedback: MODERATE
+trainingReadiness: 52
 ---
 Always the last person out of camp. Technically there were some peeps in the shelter that looked like they were waiting for weather to improve, but other than that, I was the last one out. Eventually I caught up to Live Mas and Kachow around Pine Swamp Branch shelter where we chatted with a section hiker and I took a food break. I'm feeling a bit tired today.
 

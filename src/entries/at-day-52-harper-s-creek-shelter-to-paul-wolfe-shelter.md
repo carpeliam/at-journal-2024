@@ -1,12 +1,20 @@
 ---
-title: "AT Day 52: Harper's Creek Shelter to Paul Wolfe Shelter"
-date: 2024-05-24
+day: 52
+date: 2024-05-24T00:00:00.000Z
+dateStr: 5/24/2024
 location: Harper's Creek Shelter
+destination: Paul Wolfe Shelter
 start: 837.6
 end: 859.8
-miles: 22.2
 sleep: Tent
 mood: 🙂
+title: "AT Day 52: Harper's Creek Shelter to Paul Wolfe Shelter"
+sleepScore: 82
+garminFeedback: GOOD_SLEEP_LAST_NIGHT
+recoveryTime: 177
+recoveryTimeFactorFeedback: GOOD
+sleepHistoryFactorFeedback: POOR
+trainingReadiness: 64
 ---
 Today's the day that Gambit is headed to the brewery, so I'm back by myself again. I'm sure I'll see him again when I least expect it.
 

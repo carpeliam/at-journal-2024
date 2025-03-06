@@ -1,12 +1,20 @@
 ---
-title: "AT Day 114: Gentian Pond Shelter to Full Goose Shelter"
-date: 2024-07-25
+day: 114
+date: 2024-07-25T00:00:00.000Z
+dateStr: 7/25/2024
 location: Gentian Pond Shelter
+destination: Full Goose Shelter
 start: 1910.7
 end: 1920.5
-miles: 9.8
 sleep: Tent
 mood: 🙂
+title: "AT Day 114: Gentian Pond Shelter to Full Goose Shelter"
+sleepScore: 51
+garminFeedback: FIND_TIME_TO_RELAX
+recoveryTime: 131
+recoveryTimeFactorFeedback: GOOD
+sleepHistoryFactorFeedback: POOR
+trainingReadiness: 30
 ---
 I'm in Maine! I crossed the last state border! No more! I'm in Maine!
 

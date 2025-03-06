@@ -1,12 +1,20 @@
 ---
-title: "AT Day 79: Gren Anderson Shelter to Unionville"
-date: 2024-06-20
+day: 79
+date: 2024-06-20T00:00:00.000Z
+dateStr: 6/20/2024
 location: Gren Anderson Shelter
-start: 1329.0
+destination: Unionville
+start: 1329
 end: 1349.1
-miles: 20.1
 sleep: Tent
 mood: 🙂
+title: "AT Day 79: Gren Anderson Shelter to Unionville"
+sleepScore: 52
+garminFeedback: TIME_TO_SLOW_DOWN
+recoveryTime: 116
+recoveryTimeFactorFeedback: GOOD
+sleepHistoryFactorFeedback: POOR
+trainingReadiness: 15
 ---
 Baby Kong didn't do so well in the shelter last night. Bugs ate him alive. I don't know when I'll try giving shelters another shot, but definitely not any time soon. It was just the three of us at the shelter last night. iMom came by but pressed on. It feels weird for the trail to be this empty, and nobody knows where the bubble is now.
 

@@ -1,12 +1,20 @@
 ---
-title: "AT Day 63: Pine Knob Shelter to Deer Lick Shelter"
-date: 2024-06-04
+day: 63
+date: 2024-06-04T00:00:00.000Z
+dateStr: 6/4/2024
 location: Pine Knob Shelter
+destination: Deer Lick Shelter
 start: 1049.6
 end: 1072.3
-miles: 22.7
 sleep: Tent
 mood: 🙂
+title: "AT Day 63: Pine Knob Shelter to Deer Lick Shelter"
+sleepScore: 44
+garminFeedback: TIME_TO_RECHARGE
+recoveryTime: 246
+recoveryTimeFactorFeedback: GOOD
+sleepHistoryFactorFeedback: MODERATE
+trainingReadiness: 22
 ---
 Today just felt *slow*. I tried to take my time by going down all the blue blaze trails, all the side quests. Annapolis Rock! Black Rock Cliffs! Beautiful views from a horribly defaced High Rock Ledges! A boulder field which is surely a sign that Pennsylvania is near! And finally, Pen Mar Park!
 

@@ -1,12 +1,20 @@
 ---
-title: "AT Day 34: Lost Mountain Shelter to Wise Shelter"
-date: 2024-05-06
+day: 34
+date: 2024-05-06T00:00:00.000Z
+dateStr: 5/6/2024
 location: Lost Mountain Shelter
-start: 487.0
+destination: Wise Shelter
+start: 487
 end: 504.5
-miles: 17.5
 sleep: Shelter
 mood: 🙂
+title: "AT Day 34: Lost Mountain Shelter to Wise Shelter"
+sleepScore: 45
+garminFeedback: FOCUS_ON_RECOVERY
+recoveryTime: 655
+recoveryTimeFactorFeedback: GOOD
+sleepHistoryFactorFeedback: MODERATE
+trainingReadiness: 15
 ---
 I was let go from my job today. It was awesome.
 

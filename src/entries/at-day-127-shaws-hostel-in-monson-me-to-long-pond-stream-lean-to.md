@@ -1,12 +1,20 @@
 ---
-title: "AT Day 127: Shaw's Hostel in Monson, ME to Long Pond Stream Lean-to"
-date: 2024-08-07
+day: 127
+date: 2024-08-07T00:00:00.000Z
+dateStr: 8/7/2024
 location: Shaw's Hostel in Monson, ME
+destination: Long Pond Stream Lean-to
 start: 2082.7
 end: 2097.8
-miles: 15.1
 sleep: Shelter
 mood: 🙂
+title: "AT Day 127: Shaw's Hostel in Monson, ME to Long Pond Stream Lean-to"
+sleepScore: 36
+garminFeedback: FIND_TIME_TO_RELAX
+recoveryTime: 347
+recoveryTimeFactorFeedback: GOOD
+sleepHistoryFactorFeedback: POOR
+trainingReadiness: 29
 ---
 This morning was a classic "always the last one out of camp", hostel edition. I missed the first shuttle after breakfast. Poet said he might be able to make a second run if there was some interest, and I was too busy playing the hostel piano that when he finally said he was making the second run, I scrambled to get ready. I had planned to get some cash from the ATM in preparation for Baxter, but Bonk said he could spot me.
 

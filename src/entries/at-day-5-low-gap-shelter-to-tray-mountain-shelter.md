@@ -1,12 +1,20 @@
 ---
-title: "AT Day 5: Low Gap Shelter to Tray Mountain Shelter"
-date: 2024-04-07
+day: 5
+date: 2024-04-07T00:00:00.000Z
+dateStr: 4/7/2024
 location: Low Gap Shelter
-start: 43.0
+destination: Tray Mountain Shelter
+start: 43
 end: 58.4
-miles: 15.4
 sleep: Tent
 mood: 🙂
+title: "AT Day 5: Low Gap Shelter to Tray Mountain Shelter"
+sleepScore: 61
+garminFeedback: LET_YOUR_BODY_RECOVER
+recoveryTime: 2710
+recoveryTimeFactorFeedback: POOR
+sleepHistoryFactorFeedback: POOR
+trainingReadiness: 1
 ---
 I caught up to Tom on trail, and we took a break together, trying to figure out (with 1 bar of cell service) whether the hiker feed was on Mondays as reported by the AT Guide, or whether it was on Wednesdays and Thursdays as indicated by some comments in FarOut. Some time later, I realized that my 15 mile plan had me arriving at Hiawassee from Dick's Creek instead of Unicoi Gap, and Sink told me that it was supposed to rain on Tuesday, with thunderstorms on Thursday. I made a game time decision to stretch for Dick's Creek Gap tomorrow, and told Sink to tell Tom that I'd try to meet him there.
 

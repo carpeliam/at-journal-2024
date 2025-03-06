@@ -1,12 +1,20 @@
 ---
-title: "AT Day 24: Bald Mountain Shelter to Uncle Johnny's Hostel"
-date: 2024-04-26
+day: 24
+date: 2024-04-26T00:00:00.000Z
+dateStr: 4/26/2024
 location: Bald Mountain Shelter
+destination: Uncle Johnny's Hostel
 start: 327.7
 end: 344.5
-miles: 16.8
 sleep: Building
 mood: 🙂
+title: "AT Day 24: Bald Mountain Shelter to Uncle Johnny's Hostel"
+sleepScore: 45
+garminFeedback: TIME_TO_SLOW_DOWN
+recoveryTime: 1568
+recoveryTimeFactorFeedback: MODERATE
+sleepHistoryFactorFeedback: POOR
+trainingReadiness: 3
 ---
 The sunrise hike happened! It initially seemed as though it might be overcast, but we actually got some beautiful views.
 

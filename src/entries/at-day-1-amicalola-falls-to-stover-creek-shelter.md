@@ -1,12 +1,20 @@
 ---
-title: "AT Day 1: Amicalola Falls to Stover Creek Shelter"
-date: 2024-04-03
+day: 1
+date: 2024-04-03T00:00:00.000Z
+dateStr: 4/3/2024
 location: Amicalola Falls
-start: 0.0
+destination: Stover Creek Shelter
+start: 0
 end: 2.8
-miles: 2.8
 sleep: Tent
 mood: 🙂
+title: "AT Day 1: Amicalola Falls to Stover Creek Shelter"
+sleepScore: 52
+garminFeedback: TIME_TO_RECHARGE
+recoveryTime: 2875
+recoveryTimeFactorFeedback: POOR
+sleepHistoryFactorFeedback: POOR
+trainingReadiness: 1
 ---
 Oh man. Day #1 on the AT! It was enough just getting here - I took the train down the previous night (yes, the [Midnight Train to Georgia](https://youtu.be/A0F9lh8TiSM?si=WNNgeRtjFpZy0PGU)), paying a bit more for a fold-out bed but not like it was easy to fall asleep anyway. On the ride down, I was massaging my foot, dealing with some muscle tightness from an impromptu run the day before. Well, however ready my body is or isn't, I'm here.
 

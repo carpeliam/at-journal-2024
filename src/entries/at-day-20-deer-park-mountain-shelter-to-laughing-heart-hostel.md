@@ -1,12 +1,20 @@
 ---
-title: "AT Day 20: Deer Park Mountain Shelter to Laughing Heart Hostel"
-date: 2024-04-22
+day: 20
+date: 2024-04-22T00:00:00.000Z
+dateStr: 4/22/2024
 location: Deer Park Mountain Shelter
-start: 272.0
+destination: Laughing Heart Hostel
+start: 272
 end: 274.9
-miles: 2.9
 sleep: Building
 mood: 🙂
+title: "AT Day 20: Deer Park Mountain Shelter to Laughing Heart Hostel"
+sleepScore: 79
+garminFeedback: TAKE_ON_THE_DAY
+recoveryTime: 46
+recoveryTimeFactorFeedback: GOOD
+sleepHistoryFactorFeedback: MODERATE
+trainingReadiness: 64
 ---
 Those whippoorwills last night really were not excited about me getting any sleep. And again, I was the last one out of camp this morning. Not like I had far to go - it was almost exactly 3 miles downhill from Deer Park Shelter to Hot Springs NC, and I took more or less the whole thing at a trot, trending toward canter. I've discovered that different knees prefer different trail directions; one of my knees has a harder time with going uphill while the other one has a harder time going down. But I've discovered that, if I land with my forefoot, going downhill gets a bit easier. So I've adopted this gait sometimes where one foot lands on the forefoot while the other lands on the heel. Human bodies are weird, human bodies walking all day every day are weirder. Whatever works, works.
 

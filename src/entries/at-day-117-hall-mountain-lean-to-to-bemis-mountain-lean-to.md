@@ -1,12 +1,20 @@
 ---
-title: "AT Day 117: Hall Mountain Lean-to to Bemis Mountain Lean-to"
-date: 2024-07-28
+day: 117
+date: 2024-07-28T00:00:00.000Z
+dateStr: 7/28/2024
 location: Hall Mountain Lean-to
+destination: Bemis Mountain Lean-to
 start: 1946.3
 end: 1959.1
-miles: 12.8
 sleep: Shelter
 mood: 🙂
+title: "AT Day 117: Hall Mountain Lean-to to Bemis Mountain Lean-to"
+sleepScore: 64
+garminFeedback: GOOD_RECOVERY
+recoveryTime: 84
+recoveryTimeFactorFeedback: GOOD
+sleepHistoryFactorFeedback: POOR
+trainingReadiness: 51
 ---
 Today was a nice resupply, even if it was a little expensive. There was basically only one place in town (two, if you count the ice cream shop), so it was pretty easy to decide how to spend our time. We spent most of the day either eating food inside at a table or snacking on food outside at a picnic bench. There was one especially "trail provides" moment when Bonk was exclaiming to DK and me that he just realized the post office was a mile or so away; not that a mile would be too far to walk, but it would definitely eat into the day time-wise. A few minutes later, a perfect stranger drives up and asks us (1) are we thru hiking the AT, (2) what's our trail name, (3) do we need anything. A few minutes later, Bonk is in their truck on the way to the post office, and back again shortly thereafter. Just a lovely town.
 

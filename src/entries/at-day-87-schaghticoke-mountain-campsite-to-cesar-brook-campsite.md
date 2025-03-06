@@ -1,12 +1,20 @@
 ---
-title: "AT Day 87: Schaghticoke Mountain Campsite to Cesar Brook Campsite"
-date: 2024-06-28
+day: 87
+date: 2024-06-28T00:00:00.000Z
+dateStr: 6/28/2024
 location: Schaghticoke Mountain Campsite
-start: 1470.0
-end: 1487.0
-miles: 17.0
+destination: Cesar Brook Campsite
+start: 1470
+end: 1487
 sleep: Tent
 mood: 🙂
+title: "AT Day 87: Schaghticoke Mountain Campsite to Cesar Brook Campsite"
+sleepScore: 75
+garminFeedback: READY_FOR_THE_DAY
+recoveryTime: 1
+recoveryTimeFactorFeedback: GOOD
+sleepHistoryFactorFeedback: MODERATE
+trainingReadiness: 68
 ---
 I walked into Kent with Beat Box and Beatnik today, and came up close to the other side of well-to-do CT: the prices. I chilled out in a nice bakery/cafe (even if they couldn't make me an affogato) and packed out a dinner, and one day's worth of food equated to roughly 4 day's worth of food in GA. I don't mind paying a premium for town calories, though, so it's all good.
 

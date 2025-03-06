@@ -1,12 +1,20 @@
 ---
-title: "AT Day 49: Harrison Ground Spring to John's Hollow Shelter"
-date: 2024-05-21
+day: 49
+date: 2024-05-21T00:00:00.000Z
+dateStr: 5/21/2024
 location: Harrison Ground Spring
+destination: John's Hollow Shelter
 start: 776.1
 end: 789.3
-miles: 13.2
 sleep: Shelter
 mood: 🙂
+title: "AT Day 49: Harrison Ground Spring to John's Hollow Shelter"
+sleepScore: 69
+garminFeedback: READY_FOR_THE_DAY
+recoveryTime: 1
+recoveryTimeFactorFeedback: GOOD
+sleepHistoryFactorFeedback: MODERATE
+trainingReadiness: 69
 ---
 I found a tick on my tent this morning, luckily easily visible (but how many are there that I *can't* see?!) - Gambit had one too on his tent, and he thinks they're Lone Star ticks. I guess it's a good thing it was on the outside of the tent, then.
 

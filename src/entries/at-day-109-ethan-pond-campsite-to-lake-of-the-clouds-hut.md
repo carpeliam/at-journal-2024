@@ -1,12 +1,20 @@
 ---
-title: "AT Day 109: Ethan Pond Campsite to Lake of the Clouds Hut"
-date: 2024-07-20
+day: 109
+date: 2024-07-20T00:00:00.000Z
+dateStr: 7/20/2024
 location: Ethan Pond Campsite
+destination: Lake of the Clouds Hut
 start: 1848.9
 end: 1862.9
-miles: 14.0
 sleep: Building
 mood: 🙂
+title: "AT Day 109: Ethan Pond Campsite to Lake of the Clouds Hut"
+sleepScore: 87
+garminFeedback: GOOD_SLEEP_LAST_NIGHT
+recoveryTime: 1
+recoveryTimeFactorFeedback: GOOD
+sleepHistoryFactorFeedback: POOR
+trainingReadiness: 61
 ---
 SLEEP ACQUIRED. There was a tiny mishap last night as some dude arrived to camp after dark and set up at the same tent platform I was at, but I was able to get back to sleep, and I slept so well. Which led to a good day of hiking!
 

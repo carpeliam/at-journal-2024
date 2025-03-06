@@ -1,12 +1,20 @@
 ---
-title: "AT Day 21: Laughing Heart Hostel to Spring Mountain Shelter"
-date: 2024-04-23
+day: 21
+date: 2024-04-23T00:00:00.000Z
+dateStr: 4/23/2024
 location: Laughing Heart Hostel
+destination: Spring Mountain Shelter
 start: 274.9
 end: 286.2
-miles: 11.3
 sleep: Tent
 mood: 🙂
+title: "AT Day 21: Laughing Heart Hostel to Spring Mountain Shelter"
+sleepScore: 32
+garminFeedback: FIND_TIME_TO_RELAX
+recoveryTime: 405
+recoveryTimeFactorFeedback: GOOD
+sleepHistoryFactorFeedback: MODERATE
+trainingReadiness: 30
 ---
 Of course I stopped by Artisun for a departing coffee/piano visit. Chris walked up as I was enjoying my drink, and we hung out a bit before I moved on - it turns out that Chris is a climber. He said he was meeting up with friends when he got to New Hampshire, so I told him to go visit Rumney. I wonder though, at least for myself, whether I'd have any arm strength by the time I get there. Town stops like this are great for calories, but I can feel my body redistributing itself as I spend more calories than I carry. I weighed myself at the hostel this morning: 146 pounds. I don't remember exactly how much I weighed before I left, but I'm going to guess I've lost maybe 5 pounds so far.
 

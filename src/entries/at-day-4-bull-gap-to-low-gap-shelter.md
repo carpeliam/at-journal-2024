@@ -1,12 +1,20 @@
 ---
-title: "AT Day 4: Bull Gap to Low Gap Shelter"
-date: 2024-04-06
+day: 4
+date: 2024-04-06T00:00:00.000Z
+dateStr: 4/6/2024
 location: Bull Gap
+destination: Low Gap Shelter
 start: 32.4
-end: 43.0
-miles: 10.6
+end: 43
 sleep: Tent
 mood: 🙂
+title: "AT Day 4: Bull Gap to Low Gap Shelter"
+sleepScore: 40
+garminFeedback: TIME_TO_RECHARGE
+recoveryTime: 4155
+recoveryTimeFactorFeedback: POOR
+sleepHistoryFactorFeedback: POOR
+trainingReadiness: 1
 ---
 Last night was super windy. I really do need to get better at putting my tent up: there was so much slack that each gust was pushing the tent wall into my face. I didn't sleep super well, my watch gave me a sleep score of 50/100. To be fair, it hasn't given a dramatically higher score to any of the other previous nights, but I've got a lot of adrenaline. I'm going to have to learn how to chill out.
 

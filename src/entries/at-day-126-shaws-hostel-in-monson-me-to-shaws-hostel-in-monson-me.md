@@ -1,12 +1,20 @@
 ---
-title: "AT Day 126: Shaw's Hostel in Monson, ME to Shaw's Hostel in Monson, ME"
-date: 2024-08-06
+day: 126
+date: 2024-08-06T00:00:00.000Z
+dateStr: 8/6/2024
 location: Shaw's Hostel in Monson, ME
+destination: Shaw's Hostel in Monson, ME
 start: 2082.7
 end: 2082.7
-miles: 0.0
 sleep: Building
 mood: 🙂
+title: "AT Day 126: Shaw's Hostel in Monson, ME to Shaw's Hostel in Monson, ME"
+sleepScore: 42
+garminFeedback: FIND_TIME_TO_RELAX
+recoveryTime: 260
+recoveryTimeFactorFeedback: GOOD
+sleepHistoryFactorFeedback: MODERATE
+trainingReadiness: 34
 ---
 Zerooooooooooooo.
 

@@ -1,12 +1,20 @@
 ---
-title: "AT Day 13: Cable Gap Shelter to Fontana Dam Shelter"
-date: 2024-04-15
+day: 13
+date: 2024-04-15T00:00:00.000Z
+dateStr: 4/15/2024
 location: Cable Gap Shelter
+destination: Fontana Dam Shelter
 start: 159.4
-end: 166.0
-miles: 6.6
+end: 166
 sleep: Shelter
 mood: 🙂
+title: "AT Day 13: Cable Gap Shelter to Fontana Dam Shelter"
+sleepScore: 56
+garminFeedback: FIND_TIME_TO_RELAX
+recoveryTime: 244
+recoveryTimeFactorFeedback: GOOD
+sleepHistoryFactorFeedback: POOR
+trainingReadiness: 35
 ---
 I made it to Fontana Dam! And I got a trail name!!!
 

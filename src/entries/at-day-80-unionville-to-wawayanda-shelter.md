@@ -1,12 +1,20 @@
 ---
-title: "AT Day 80: Unionville to Wawayanda Shelter"
-date: 2024-06-21
+day: 80
+date: 2024-06-21T00:00:00.000Z
+dateStr: 6/21/2024
 location: Unionville
+destination: Wawayanda Shelter
 start: 1349.1
 end: 1365.9
-miles: 16.8
 sleep: Tent
 mood: 🙂
+title: "AT Day 80: Unionville to Wawayanda Shelter"
+sleepScore: 30
+garminFeedback: TIME_TO_SLOW_DOWN
+recoveryTime: 481
+recoveryTimeFactorFeedback: GOOD
+sleepHistoryFactorFeedback: POOR
+trainingReadiness: 1
 ---
 I was sitting on the front steps of the general store this morning, and who did I see walking by, but the Colonel! I was wondering where they had landed - turns out, they had stayed at the pastor's house, and it was apparently really nice. I should have checked!
 

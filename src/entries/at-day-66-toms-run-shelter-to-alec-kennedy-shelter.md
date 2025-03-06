@@ -1,12 +1,20 @@
 ---
-title: "AT Day 66: Toms Run Shelter to Alec Kennedy Shelter"
-date: 2024-06-07
+day: 66
+date: 2024-06-07T00:00:00.000Z
+dateStr: 6/7/2024
 location: Toms Run Shelter
+destination: Alec Kennedy Shelter
 start: 1101.7
 end: 1120.7
-miles: 19.0
 sleep: Tent
 mood: 🙂
+title: "AT Day 66: Toms Run Shelter to Alec Kennedy Shelter"
+sleepScore: 71
+garminFeedback: TAKE_ON_THE_DAY
+recoveryTime: 170
+recoveryTimeFactorFeedback: GOOD
+sleepHistoryFactorFeedback: MODERATE
+trainingReadiness: 57
 ---
 So, um, I don't know if I'm just doing a good job drinking water, or if I'm starting to get old, or what, but I've been pretty good lately at peeing during the night, so good that I had to get up in the middle of the night last night to pee. And I didn't want to bother anyone so I tried not turning my headlamp on, but then I stumbled around and walked into some bushes and then it was time to turn on my headlamp after all. Oh well.
 

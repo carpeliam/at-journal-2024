@@ -1,12 +1,20 @@
 ---
-title: "AT Day 104: Smarts Mountain Fire Warden's Cabin to Wachipauka Pond"
-date: 2024-07-15
+day: 104
+date: 2024-07-15T00:00:00.000Z
+dateStr: 7/15/2024
 location: Smarts Mountain Fire Warden's Cabin
+destination: Wachipauka Pond
 start: 1778.4
 end: 1796.4
-miles: 18.0
 sleep: Tent
 mood: 🙂
+title: "AT Day 104: Smarts Mountain Fire Warden's Cabin to Wachipauka Pond"
+sleepScore: 60
+garminFeedback: FOCUS_ON_SLEEP_QUALITY
+recoveryTime: 531
+recoveryTimeFactorFeedback: GOOD
+sleepHistoryFactorFeedback: POOR
+trainingReadiness: 44
 ---
 I felt pretty meh for most of today. I woke up early to see the sunrise, but then went back to sleep. Then, I needed to use the privy (with a broken door!), so got a really late start, and just felt sluggish.
 

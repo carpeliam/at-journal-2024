@@ -1,12 +1,20 @@
 ---
-title: "AT Day 100: Inn at the Long Trail to Winturri Shelter"
-date: 2024-07-11
+day: 100
+date: 2024-07-11T00:00:00.000Z
+dateStr: 7/11/2024
 location: Inn at the Long Trail
+destination: Winturri Shelter
 start: 1710.2
 end: 1728.1
-miles: 17.9
 sleep: Tent
 mood: 🙂
+title: "AT Day 100: Inn at the Long Trail to Winturri Shelter"
+sleepScore: 37
+garminFeedback: TIME_TO_RECHARGE
+recoveryTime: 629
+recoveryTimeFactorFeedback: GOOD
+sleepHistoryFactorFeedback: MODERATE
+trainingReadiness: 24
 ---
 I had a bit of a hard time enjoying myself today. I'm still a little anxious from yesterday, and I didn't sleep terribly well right next to the road. At least I started with a nice breakfast. Early in the morning, there was a really nice pond, and part of me wanted to stay forever, and an anxious part of me wanted to *go*. I stopped at a waterfall, and found the girl I had hiked over Killington with, having a town day with her boyfriend. (Us thru hikers, still out on the trail even on town days.) I took a photo of them together on her camera, and she took a photo of me on mine, and I was on my way again.
 

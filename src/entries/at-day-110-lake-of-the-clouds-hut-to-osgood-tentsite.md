@@ -1,12 +1,20 @@
 ---
-title: "AT Day 110: Lake of the Clouds Hut to Osgood Tentsite"
-date: 2024-07-21
+day: 110
+date: 2024-07-21T00:00:00.000Z
+dateStr: 7/21/2024
 location: Lake of the Clouds Hut
+destination: Osgood Tentsite
 start: 1862.9
-end: 1873.0
-miles: 10.1
+end: 1873
 sleep: Tent
 mood: 🙂
+title: "AT Day 110: Lake of the Clouds Hut to Osgood Tentsite"
+sleepScore: 62
+garminFeedback: READY_FOR_THE_DAY
+recoveryTime: 310
+recoveryTimeFactorFeedback: GOOD
+sleepHistoryFactorFeedback: MODERATE
+trainingReadiness: 52
 ---
 I went up and over Washington this morning! I stayed at LotC until just before 9am for free breakfast leftovers, then ate SO MUCH at Mt Washington visitors center. I got there before 10am, but they didn't start serving pizza/lunch until later, so I ended up going back for multiple meals. I don't even want to know how much I paid. It was windy, cloudy, and a bit rainy when I first arrived, but the clouds cleared up after a meal or two, so I went out and got my summit photo a second time.
 

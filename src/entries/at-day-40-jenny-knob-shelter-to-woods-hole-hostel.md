@@ -1,12 +1,20 @@
 ---
-title: "AT Day 40: Jenny Knob Shelter to Woods Hole Hostel"
-date: 2024-05-12
+day: 40
+date: 2024-05-12T00:00:00.000Z
+dateStr: 5/12/2024
 location: Jenny Knob Shelter
-start: 604.0
+destination: Woods Hole Hostel
+start: 604
 end: 625.8
-miles: 21.8
 sleep: Tent
 mood: 🙂
+title: "AT Day 40: Jenny Knob Shelter to Woods Hole Hostel"
+sleepScore: 69
+garminFeedback: TAKE_IT_EASY
+recoveryTime: 104
+recoveryTimeFactorFeedback: GOOD
+sleepHistoryFactorFeedback: MODERATE
+trainingReadiness: 46
 ---
 Today was a tiring but good day. I had lunch at Dismal Falls, and landed at Woods Hole in the afternoon. All of our tents are set up in a nice little row. I'm starting to see some flowering buds on bushes, I think this is mountain laurel? And now [Mountain Laurel Designs](https://mountainlaureldesigns.com/) makes sense to me. I also saw a whole dear family just before Woods Hole. Given that I only saw one dear before stepping foot in Virginia, it's pretty easy to say that I saw more dear today than all previous days on trail combined.
 

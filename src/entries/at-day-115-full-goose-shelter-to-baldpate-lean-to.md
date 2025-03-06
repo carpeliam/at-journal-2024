@@ -1,12 +1,20 @@
 ---
-title: "AT Day 115: Full Goose Shelter to Baldpate Lean-to"
-date: 2024-07-26
+day: 115
+date: 2024-07-26T00:00:00.000Z
+dateStr: 7/26/2024
 location: Full Goose Shelter
+destination: Baldpate Lean-to
 start: 1920.5
 end: 1932.3
-miles: 11.8
 sleep: Tent
 mood: 🙂
+title: "AT Day 115: Full Goose Shelter to Baldpate Lean-to"
+sleepScore: 49
+garminFeedback: FIND_TIME_TO_RELAX
+recoveryTime: 193
+recoveryTimeFactorFeedback: GOOD
+sleepHistoryFactorFeedback: POOR
+trainingReadiness: 32
 ---
 I made it through Mahoosuc Notch! And up Mahoosuc Arm. The notch, which is only a mile long, took me about an hour and 45 minutes. I definitely didn't speedrun it; it was a big jungle gym, and I took my time and savored it. I was a little nervous about Songbird and Ovenbird, though. I told them this morning that I was aiming for Baldpate Lean-to and hoped I might see them there - Songbird said she wasn't sure how far they'd get, and they might just aim for Bethel. I can't imagine it'd be that easy to carry a guitalele through here, but they've managed to get it to Maine in the first place, so they probably know what they're doing.
 

@@ -1,12 +1,20 @@
 ---
-title: "AT Day 76: Campsite before Wind Gap to Church of the Mountain Hiker Center"
-date: 2024-06-17
+day: 76
+date: 2024-06-17T00:00:00.000Z
+dateStr: 6/17/2024
 location: Campsite before Wind Gap
+destination: Church of the Mountain Hiker Center
 start: 1280.6
 end: 1297.4
-miles: 16.8
 sleep: Tent
 mood: 🙂
+title: "AT Day 76: Campsite before Wind Gap to Church of the Mountain Hiker Center"
+sleepScore: null
+garminFeedback: RECOVERED_AND_READY
+recoveryTime: 1
+recoveryTimeFactorFeedback: GOOD
+sleepHistoryFactorFeedback: POOR
+trainingReadiness: 61
 ---
 Another long water carry! Stopped early at the Gateway Hotel to grab water and borrow the bathroom. After reading the FarOut comments a little more carefully, I guess I was supposed to message him in advance - I'm afraid I woke him up. When departing, though, he handed me a meditation pamphlet, I guess he gives that out to everyone. Over all, a nice guy making his way in the world, though the hotel was in various states of disrepair and I refilled my water directly from his kitchen tap.
 

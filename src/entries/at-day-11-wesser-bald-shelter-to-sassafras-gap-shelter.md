@@ -1,12 +1,20 @@
 ---
-title: "AT Day 11: Wesser Bald Shelter to Sassafras Gap Shelter"
-date: 2024-04-13
+day: 11
+date: 2024-04-13T00:00:00.000Z
+dateStr: 4/13/2024
 location: Wesser Bald Shelter
+destination: Sassafras Gap Shelter
 start: 131.2
-end: 144.0
-miles: 12.8
+end: 144
 sleep: Tent
 mood: 🙂
+title: "AT Day 11: Wesser Bald Shelter to Sassafras Gap Shelter"
+sleepScore: 49
+garminFeedback: TIME_TO_RECHARGE
+recoveryTime: 609
+recoveryTimeFactorFeedback: GOOD
+sleepHistoryFactorFeedback: POOR
+trainingReadiness: 17
 ---
 I got a little turned around this morning and couldn't remember which way was north. I walked about a tenth of a mile in one direction before I ran into Chris, who I had met at the mayor's hiker feed back in Hiawassee. My doubt about which direction I was going in made him doubt which direction he was going in! He was right and I was wrong, so I'm glad I found out then before getting too far.
 

@@ -1,12 +1,20 @@
 ---
-title: "AT Day 131: Wadleigh Stream Lean-to to Abol Pines"
-date: 2024-08-11
+day: 131
+date: 2024-08-11T00:00:00.000Z
+dateStr: 8/11/2024
 location: Wadleigh Stream Lean-to
+destination: Abol Pines
 start: 2159.2
 end: 2182.4
-miles: 23.2
 sleep: Tent
 mood: 🙂
+title: "AT Day 131: Wadleigh Stream Lean-to to Abol Pines"
+sleepScore: 79
+garminFeedback: GOOD_RECOVERY
+recoveryTime: 191
+recoveryTimeFactorFeedback: GOOD
+sleepHistoryFactorFeedback: POOR
+trainingReadiness: 61
 ---
 Today was just a beautiful day on trail. All the heavy lifting is done, aside from the last day. I got some views of Katahdin, but I had to take breaks to pay Shaw's (whoops, I really left in a hurry didn't I) and message Ted. Meeting up with him on the summit still feels like a loose plan but I think it'll work out!
 

@@ -1,12 +1,20 @@
 ---
-title: "AT Day 14: Fontana Dam Shelter to Russell Field Shelter"
-date: 2024-04-16
+day: 14
+date: 2024-04-16T00:00:00.000Z
+dateStr: 4/16/2024
 location: Fontana Dam Shelter
-start: 166.0
+destination: Russell Field Shelter
+start: 166
 end: 181.1
-miles: 15.1
 sleep: Shelter
 mood: 🙂
+title: "AT Day 14: Fontana Dam Shelter to Russell Field Shelter"
+sleepScore: 84
+garminFeedback: TAKE_ON_THE_DAY
+recoveryTime: 1
+recoveryTimeFactorFeedback: GOOD
+sleepHistoryFactorFeedback: POOR
+trainingReadiness: 58
 ---
 This morning's walk was a pretty big departure from the last few weeks. Instead of walking in the mountains at around 4000 or 5000 feet above sea level, I walked over the dam today at around 1700 feet above sea level. Immediately following the dam, there were National Park Service signs for "Great Smoky Mountains National Park", and shortly after that, the box to deposit the entry portion of my Smokies permit. The way the permit system works is, you print out your permit ahead of time, rip it in half, stick half of it in a box upon entering, and stick the other half in a box upon exiting. I'm not sure how often they collect the permits, but this morning the entry box was full.
 

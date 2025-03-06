@@ -1,12 +1,20 @@
 ---
-title: "AT Day 99: Clarendon Shelter to Inn at the Long Trail"
-date: 2024-07-10
+day: 99
+date: 2024-07-10T00:00:00.000Z
+dateStr: 7/10/2024
 location: Clarendon Shelter
+destination: Inn at the Long Trail
 start: 1691.5
 end: 1710.2
-miles: 18.7
 sleep: Tent
 mood: 🙂
+title: "AT Day 99: Clarendon Shelter to Inn at the Long Trail"
+sleepScore: 65
+garminFeedback: READY_FOR_THE_DAY
+recoveryTime: 1
+recoveryTimeFactorFeedback: GOOD
+sleepHistoryFactorFeedback: MODERATE
+trainingReadiness: 71
 ---
 Ugh. I had some good milestones today! 500 miles from Katahdin, and I passed the 1700 mile mark. But ultimately, today was really hard.
 

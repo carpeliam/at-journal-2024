@@ -1,12 +1,20 @@
 ---
-title: "AT Day 96: Goddard Shelter to Spruce Peak Shelter"
-date: 2024-07-07
+day: 96
+date: 2024-07-07T00:00:00.000Z
+dateStr: 7/7/2024
 location: Goddard Shelter
+destination: Spruce Peak Shelter
 start: 1628.1
 end: 1655.3
-miles: 27.2
 sleep: Tent
 mood: 🙂
+title: "AT Day 96: Goddard Shelter to Spruce Peak Shelter"
+sleepScore: 66
+garminFeedback: GOOD_RECOVERY
+recoveryTime: 429
+recoveryTimeFactorFeedback: GOOD
+sleepHistoryFactorFeedback: POOR
+trainingReadiness: 52
 ---
 I was amazed with how much less mud there is on trail vs. this part of the trail last year! It's been wet basically since I got to Vermont, and the section of trail right after the border is still pretty muddy, even if it's not quite the same obstacle course it felt like last year. But today, I went through my old friend, the Lye Brook Wilderness, and it was such a breeze.
 

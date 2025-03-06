@@ -1,12 +1,19 @@
 ---
-title: "AT Day 60: David Lesser Memorial Shelter to Mile 1029.6"
-date: 2024-06-01
+day: 60
+date: 2024-06-01T00:00:00.000Z
+dateStr: 6/1/2024
 location: David Lesser Memorial Shelter
 start: 1017.1
 end: 1029.6
-miles: 12.5
 sleep: Tent
 mood: 🙂
+title: "AT Day 60: David Lesser Memorial Shelter to Mile 1029.6"
+sleepScore: 62
+garminFeedback: FOCUS_ON_ENERGY_LEVELS
+recoveryTime: 1491
+recoveryTimeFactorFeedback: MODERATE
+sleepHistoryFactorFeedback: MODERATE
+trainingReadiness: 38
 ---
 Ugh. Sometimes a day can be so good and so bad. It was really a beautiful walk into Harpers Ferry this morning. I remember Rabbit saying that ferns were her favorite plant, and hiking into Harpers Ferry surrounded by ferns on all sides, I can see why.
 

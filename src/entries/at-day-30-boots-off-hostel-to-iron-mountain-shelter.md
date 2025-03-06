@@ -1,12 +1,20 @@
 ---
-title: "AT Day 30: Boots Off Hostel to Iron Mountain Shelter"
-date: 2024-05-02
+day: 30
+date: 2024-05-02T00:00:00.000Z
+dateStr: 5/2/2024
 location: Boots Off Hostel
+destination: Iron Mountain Shelter
 start: 428.8
 end: 444.8
-miles: 16.0
 sleep: Shelter
 mood: 🙂
+title: "AT Day 30: Boots Off Hostel to Iron Mountain Shelter"
+sleepScore: 43
+garminFeedback: FOCUS_ON_RECOVERY
+recoveryTime: 246
+recoveryTimeFactorFeedback: GOOD
+sleepHistoryFactorFeedback: MODERATE
+trainingReadiness: 9
 ---
 Oh man, I learned a lesson today. I left Boots Off around 10:30am (because it's only a chill 16 miles to Iron Mountain) and, about an hour later, arrive at this dam. On FarOut, the dam has an icon that says it's a dependable water source, but the comments seem to indicate that FarOut is just trolling and there's no place for actual hikers to get water. I didn't fill up this morning before leaving the hostel because there's *always* water along the AT. Until now, and it's hot out, and super exposed. I haven't had to think about long water carries since my very first day, but today I had to ration water and it was not fun. For a while now I've been able to improvise about a lot of things, but I need to be smarter and more intentional about water. I spent about 20 minutes at the spring just drinking and filtering/refilling.
 

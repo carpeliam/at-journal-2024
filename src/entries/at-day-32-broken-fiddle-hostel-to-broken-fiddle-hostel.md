@@ -1,12 +1,20 @@
 ---
-title: "AT Day 32: Broken Fiddle Hostel to Broken Fiddle Hostel"
-date: 2024-05-04
+day: 32
+date: 2024-05-04T00:00:00.000Z
+dateStr: 5/4/2024
 location: Broken Fiddle Hostel
+destination: Broken Fiddle Hostel
 start: 471.3
 end: 471.3
-miles: 0.0
 sleep: Building
 mood: 🙂
+title: "AT Day 32: Broken Fiddle Hostel to Broken Fiddle Hostel"
+sleepScore: 49
+garminFeedback: FOCUS_ON_RECOVERY
+recoveryTime: 404
+recoveryTimeFactorFeedback: GOOD
+sleepHistoryFactorFeedback: POOR
+trainingReadiness: 5
 ---
 Today was my first zero. It was pretty ok! I tagged along with Brightside and Grave Digger who were planning to hitch to see a movie. Finding a hitch there wasn't too hard, But finding a hitch back from a crowded parking lot in town clothes far away from the trail community was hard. It started raining as we stood outside a gas station, and one guy drove up just to tell us that he thought it might be illegal for us to hitchhike. Finally, someone who had just come from watching the Kentucky Derby picked us up and gave us a ride back. God bless Grave Digger and his ability to make small talk with virtually anyone.
 

@@ -1,12 +1,20 @@
 ---
-title: "AT Day 9: Long Branch Shelter to Siler Bald Shelter"
-date: 2024-04-11
+day: 9
+date: 2024-04-11T00:00:00.000Z
+dateStr: 4/11/2024
 location: Long Branch Shelter
+destination: Siler Bald Shelter
 start: 102.4
 end: 113.3
-miles: 10.9
 sleep: Tent
 mood: 🙂
+title: "AT Day 9: Long Branch Shelter to Siler Bald Shelter"
+sleepScore: 61
+garminFeedback: FOCUS_ON_SLEEP_QUALITY
+recoveryTime: 611
+recoveryTimeFactorFeedback: GOOD
+sleepHistoryFactorFeedback: POOR
+trainingReadiness: 26
 ---
 If it has to rain (and it does), it's good to happen on a town day. Franklin has a shuttle system just like Hiawassee, and picks up at both Rock Gap and Winding Stair Gap, which is 3 or 4 miles further down the trail. Winding Stair would be the ideal spot given that it would put us back on trail with fewer miles to walk, but we weren't sure if we could make it there before the 9:30am shuttle, so sure enough I found some of my shelter mates huddled under a tree at Rock Gap. I came up singing "Singing in the Rain", just enjoying the weather. As the shuttle pulled up, we waited for people to get off first before we got on; I guess the stairs were super slippery, as someone almost completely wiped out. In Franklin, I snagged some more food from Ingles (this one a slightly smaller and more limited than the Hiawassee location, but they did have Southern Butter Pecan flavored Talenti), and then treated myself to some large frappuccino-like monstrosity at Brooklyn Bagels. While I was inside, the sky opened up and it rained hard, but then stopped again just when it was time to leave. I don't think I understand southern weather patterns just yet. I brought my sandwich and frappe back to the gazebo and found a place to charge my phone, having an early lunch with some of other hikers I met on the sidewalk today.
 

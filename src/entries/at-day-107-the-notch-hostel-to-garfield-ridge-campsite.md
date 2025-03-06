@@ -1,12 +1,20 @@
 ---
-title: "AT Day 107: The Notch Hostel to Garfield Ridge Campsite"
-date: 2024-07-18
+day: 107
+date: 2024-07-18T00:00:00.000Z
+dateStr: 7/18/2024
 location: The Notch Hostel
+destination: Garfield Ridge Campsite
 start: 1824.2
 end: 1834.3
-miles: 10.1
 sleep: Tent
 mood: 🙂
+title: "AT Day 107: The Notch Hostel to Garfield Ridge Campsite"
+sleepScore: 37
+garminFeedback: TIME_TO_RECHARGE
+recoveryTime: 450
+recoveryTimeFactorFeedback: GOOD
+sleepHistoryFactorFeedback: MODERATE
+trainingReadiness: 20
 ---
 SUCH A BEAUTIFUL DAY. I've told a bunch of people that, if there's one spot you want to hit on a nice day, it's Franconia Ridge, and *I DID IT*. Thank you, oh wonderful south-bounder who blessed me with good weather throughout the Whites!
 

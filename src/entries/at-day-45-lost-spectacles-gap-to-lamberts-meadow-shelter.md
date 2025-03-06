@@ -1,12 +1,20 @@
 ---
-title: "AT Day 45: Lost Spectacles Gap to Lamberts Meadow Shelter"
-date: 2024-05-17
+day: 45
+date: 2024-05-17T00:00:00.000Z
+dateStr: 5/17/2024
 location: Lost Spectacles Gap
+destination: Lamberts Meadow Shelter
 start: 703.3
 end: 721.2
-miles: 17.9
 sleep: Shelter
 mood: 🙂
+title: "AT Day 45: Lost Spectacles Gap to Lamberts Meadow Shelter"
+sleepScore: 79
+garminFeedback: READY_FOR_THE_DAY
+recoveryTime: 314
+recoveryTimeFactorFeedback: GOOD
+sleepHistoryFactorFeedback: MODERATE
+trainingReadiness: 74
 ---
 The trail provides! The trail provides! Just as I got to the road this morning where I'd have to turn off trail to do an unscheduled snack resupply, there was some trail magic! They had eggs and sausage, and one of them made me 3 peanut butter & jelly sandwiches, with a pro move of peanut butter on both slices of bread and the jelly in the middle, so that the jelly never leaked out. I was able to ride those snacks all day without even dipping into my own supply. I'll make it to Daleville without having to get off trail!
 

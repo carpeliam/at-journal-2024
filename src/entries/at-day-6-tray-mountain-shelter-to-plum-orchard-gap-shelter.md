@@ -1,12 +1,20 @@
 ---
-title: "AT Day 6: Tray Mountain Shelter to Plum Orchard Gap Shelter"
-date: 2024-04-08
+day: 6
+date: 2024-04-08T00:00:00.000Z
+dateStr: 4/8/2024
 location: Tray Mountain Shelter
+destination: Plum Orchard Gap Shelter
 start: 58.4
 end: 73.9
-miles: 15.5
 sleep: Tent
 mood: 🙂
+title: "AT Day 6: Tray Mountain Shelter to Plum Orchard Gap Shelter"
+sleepScore: 70
+garminFeedback: LET_YOUR_BODY_RECOVER
+recoveryTime: 2576
+recoveryTimeFactorFeedback: POOR
+sleepHistoryFactorFeedback: POOR
+trainingReadiness: 1
 ---
 Today I woke with the sunrise, and saw the sun peaking through the translucent dyneema sides of my tent. I'm slowly getting better at waking up earlier, though I'm not getting any better really at getting out of my quilt. I just lay there and contemplate, or procrastinate, or both.
 

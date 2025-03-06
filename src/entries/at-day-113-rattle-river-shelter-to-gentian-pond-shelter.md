@@ -1,12 +1,20 @@
 ---
-title: "AT Day 113: Rattle River Shelter to Gentian Pond Shelter"
-date: 2024-07-24
+day: 113
+date: 2024-07-24T00:00:00.000Z
+dateStr: 7/24/2024
 location: Rattle River Shelter
-start: 1897.0
+destination: Gentian Pond Shelter
+start: 1897
 end: 1910.7
-miles: 13.7
 sleep: Shelter
 mood: 🙂
+title: "AT Day 113: Rattle River Shelter to Gentian Pond Shelter"
+sleepScore: 49
+garminFeedback: FIND_TIME_TO_RELAX
+recoveryTime: 160
+recoveryTimeFactorFeedback: GOOD
+sleepHistoryFactorFeedback: MODERATE
+trainingReadiness: 25
 ---
 At the shelter in the morning, I met Apparition, who had arranged a shuttle into town and agreed to split it with me. After a pretty quick 2 mile hike down to the road (the only other easy section of trail in NH so far), I piggybacked off his shuttle and headed back to the Gorham Walmart, apparently the last Walmart of the entire trail. After resupplying, I hitched to McDonald's without even asking, then shuttled back at 11:15am.
 

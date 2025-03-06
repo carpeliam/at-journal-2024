@@ -1,12 +1,20 @@
 ---
-title: "AT Day 124: Bald Mountain Brook Lean-to to Horseshoe Canyon Lean-to"
-date: 2024-08-04
+day: 124
+date: 2024-08-04T00:00:00.000Z
+dateStr: 8/4/2024
 location: Bald Mountain Brook Lean-to
+destination: Horseshoe Canyon Lean-to
 start: 2060.7
 end: 2073.7
-miles: 13.0
 sleep: Shelter
 mood: 🙂
+title: "AT Day 124: Bald Mountain Brook Lean-to to Horseshoe Canyon Lean-to"
+sleepScore: 84
+garminFeedback: GOOD_SLEEP_LAST_NIGHT
+recoveryTime: 1
+recoveryTimeFactorFeedback: GOOD
+sleepHistoryFactorFeedback: POOR
+trainingReadiness: 64
 ---
 Two more stream crossings today! And only one mountain, and it had the good sense to be the first thing I did. The first stream crossing a few miles after the descent, but a FarOut comment with the instruction to stay to the right of a log made it pretty straightforward. The second one was just a few miles before finishing, and it was a bit deeper, but not moving too swiftly. Pretty straightforward day; the horseflies were probably the only difficult part. 
 

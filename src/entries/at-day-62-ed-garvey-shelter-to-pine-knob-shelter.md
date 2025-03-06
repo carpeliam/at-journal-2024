@@ -1,12 +1,20 @@
 ---
-title: "AT Day 62: Ed Garvey Shelter to Pine Knob Shelter"
-date: 2024-06-03
+day: 62
+date: 2024-06-03T00:00:00.000Z
+dateStr: 6/3/2024
 location: Ed Garvey Shelter
-start: 1033.0
+destination: Pine Knob Shelter
+start: 1033
 end: 1049.6
-miles: 16.6
 sleep: Tent
 mood: 🙂
+title: "AT Day 62: Ed Garvey Shelter to Pine Knob Shelter"
+sleepScore: 76
+garminFeedback: GOOD_RECOVERY
+recoveryTime: 632
+recoveryTimeFactorFeedback: GOOD
+sleepHistoryFactorFeedback: POOR
+trainingReadiness: 52
 ---
 I came into some fantastic trail magic around lunch time and used it as a chance to work things out again with REI regarding the shoes. The problem is, they can't ship them to a post office because these shoes ship directly from the vendor (Topo Athletic), and REI's system doesn't allow them to tell the vendor how to ship them. So I spent a good chunk of time trying to find a private address (hostel) that will accept packages and is the right distance away. Long story short, I'm going to have to hike 150 miles from where I started this morning to pick them up, and they're not going to arrive until June 11th. That's about 17 miles per day, far slower than what I've been used to.
 

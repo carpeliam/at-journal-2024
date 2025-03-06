@@ -1,12 +1,20 @@
 ---
-title: "AT Day 57: Pass Mountain Hut to Tom Floyd Wayside"
-date: 2024-05-29
+day: 57
+date: 2024-05-29T00:00:00.000Z
+dateStr: 5/29/2024
 location: Pass Mountain Hut
+destination: Tom Floyd Wayside
 start: 945.9
 end: 969.5
-miles: 23.6
 sleep: Tent
 mood: 🙂
+title: "AT Day 57: Pass Mountain Hut to Tom Floyd Wayside"
+sleepScore: 68
+garminFeedback: READY_FOR_THE_DAY
+recoveryTime: 141
+recoveryTimeFactorFeedback: GOOD
+sleepHistoryFactorFeedback: MODERATE
+trainingReadiness: 62
 ---
 I spent most of the day trying to catch No Plan, but never did. Maybe I passed her? As some people indicated early on that I was right behind her. Oh well.
 

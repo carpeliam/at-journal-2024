@@ -1,12 +1,20 @@
 ---
-title: "AT Day 39: Jenkins Shelter to Jenny Knob Shelter"
-date: 2024-05-11
+day: 39
+date: 2024-05-11T00:00:00.000Z
+dateStr: 5/11/2024
 location: Jenkins Shelter
+destination: Jenny Knob Shelter
 start: 580.8
-end: 604.0
-miles: 23.2
+end: 604
 sleep: Shelter
 mood: 🙂
+title: "AT Day 39: Jenkins Shelter to Jenny Knob Shelter"
+sleepScore: 77
+garminFeedback: TAKE_IT_EASY
+recoveryTime: 772
+recoveryTimeFactorFeedback: GOOD
+sleepHistoryFactorFeedback: POOR
+trainingReadiness: 35
 ---
 Today, I saw the less gorgeous side of Virginia, as I crossed the interstate via an overpass. I guess it's impressive that I'm able to walk for miles upon miles without crossing interstates more often, but it's definitely not very sexy.
 

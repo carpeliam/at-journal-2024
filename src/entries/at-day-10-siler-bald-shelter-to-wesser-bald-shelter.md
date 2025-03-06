@@ -1,12 +1,20 @@
 ---
-title: "AT Day 10: Siler Bald Shelter to Wesser Bald Shelter"
-date: 2024-04-12
+day: 10
+date: 2024-04-12T00:00:00.000Z
+dateStr: 4/12/2024
 location: Siler Bald Shelter
+destination: Wesser Bald Shelter
 start: 113.3
 end: 131.2
-miles: 17.9
 sleep: Shelter
 mood: 🙂
+title: "AT Day 10: Siler Bald Shelter to Wesser Bald Shelter"
+sleepScore: 54
+garminFeedback: TIME_TO_RECHARGE
+recoveryTime: 1726
+recoveryTimeFactorFeedback: MODERATE
+sleepHistoryFactorFeedback: POOR
+trainingReadiness: 8
 ---
 Yesterday, I thought I might never see Austin again. I ran into him this morning, on top of Siler Bald. The trail is weird.
 

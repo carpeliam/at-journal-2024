@@ -1,12 +1,20 @@
 ---
-title: "AT Day 112: Wildcat River Stealth Tentsite to Rattle River Shelter"
-date: 2024-07-23
+day: 112
+date: 2024-07-23T00:00:00.000Z
+dateStr: 7/23/2024
 location: Wildcat River Stealth Tentsite
+destination: Rattle River Shelter
 start: 1883.7
-end: 1897.0
-miles: 13.3
+end: 1897
 sleep: Tent
 mood: 😐
+title: "AT Day 112: Wildcat River Stealth Tentsite to Rattle River Shelter"
+sleepScore: null
+garminFeedback: RECOVERY_IN_PROGRESS
+recoveryTime: 1119
+recoveryTimeFactorFeedback: MODERATE
+sleepHistoryFactorFeedback: MODERATE
+trainingReadiness: 57
 ---
 On one hand, I confirmed this morning that my bathtub is leaking, after last night's rain. I thought it might have a leak after the previous rainfall, but there were too many suspects then. On the bright side, I've identified the location of the leak, and sent off an email to Durston. We'll see what they say.
 

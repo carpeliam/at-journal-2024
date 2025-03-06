@@ -1,12 +1,20 @@
 ---
-title: "AT Day 18: Davenport Gap Shelter to Roaring Fork Shelter"
-date: 2024-04-20
+day: 18
+date: 2024-04-20T00:00:00.000Z
+dateStr: 4/20/2024
 location: Davenport Gap Shelter
+destination: Roaring Fork Shelter
 start: 238.3
 end: 257.3
-miles: 19.0
 sleep: Tent
 mood: 🙂
+title: "AT Day 18: Davenport Gap Shelter to Roaring Fork Shelter"
+sleepScore: 83
+garminFeedback: TAKE_ON_THE_DAY
+recoveryTime: 1
+recoveryTimeFactorFeedback: GOOD
+sleepHistoryFactorFeedback: MODERATE
+trainingReadiness: 62
 ---
 I'm wearing a Garmin watch during the trail, and one of its features is to recommend a workout every morning based on my current training load. On my first morning on the trail, it said ooh, yesterday was a lot, and you should rest, and I ignored this. On my second morning on the trail, it said it didn't know what the hell was going on but yesterday looked pretty tough, and I should rest. I didn't rest. On the third day, rinse and repeat. Every morning since my first day, my watch has told me to stop hiking, enough is enough. UNTIL TODAY. Today, my watch said, hey, today looks like a good day to go for walk. Ok, it didn't phrase it like that, but we speak a language.
 

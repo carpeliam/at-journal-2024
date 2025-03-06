@@ -1,12 +1,20 @@
 ---
-title: "AT Day 122: Little Bigelow Lean-to to Pierce Pond Lean-to"
-date: 2024-08-02
+day: 122
+date: 2024-08-02T00:00:00.000Z
+dateStr: 8/2/2024
 location: Little Bigelow Lean-to
+destination: Pierce Pond Lean-to
 start: 2024.3
-end: 2042.0
-miles: 17.7
+end: 2042
 sleep: Shelter
 mood: 🙂
+title: "AT Day 122: Little Bigelow Lean-to to Pierce Pond Lean-to"
+sleepScore: 46
+garminFeedback: TIME_TO_RECHARGE
+recoveryTime: 507
+recoveryTimeFactorFeedback: GOOD
+sleepHistoryFactorFeedback: POOR
+trainingReadiness: 22
 ---
 Today was another pretty but very long day. A lot of the miles today were a slog, kind of like northern PA but instead of rocks, it was mud, and rocks, and logs, and the like. I took a nice little break and let my feet hang off the dock at West Carry Pond. It was nice, but I could have spent a full day there and still have room left to recharge.
 

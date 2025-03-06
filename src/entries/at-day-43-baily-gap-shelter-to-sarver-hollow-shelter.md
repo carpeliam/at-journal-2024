@@ -1,12 +1,20 @@
 ---
-title: "AT Day 43: Bailey Gap Shelter to Sarver Hollow Shelter"
-date: 2024-05-15
+day: 43
+date: 2024-05-15T00:00:00.000Z
+dateStr: 5/15/2024
 location: Bailey Gap Shelter
+destination: Sarver Hollow Shelter
 start: 660.9
 end: 682.1
-miles: 21.2
 sleep: Shelter
 mood: 🙂
+title: "AT Day 43: Bailey Gap Shelter to Sarver Hollow Shelter"
+sleepScore: 68
+garminFeedback: TAKE_ON_THE_DAY
+recoveryTime: 345
+recoveryTimeFactorFeedback: GOOD
+sleepHistoryFactorFeedback: MODERATE
+trainingReadiness: 54
 ---
 I saw what I think is my first undercast today! And then I took a little side trail to some high cliffs where I spotted some kind of gigantic bird pruning itself, but I couldn't get close enough to see just what kind. Standing on this cliff was maybe the first time I've felt like, if I took a fall, it'd be a long way to recovery. Good thing I didn't fall.
 

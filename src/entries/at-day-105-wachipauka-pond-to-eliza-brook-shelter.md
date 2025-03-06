@@ -1,12 +1,20 @@
 ---
-title: "AT Day 105: Wachipauka Pond to Eliza Brook Shelter"
-date: 2024-07-16
+day: 105
+date: 2024-07-16T00:00:00.000Z
+dateStr: 7/16/2024
 location: Wachipauka Pond
+destination: Eliza Brook Shelter
 start: 1796.4
 end: 1815.3
-miles: 18.9
 sleep: Tent
 mood: 🙂
+title: "AT Day 105: Wachipauka Pond to Eliza Brook Shelter"
+sleepScore: 68
+garminFeedback: FOCUS_ON_SLEEP_QUALITY
+recoveryTime: 1
+recoveryTimeFactorFeedback: GOOD
+sleepHistoryFactorFeedback: POOR
+trainingReadiness: 49
 ---
 I'm officially in the 4ks! I went over Moosilauke today. Clouds were moving in and out, wispy little things, but the sky itself was still largely clear. The first moment I could see above the trees and look up at the trail ahead of me, I had simultaneous feelings of being at home at last, coupled with an excitement for what the next few days will be like. I'm finally here!
 

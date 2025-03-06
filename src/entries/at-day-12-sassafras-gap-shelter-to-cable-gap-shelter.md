@@ -1,12 +1,20 @@
 ---
-title: "AT Day 12: Sassafras Gap Shelter to Cable Gap Shelter"
-date: 2024-04-14
+day: 12
+date: 2024-04-14T00:00:00.000Z
+dateStr: 4/14/2024
 location: Sassafras Gap Shelter
-start: 144.0
+destination: Cable Gap Shelter
+start: 144
 end: 159.4
-miles: 15.4
 sleep: Tent
 mood: 🙂
+title: "AT Day 12: Sassafras Gap Shelter to Cable Gap Shelter"
+sleepScore: 55
+garminFeedback: FIND_TIME_TO_RELAX
+recoveryTime: 554
+recoveryTimeFactorFeedback: GOOD
+sleepHistoryFactorFeedback: POOR
+trainingReadiness: 29
 ---
 Today started off really hard. Last night's sleep was terrible. My knees and ankles are letting me know that they're not happy about everything. I took a pee break at a view some 30 minutes into the day, and I don't know if I ever recovered.
 

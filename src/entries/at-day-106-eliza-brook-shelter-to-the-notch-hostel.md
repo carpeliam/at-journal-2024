@@ -1,12 +1,20 @@
 ---
-title: "AT Day 106: Eliza Brook Shelter to The Notch Hostel"
-date: 2024-07-17
+day: 106
+date: 2024-07-17T00:00:00.000Z
+dateStr: 7/17/2024
 location: Eliza Brook Shelter
+destination: The Notch Hostel
 start: 1815.3
 end: 1824.2
-miles: 8.9
 sleep: Building
 mood: 🙂
+title: "AT Day 106: Eliza Brook Shelter to The Notch Hostel"
+sleepScore: 67
+garminFeedback: READY_FOR_THE_DAY
+recoveryTime: 695
+recoveryTimeFactorFeedback: GOOD
+sleepHistoryFactorFeedback: MODERATE
+trainingReadiness: 54
 ---
 I kind of miscalculated how long it'd take to get to the pickup for the hostel. Chatting with some folks in the shelter last night, I  thought I might be able to make it to the 11am pickup, but that definitely didn't happen. Funny how I felt more anxiety this morning about getting out just after 7:30am than I felt in Georgia about getting started by 10am. But I've got a shuttle to catch, and the Kinsmans in between, so it's a bit more challenging.
 

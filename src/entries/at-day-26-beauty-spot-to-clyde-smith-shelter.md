@@ -1,12 +1,20 @@
 ---
-title: "AT Day 26: Beauty Spot to Clyde Smith Shelter"
-date: 2024-04-28
+day: 26
+date: 2024-04-28T00:00:00.000Z
+dateStr: 4/28/2024
 location: Beauty Spot
+destination: Clyde Smith Shelter
 start: 355.2
 end: 370.8
-miles: 15.6
 sleep: Tent
 mood: 😐
+title: "AT Day 26: Beauty Spot to Clyde Smith Shelter"
+sleepScore: 40
+garminFeedback: FOCUS_ON_RECOVERY
+recoveryTime: 1258
+recoveryTimeFactorFeedback: MODERATE
+sleepHistoryFactorFeedback: POOR
+trainingReadiness: 1
 ---
 Of course I was the last one out of camp this morning. Even though I was up at sunrise (spoiler: not quite as nice as the sunset, but not bad), I didn't get started on trail until 2 hours later.
 

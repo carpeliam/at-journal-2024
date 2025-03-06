@@ -1,12 +1,20 @@
 ---
-title: "AT Day 120: Spaulding Mtn Lean-to to Hostel of Maine"
-date: 2024-07-31
+day: 120
+date: 2024-07-31T00:00:00.000Z
+dateStr: 7/31/2024
 location: Spaulding Mtn Lean-to
+destination: Hostel of Maine
 start: 1995.5
-end: 2009.0
-miles: 13.5
+end: 2009
 sleep: Building
 mood: 🙂
+title: "AT Day 120: Spaulding Mtn Lean-to to Hostel of Maine"
+sleepScore: 59
+garminFeedback: FIND_TIME_TO_RELAX
+recoveryTime: 397
+recoveryTimeFactorFeedback: GOOD
+sleepHistoryFactorFeedback: POOR
+trainingReadiness: 46
 ---
 2000 miles! It was pretty tough getting there, though. There was an ugly steep descent off Sugarloaf in the morning, and I fell twice. Just stupid falls, really - I'm still not sleeping well, I think the sleeping pad leak is getting bigger. The second time I fell, I told Rabbit to go on without me. It's something I've been trying to find a way to say - I prefer hanging out at camp, experiencing the trail solo - and when I said it, she asked me if I was sure, as if maybe she's been wanting to let her legs free and I was holding her back. Maybe we miscommunicated on that.
 

@@ -1,12 +1,20 @@
 ---
-title: "AT Day 101: Winturri Shelter to Happy Hill Shelter"
-date: 2024-07-12
+day: 101
+date: 2024-07-12T00:00:00.000Z
+dateStr: 7/12/2024
 location: Winturri Shelter
+destination: Happy Hill Shelter
 start: 1728.1
 end: 1749.2
-miles: 21.1
 sleep: Tent
 mood: 🙂
+title: "AT Day 101: Winturri Shelter to Happy Hill Shelter"
+sleepScore: 58
+garminFeedback: FIND_TIME_TO_RELAX
+recoveryTime: 225
+recoveryTimeFactorFeedback: GOOD
+sleepHistoryFactorFeedback: POOR
+trainingReadiness: 46
 ---
 My life was improved this morning by a visit to a cafe. They had an affogato right on the menu (!), though it was a creemee, which was a bit weird.
 

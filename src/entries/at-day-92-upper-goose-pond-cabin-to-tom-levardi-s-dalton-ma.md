@@ -1,12 +1,20 @@
 ---
-title: "AT Day 92: Upper Goose Pond Cabin to Tom Levardi's, Dalton MA"
-date: 2024-07-03
+day: 92
+date: 2024-07-03T00:00:00.000Z
+dateStr: 7/3/2024
 location: Upper Goose Pond Cabin
+destination: Tom Levardi's, Dalton MA
 start: 1555.7
 end: 1576.1
-miles: 20.4
 sleep: Tent
 mood: 🙂
+title: "AT Day 92: Upper Goose Pond Cabin to Tom Levardi's, Dalton MA"
+sleepScore: 78
+garminFeedback: GOOD_RECOVERY
+recoveryTime: 1
+recoveryTimeFactorFeedback: GOOD
+sleepHistoryFactorFeedback: POOR
+trainingReadiness: 62
 ---
 I kind of watched the sun rise over the pond this morning? I should have gotten out of bed a little earlier, but it's hard. The pond was still wonderful, and I had the spot to myself. It was just a really nice spot to slow down. After that, it was time for pancakes. This really is the most wonderful shelter.
 

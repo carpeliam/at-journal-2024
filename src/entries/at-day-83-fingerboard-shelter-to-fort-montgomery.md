@@ -1,12 +1,20 @@
 ---
-title: "AT Day 83: Fingerboard Shelter to Fort Montgomery"
-date: 2024-06-24
+day: 83
+date: 2024-06-24T00:00:00.000Z
+dateStr: 6/24/2024
 location: Fingerboard Shelter
+destination: Fort Montgomery
 start: 1392.6
 end: 1410.3
-miles: 17.7
 sleep: Building
 mood: 🙂
+title: "AT Day 83: Fingerboard Shelter to Fort Montgomery"
+sleepScore: 42
+garminFeedback: TIME_TO_RECHARGE
+recoveryTime: 1968
+recoveryTimeFactorFeedback: MODERATE
+sleepHistoryFactorFeedback: POOR
+trainingReadiness: 1
 ---
 I wasted so much time today trying to chase an outhouse, just to avoid digging a cat hole. A lot of NY shelters don't have privies, but because there's a lot of state park land, it looks like they concentrate the bathrooms near day hiker spots. So I hiked off-trail to one of the day hiker spots, but their bathroom was out. I kind of pleaded with them to let me use it anyway (I ran out of shame somewhere outside of Duncannon) but the best they could do was to point me to another outhouse further up the road. In the middle of my frustration, Live Mas showed up at the state park - looks like they're doing big road miles today.
 
