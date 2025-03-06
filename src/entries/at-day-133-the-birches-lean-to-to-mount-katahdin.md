@@ -27,4 +27,4 @@ Ted arrived about 20 minutes after me, in typical Ted fashion! He asked the enti
 
 We made time to hike the Knife Edge and back, down the Abol trail, and now I'm done. I'm done, I hiked the AT.
 
-I think I know how Alexander the Great felt when he wept, seeing as there were no more worlds to conquer. I'm still not sure how it feels to finish the AT; I'll have to let that process for a little bit before it feels real. Time to go home.
+I think I know how Alexander the Great must have felt as he wept, seeing as there were no more worlds to conquer. I'm still not sure how it feels to finish the AT; I'll have to let that process for a little bit before it feels real. Time to go home.

@@ -8,6 +8,7 @@ import { LatLngBounds, LatLngTuple } from 'leaflet';
 import Modal from 'react-modal';
 import { useInView } from 'react-intersection-observer';
 import type { Feature, LineString } from 'geojson';
+import Epilogue from '../content/Epilogue.mdx';
 import { ActiveEntryContext, isActiveEntry } from '../ActiveEntryContext';
 
 Modal.setAppElement("#___gatsby");
@@ -60,6 +61,17 @@ function ImageAtLocation({ fields, birthTime, childImageSharp: { gatsbyImageData
   </>;
 }
 
+type GarminFeedback =
+  'TIME_TO_RECHARGE' | 'LISTEN_TO_YOUR_BODY' | 'FOCUS_ON_RECOVERY' | 'FIND_TIME_TO_RELAX' | 'LET_YOUR_BODY_RECOVER' | 'TAKE_IT_EASY' | 'TIME_TO_SLOW_DOWN' |
+
+  'BALANCE_STRESS_AND_RECOVERY' | 'FOCUS_ON_SLEEP_PATTERNS' | 'FOCUS_ON_SLEEP_QUALITY' | 'FOCUS_ON_ENERGY_LEVELS' |
+
+  'RECOVERY_IN_PROGRESS' |
+
+  'GOOD_SLEEP_LAST_NIGHT' | 'GOOD_RECOVERY' | 'WELL_RECOVERED' |
+
+  'RECOVERED_AND_READY' | 'READY_FOR_THE_DAY' | 'TAKE_ON_THE_DAY';
+
 type GeoJSONFileNode = {
   publicURL: string;
   name: string;
@@ -84,7 +96,12 @@ type MarkdownNode = {
     start: string | null;
     destination: string | null;
     end: number;
-  }
+    sleep: 'Tent' | 'Shelter' | 'Building';
+    mood: '🙂' | '😐';
+    sleepScore: number;
+    garminFeedback: GarminFeedback;
+    trainingReadiness: number;
+}
   html: string;
 }
 type IndexData = {
@@ -171,15 +188,29 @@ function Entry({ frontmatter, html, previous }: MarkdownNode & { previous: Pick<
   });
   // FIXME use the slug, if we can get that into activeEntry
   const pocId = frontmatter.date.split('T')[0];
-  const miles = (frontmatter.end - (previous?.end || 0)).toFixed(1);
+  const miles = {
+    traveled: (frontmatter.end - (previous?.end || 0)).toFixed(1),
+    start: previous?.end || 0,
+    end: frontmatter.end,
+  };
 
   return (
     <article ref={ref}>
       <h3 style={{margin: 0}} id={pocId}>
         {title(frontmatter, previous)}
       </h3>
-      <small>{new Date(frontmatter.date).toLocaleDateString('en-US', { timeZone: 'UTC'})}</small>
-      <div>{miles} miles</div>
+      <div className="flex gap-4 text-sm">
+        <div>{new Date(frontmatter.date).toLocaleDateString('en-US', { timeZone: 'UTC'})}</div>
+        <div>{miles.traveled} miles</div>
+        <div>{miles.start} to {miles.end} miles</div>
+      </div>
+      <div className="flex gap-4 text-sm">
+        <div>Sleep: {frontmatter.sleep}</div>
+        <div>Sleep score: {frontmatter.sleepScore}/100</div>
+        <div>State: {frontmatter.garminFeedback}</div>
+        <div>Mood: {frontmatter.mood}</div>
+        <div>Readiness: {frontmatter.trainingReadiness}/100</div>
+      </div>
       <div dangerouslySetInnerHTML={{ __html: html }} />
     </article>
   )
@@ -219,6 +250,7 @@ export default function IndexPage({ data }: PageProps<IndexData>) {
         {data.allMarkdownRemark.edges.map(({ node, previous }) => (
           <Entry key={node.frontmatter.day} previous={previous?.frontmatter} {...node} />
         ))}
+        <Epilogue />
       </div>
       </ActiveEntryContext.Provider>
     </main>
@@ -246,6 +278,11 @@ export const pageQuery = graphql`
             start
             destination
             end
+            sleep
+            mood
+            sleepScore
+            garminFeedback
+            trainingReadiness
           }
           html
         }
