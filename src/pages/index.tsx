@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useContext } from 'react';
+import React, { useEffect, useState, useContext, useRef } from 'react';
 import type { PageProps } from 'gatsby';
 import { graphql } from 'gatsby';
 import { StaticImage, GatsbyImage, IGatsbyImageData } from 'gatsby-plugin-image';
@@ -175,6 +175,7 @@ function title(today: MarkdownNode["frontmatter"], yesterday: Pick<MarkdownNode[
 
 function Entry({ frontmatter, html, previous }: MarkdownNode & { previous: Pick<MarkdownNode["frontmatter"], "destination" | "end"> | undefined }) {
   const { setActiveEntry } = useContext(ActiveEntryContext)!;
+  const linkRef = useRef<HTMLElement | null>(null);
   const { ref } = useInView({
     /* Optional options */
     threshold: 0,
@@ -186,6 +187,10 @@ function Entry({ frontmatter, html, previous }: MarkdownNode & { previous: Pick<
       }
     }
   });
+  const combinedRef = (element: HTMLElement) => {
+    linkRef.current = element;
+    ref(element);
+  }
   // FIXME use the slug, if we can get that into activeEntry
   const pocId = frontmatter.date.split('T')[0];
   const miles = {
@@ -195,8 +200,8 @@ function Entry({ frontmatter, html, previous }: MarkdownNode & { previous: Pick<
   };
 
   return (
-    <article ref={ref}>
-      <h3 style={{margin: 0}} id={pocId}>
+    <article ref={combinedRef} className={(isActiveEntry(pocId) ? "entry entry-active" : "entry")}>
+      <h3 className="m-0 cursor-pointer" id={pocId} onClick={() => linkRef.current?.scrollIntoView()}>
         {title(frontmatter, previous)}
       </h3>
       <div className="flex gap-4 text-sm">

@@ -1,4 +1,4 @@
-/* @import "tailwindcss"; */
+@import "tailwindcss";
 
 body {
     margin: 0;
@@ -16,4 +16,14 @@ a {
 
 .ReactModal__Body--open {
     overflow: hidden;
+}
+
+.entry {
+    @apply p-2;
+    @apply border-2 border-hidden rounded-sm;
+    @apply text-slate-700;
+}
+.entry.entry-active {
+    @apply border-solid;
+    @apply text-inherit;
 }
