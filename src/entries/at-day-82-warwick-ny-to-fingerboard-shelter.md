@@ -1,14 +1,11 @@
 ---
 day: 82
 date: 2024-06-23T00:00:00.000Z
-dateStr: 6/23/2024
-location: Warwick, NY
+start: null
 destination: Fingerboard Shelter
-start: 1376
 end: 1392.6
 sleep: Shelter
 mood: 🙂
-title: "AT Day 82: Warwick, NY to Fingerboard Shelter"
 sleepScore: 32
 garminFeedback: TIME_TO_SLOW_DOWN
 recoveryTime: 420

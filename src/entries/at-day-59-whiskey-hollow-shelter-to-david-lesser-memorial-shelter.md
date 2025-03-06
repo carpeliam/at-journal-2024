@@ -1,14 +1,11 @@
 ---
 day: 59
 date: 2024-05-31T00:00:00.000Z
-dateStr: 5/31/2024
-location: Whiskey Hollow Shelter
+start: null
 destination: David Lesser Memorial Shelter
-start: 987.6
 end: 1017.1
 sleep: Tent
 mood: 🙂
-title: "AT Day 59: Whiskey Hollow Shelter to David Lesser Memorial Shelter"
 sleepScore: 75
 garminFeedback: READY_FOR_THE_DAY
 recoveryTime: 604

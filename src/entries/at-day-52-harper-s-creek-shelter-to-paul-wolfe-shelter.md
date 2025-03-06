@@ -1,14 +1,11 @@
 ---
 day: 52
 date: 2024-05-24T00:00:00.000Z
-dateStr: 5/24/2024
-location: Harper's Creek Shelter
+start: null
 destination: Paul Wolfe Shelter
-start: 837.6
 end: 859.8
 sleep: Tent
 mood: 🙂
-title: "AT Day 52: Harper's Creek Shelter to Paul Wolfe Shelter"
 sleepScore: 82
 garminFeedback: GOOD_SLEEP_LAST_NIGHT
 recoveryTime: 177

@@ -1,14 +1,11 @@
 ---
 day: 133
 date: 2024-08-13T00:00:00.000Z
-dateStr: 8/13/2024
-location: The Birches Lean-to
+start: null
 destination: Mount Katahdin
-start: 2192.1
 end: 2197.4
 sleep: Building
 mood: 🙂
-title: "AT Day 133: The Birches Lean-to to Mount Katahdin"
 sleepScore: 59
 garminFeedback: FIND_TIME_TO_RELAX
 recoveryTime: 15
@@ -30,4 +27,4 @@ Ted arrived about 20 minutes after me, in typical Ted fashion! He asked the enti
 
 We made time to hike the Knife Edge and back, down the Abol trail, and now I'm done. I'm done, I hiked the AT.
 
-I'm not Alexander the Great, but I think I kind of know now how it feels to weep, seeing as there are no more worlds to conquer. I'm still not sure how it feels to finish the AT; I'll have to let that process for a little bit before it feels real. Time to go home.
+I think I know how Alexander the Great felt when he wept, seeing as there were no more worlds to conquer. I'm still not sure how it feels to finish the AT; I'll have to let that process for a little bit before it feels real. Time to go home.

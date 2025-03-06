@@ -1,14 +1,11 @@
 ---
 day: 100
 date: 2024-07-11T00:00:00.000Z
-dateStr: 7/11/2024
-location: Inn at the Long Trail
+start: null
 destination: Winturri Shelter
-start: 1710.2
 end: 1728.1
 sleep: Tent
 mood: 🙂
-title: "AT Day 100: Inn at the Long Trail to Winturri Shelter"
 sleepScore: 37
 garminFeedback: TIME_TO_RECHARGE
 recoveryTime: 629

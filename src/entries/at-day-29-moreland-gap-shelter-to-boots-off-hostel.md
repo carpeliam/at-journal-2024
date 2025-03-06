@@ -1,14 +1,11 @@
 ---
 day: 29
 date: 2024-05-01T00:00:00.000Z
-dateStr: 5/1/2024
-location: Moreland Gap Shelter
+start: null
 destination: Boots Off Hostel
-start: 414
 end: 428.8
 sleep: Tent
 mood: 🙂
-title: "AT Day 29: Moreland Gap Shelter to Boots Off Hostel"
 sleepScore: 75
 garminFeedback: TAKE_IT_EASY
 recoveryTime: 127

@@ -1,14 +1,11 @@
 ---
 day: 131
 date: 2024-08-11T00:00:00.000Z
-dateStr: 8/11/2024
-location: Wadleigh Stream Lean-to
+start: null
 destination: Abol Pines
-start: 2159.2
 end: 2182.4
 sleep: Tent
 mood: 🙂
-title: "AT Day 131: Wadleigh Stream Lean-to to Abol Pines"
 sleepScore: 79
 garminFeedback: GOOD_RECOVERY
 recoveryTime: 191

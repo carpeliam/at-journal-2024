@@ -1,14 +1,11 @@
 ---
 day: 21
 date: 2024-04-23T00:00:00.000Z
-dateStr: 4/23/2024
-location: Laughing Heart Hostel
+start: null
 destination: Spring Mountain Shelter
-start: 274.9
 end: 286.2
 sleep: Tent
 mood: 🙂
-title: "AT Day 21: Laughing Heart Hostel to Spring Mountain Shelter"
 sleepScore: 32
 garminFeedback: FIND_TIME_TO_RELAX
 recoveryTime: 405

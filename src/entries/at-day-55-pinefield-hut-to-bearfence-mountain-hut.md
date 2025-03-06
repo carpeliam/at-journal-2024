@@ -1,14 +1,11 @@
 ---
 day: 55
 date: 2024-05-27T00:00:00.000Z
-dateStr: 5/27/2024
-location: Pinefield Hut
+start: null
 destination: Bearfence Mountain Hut
-start: 898.5
 end: 919.1
 sleep: Tent
 mood: 🙂
-title: "AT Day 55: Pinefield Hut to Bearfence Mountain Hut"
 sleepScore: 84
 garminFeedback: GOOD_SLEEP_LAST_NIGHT
 recoveryTime: 1

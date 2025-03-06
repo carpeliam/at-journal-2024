@@ -1,14 +1,11 @@
 ---
 day: 87
 date: 2024-06-28T00:00:00.000Z
-dateStr: 6/28/2024
-location: Schaghticoke Mountain Campsite
+start: null
 destination: Cesar Brook Campsite
-start: 1470
 end: 1487
 sleep: Tent
 mood: 🙂
-title: "AT Day 87: Schaghticoke Mountain Campsite to Cesar Brook Campsite"
 sleepScore: 75
 garminFeedback: READY_FOR_THE_DAY
 recoveryTime: 1

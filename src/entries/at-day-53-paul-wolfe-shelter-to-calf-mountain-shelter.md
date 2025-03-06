@@ -1,14 +1,11 @@
 ---
 day: 53
 date: 2024-05-25T00:00:00.000Z
-dateStr: 5/25/2024
-location: Paul Wolfe Shelter
+start: null
 destination: Calf Mountain Shelter
-start: 859.8
 end: 872.3
 sleep: Shelter
 mood: 🙂
-title: "AT Day 53: Paul Wolfe Shelter to Calf Mountain Shelter"
 sleepScore: 79
 garminFeedback: WELL_RECOVERED
 recoveryTime: 97

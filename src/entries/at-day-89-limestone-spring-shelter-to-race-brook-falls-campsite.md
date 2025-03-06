@@ -1,14 +1,11 @@
 ---
 day: 89
 date: 2024-06-30T00:00:00.000Z
-dateStr: 6/30/2024
-location: Limestone Spring Shelter
+start: null
 destination: Race Brook Falls Campsite
-start: 1503.1
 end: 1518
 sleep: Tent
 mood: 🙂
-title: "AT Day 89: Limestone Spring Shelter to Race Brook Falls Campsite"
 sleepScore: 70
 garminFeedback: GOOD_RECOVERY
 recoveryTime: 1

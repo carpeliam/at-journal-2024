@@ -1,14 +1,11 @@
 ---
 day: 45
 date: 2024-05-17T00:00:00.000Z
-dateStr: 5/17/2024
-location: Lost Spectacles Gap
+start: null
 destination: Lamberts Meadow Shelter
-start: 703.3
 end: 721.2
 sleep: Shelter
 mood: 🙂
-title: "AT Day 45: Lost Spectacles Gap to Lamberts Meadow Shelter"
 sleepScore: 79
 garminFeedback: READY_FOR_THE_DAY
 recoveryTime: 314

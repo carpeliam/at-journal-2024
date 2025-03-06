@@ -1,14 +1,11 @@
 ---
 day: 110
 date: 2024-07-21T00:00:00.000Z
-dateStr: 7/21/2024
-location: Lake of the Clouds Hut
+start: null
 destination: Osgood Tentsite
-start: 1862.9
 end: 1873
 sleep: Tent
 mood: 🙂
-title: "AT Day 110: Lake of the Clouds Hut to Osgood Tentsite"
 sleepScore: 62
 garminFeedback: READY_FOR_THE_DAY
 recoveryTime: 310

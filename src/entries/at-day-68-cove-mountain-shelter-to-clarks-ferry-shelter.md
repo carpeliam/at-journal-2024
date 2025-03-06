@@ -1,14 +1,11 @@
 ---
 day: 68
 date: 2024-06-09T00:00:00.000Z
-dateStr: 6/9/2024
-location: Cove Mountain Shelter
+start: null
 destination: Clarks Ferry Shelter
-start: 1146.2
 end: 1154.5
 sleep: Tent
 mood: 🙂
-title: "AT Day 68: Cove Mountain Shelter to Clarks Ferry Shelter"
 sleepScore: 41
 garminFeedback: TIME_TO_SLOW_DOWN
 recoveryTime: 275

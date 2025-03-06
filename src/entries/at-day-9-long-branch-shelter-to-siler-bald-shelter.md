@@ -1,14 +1,11 @@
 ---
 day: 9
 date: 2024-04-11T00:00:00.000Z
-dateStr: 4/11/2024
-location: Long Branch Shelter
+start: null
 destination: Siler Bald Shelter
-start: 102.4
 end: 113.3
 sleep: Tent
 mood: 🙂
-title: "AT Day 9: Long Branch Shelter to Siler Bald Shelter"
 sleepScore: 61
 garminFeedback: FOCUS_ON_SLEEP_QUALITY
 recoveryTime: 611

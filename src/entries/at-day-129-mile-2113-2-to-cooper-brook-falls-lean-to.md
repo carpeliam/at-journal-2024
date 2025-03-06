@@ -1,14 +1,11 @@
 ---
 day: 129
 date: 2024-08-09T00:00:00.000Z
-dateStr: 8/9/2024
-location: undefined
+start: null
 destination: Cooper Brook Falls Lean-to
-start: 2113.2
 end: 2137.7
 sleep: Tent
 mood: 🙂
-title: "AT Day 129: Mile 2113.2 to Cooper Brook Falls Lean-to"
 sleepScore: 46
 garminFeedback: FIND_TIME_TO_RELAX
 recoveryTime: 337

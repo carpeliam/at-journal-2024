@@ -1,14 +1,11 @@
 ---
 day: 70
 date: 2024-06-11T00:00:00.000Z
-dateStr: 6/11/2024
-location: Yellow Springs Campsite
+start: null
 destination: 501 Shelter
-start: 1174.6
 end: 1196.7
 sleep: Tent
 mood: 🙂
-title: "AT Day 70: Yellow Springs Campsite to 501 Shelter"
 sleepScore: 61
 garminFeedback: READY_FOR_THE_DAY
 recoveryTime: 6

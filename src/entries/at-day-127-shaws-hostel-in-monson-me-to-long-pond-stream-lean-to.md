@@ -1,14 +1,11 @@
 ---
 day: 127
 date: 2024-08-07T00:00:00.000Z
-dateStr: 8/7/2024
-location: Shaw's Hostel in Monson, ME
+start: null
 destination: Long Pond Stream Lean-to
-start: 2082.7
 end: 2097.8
 sleep: Shelter
 mood: 🙂
-title: "AT Day 127: Shaw's Hostel in Monson, ME to Long Pond Stream Lean-to"
 sleepScore: 36
 garminFeedback: FIND_TIME_TO_RELAX
 recoveryTime: 347

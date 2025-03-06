@@ -1,14 +1,11 @@
 ---
 day: 35
 date: 2024-05-07T00:00:00.000Z
-dateStr: 5/7/2024
-location: Wise Shelter
+start: null
 destination: Trimpi Shelter
-start: 504.5
 end: 524.6
 sleep: Shelter
 mood: 🙂
-title: "AT Day 35: Wise Shelter to Trimpi Shelter"
 sleepScore: 44
 garminFeedback: FOCUS_ON_RECOVERY
 recoveryTime: 513

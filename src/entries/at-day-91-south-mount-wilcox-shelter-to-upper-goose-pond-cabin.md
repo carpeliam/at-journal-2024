@@ -1,14 +1,11 @@
 ---
 day: 91
 date: 2024-07-02T00:00:00.000Z
-dateStr: 7/2/2024
-location: South Mount Wilcox Shelter
+start: null
 destination: Upper Goose Pond Cabin
-start: 1539.8
 end: 1555.7
 sleep: Building
 mood: 🙂
-title: "AT Day 91: South Mount Wilcox Shelter to Upper Goose Pond Cabin"
 sleepScore: 62
 garminFeedback: FOCUS_ON_SLEEP_QUALITY
 recoveryTime: 1250

@@ -1,14 +1,11 @@
 ---
 day: 65
 date: 2024-06-06T00:00:00.000Z
-dateStr: 6/6/2024
-location: Thru It All Hostel
+start: null
 destination: Toms Run Shelter
-start: 1085.5
 end: 1101.7
 sleep: Tent
 mood: 🙂
-title: "AT Day 65: Thru It All Hostel to Toms Run Shelter"
 sleepScore: 76
 garminFeedback: GOOD_RECOVERY
 recoveryTime: 1

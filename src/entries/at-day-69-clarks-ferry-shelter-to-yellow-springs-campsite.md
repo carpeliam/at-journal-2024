@@ -1,14 +1,11 @@
 ---
 day: 69
 date: 2024-06-10T00:00:00.000Z
-dateStr: 6/10/2024
-location: Clarks Ferry Shelter
+start: null
 destination: Yellow Springs Campsite
-start: 1154.5
 end: 1174.6
 sleep: Tent
 mood: 🙂
-title: "AT Day 69: Clarks Ferry Shelter to Yellow Springs Campsite"
 sleepScore: 51
 garminFeedback: LISTEN_TO_YOUR_BODY
 recoveryTime: 131

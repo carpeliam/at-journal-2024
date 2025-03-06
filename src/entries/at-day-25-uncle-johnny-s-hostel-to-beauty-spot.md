@@ -1,14 +1,11 @@
 ---
 day: 25
 date: 2024-04-27T00:00:00.000Z
-dateStr: 4/27/2024
-location: Uncle Johnny's Hostel
+start: null
 destination: Beauty Spot
-start: 344.5
 end: 355.2
 sleep: Tent
 mood: 🙂
-title: "AT Day 25: Uncle Johnny's Hostel to Beauty Spot"
 sleepScore: 44
 garminFeedback: TIME_TO_SLOW_DOWN
 recoveryTime: 600

@@ -1,14 +1,11 @@
 ---
 day: 84
 date: 2024-06-25T00:00:00.000Z
-dateStr: 6/25/2024
-location: Fort Montgomery
+start: null
 destination: RPH Shelter
-start: 1410.3
 end: 1434.5
 sleep: Tent
 mood: 🙂
-title: "AT Day 84: Fort Montgomery to RPH Shelter"
 sleepScore: 69
 garminFeedback: LISTEN_TO_YOUR_BODY
 recoveryTime: 554

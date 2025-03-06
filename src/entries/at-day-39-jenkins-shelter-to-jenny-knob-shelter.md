@@ -1,14 +1,11 @@
 ---
 day: 39
 date: 2024-05-11T00:00:00.000Z
-dateStr: 5/11/2024
-location: Jenkins Shelter
+start: null
 destination: Jenny Knob Shelter
-start: 580.8
 end: 604
 sleep: Shelter
 mood: 🙂
-title: "AT Day 39: Jenkins Shelter to Jenny Knob Shelter"
 sleepScore: 77
 garminFeedback: TAKE_IT_EASY
 recoveryTime: 772

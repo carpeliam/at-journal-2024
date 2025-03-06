@@ -1,14 +1,11 @@
 ---
 day: 51
 date: 2024-05-23T00:00:00.000Z
-dateStr: 5/23/2024
-location: Cow Camp Gap Shelter
+start: null
 destination: Harper's Creek Shelter
-start: 813.2
 end: 837.6
 sleep: Tent
 mood: 🙂
-title: "AT Day 51: Cow Camp Gap Shelter to Harper's Creek Shelter"
 sleepScore: 80
 garminFeedback: FOCUS_ON_SLEEP_PATTERNS
 recoveryTime: 413

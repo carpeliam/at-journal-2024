@@ -1,14 +1,11 @@
 ---
 day: 7
 date: 2024-04-09T00:00:00.000Z
-dateStr: 4/9/2024
-location: Plum Orchard Gap Shelter
+start: null
 destination: Standing Indian Shelter
-start: 73.9
 end: 86.1
 sleep: Tent
 mood: 🙂
-title: "AT Day 7: Plum Orchard Gap Shelter to Standing Indian Shelter"
 sleepScore: 58
 garminFeedback: TIME_TO_RECHARGE
 recoveryTime: 2099

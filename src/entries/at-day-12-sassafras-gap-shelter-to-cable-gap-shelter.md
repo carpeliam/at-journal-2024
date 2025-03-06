@@ -1,14 +1,11 @@
 ---
 day: 12
 date: 2024-04-14T00:00:00.000Z
-dateStr: 4/14/2024
-location: Sassafras Gap Shelter
+start: null
 destination: Cable Gap Shelter
-start: 144
 end: 159.4
 sleep: Tent
 mood: 🙂
-title: "AT Day 12: Sassafras Gap Shelter to Cable Gap Shelter"
 sleepScore: 55
 garminFeedback: FIND_TIME_TO_RELAX
 recoveryTime: 554

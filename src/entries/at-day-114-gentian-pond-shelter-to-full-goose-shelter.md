@@ -1,14 +1,11 @@
 ---
 day: 114
 date: 2024-07-25T00:00:00.000Z
-dateStr: 7/25/2024
-location: Gentian Pond Shelter
+start: null
 destination: Full Goose Shelter
-start: 1910.7
 end: 1920.5
 sleep: Tent
 mood: 🙂
-title: "AT Day 114: Gentian Pond Shelter to Full Goose Shelter"
 sleepScore: 51
 garminFeedback: FIND_TIME_TO_RELAX
 recoveryTime: 131

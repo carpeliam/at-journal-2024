@@ -1,15 +1,11 @@
 ---
 day: 86
 date: 2024-06-27T00:00:00.000Z
-dateStr: 6/27/2024
-location: Edward R Murrow Park, Pawling, NY
+start: null
 destination: Schaghticoke Mountain Campsite
-start: 1451.9
 end: 1470
 sleep: Tent
 mood: 🙂
-title: "AT Day 86: Edward R Murrow Park, Pawling, NY to Schaghticoke Mountain
-  Campsite"
 sleepScore: 75
 garminFeedback: GOOD_RECOVERY
 recoveryTime: 1

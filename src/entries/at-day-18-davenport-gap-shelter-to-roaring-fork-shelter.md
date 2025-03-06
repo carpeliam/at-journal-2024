@@ -1,14 +1,11 @@
 ---
 day: 18
 date: 2024-04-20T00:00:00.000Z
-dateStr: 4/20/2024
-location: Davenport Gap Shelter
+start: null
 destination: Roaring Fork Shelter
-start: 238.3
 end: 257.3
 sleep: Tent
 mood: 🙂
-title: "AT Day 18: Davenport Gap Shelter to Roaring Fork Shelter"
 sleepScore: 83
 garminFeedback: TAKE_ON_THE_DAY
 recoveryTime: 1

@@ -1,14 +1,11 @@
 ---
 day: 81
 date: 2024-06-22T00:00:00.000Z
-dateStr: 6/22/2024
-location: Wawayanda Shelter
+start: null
 destination: Warwick, NY
-start: 1365.9
 end: 1376
 sleep: Tent
 mood: 🙂
-title: "AT Day 81: Wawayanda Shelter to Warwick, NY"
 sleepScore: 76
 garminFeedback: LISTEN_TO_YOUR_BODY
 recoveryTime: 313

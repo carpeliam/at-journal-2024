@@ -1,14 +1,11 @@
 ---
 day: 96
 date: 2024-07-07T00:00:00.000Z
-dateStr: 7/7/2024
-location: Goddard Shelter
+start: null
 destination: Spruce Peak Shelter
-start: 1628.1
 end: 1655.3
 sleep: Tent
 mood: 🙂
-title: "AT Day 96: Goddard Shelter to Spruce Peak Shelter"
 sleepScore: 66
 garminFeedback: GOOD_RECOVERY
 recoveryTime: 429

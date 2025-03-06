@@ -1,14 +1,11 @@
 ---
 day: 20
 date: 2024-04-22T00:00:00.000Z
-dateStr: 4/22/2024
-location: Deer Park Mountain Shelter
+start: null
 destination: Laughing Heart Hostel
-start: 272
 end: 274.9
 sleep: Building
 mood: 🙂
-title: "AT Day 20: Deer Park Mountain Shelter to Laughing Heart Hostel"
 sleepScore: 79
 garminFeedback: TAKE_ON_THE_DAY
 recoveryTime: 46

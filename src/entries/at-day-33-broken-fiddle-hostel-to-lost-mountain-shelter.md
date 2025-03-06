@@ -1,14 +1,11 @@
 ---
 day: 33
 date: 2024-05-05T00:00:00.000Z
-dateStr: 5/5/2024
-location: Broken Fiddle Hostel
+start: null
 destination: Lost Mountain Shelter
-start: 471.3
 end: 487
 sleep: Shelter
 mood: 🙂
-title: "AT Day 33: Broken Fiddle Hostel to Lost Mountain Shelter"
 sleepScore: 75
 garminFeedback: TAKE_IT_EASY
 recoveryTime: 1

@@ -1,14 +1,11 @@
 ---
 day: 50
 date: 2024-05-22T00:00:00.000Z
-dateStr: 5/22/2024
-location: John's Hollow Shelter
+start: null
 destination: Cow Camp Gap Shelter
-start: 789.3
 end: 813.2
 sleep: Tent
 mood: 🙂
-title: "AT Day 50: John's Hollow Shelter to Cow Camp Gap Shelter"
 sleepScore: 15
 garminFeedback: FIND_TIME_TO_RELAX
 recoveryTime: 650

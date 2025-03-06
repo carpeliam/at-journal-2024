@@ -1,14 +1,11 @@
 ---
 day: 26
 date: 2024-04-28T00:00:00.000Z
-dateStr: 4/28/2024
-location: Beauty Spot
+start: null
 destination: Clyde Smith Shelter
-start: 355.2
 end: 370.8
 sleep: Tent
 mood: 😐
-title: "AT Day 26: Beauty Spot to Clyde Smith Shelter"
 sleepScore: 40
 garminFeedback: FOCUS_ON_RECOVERY
 recoveryTime: 1258

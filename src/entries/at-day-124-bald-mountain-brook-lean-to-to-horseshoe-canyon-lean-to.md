@@ -1,14 +1,11 @@
 ---
 day: 124
 date: 2024-08-04T00:00:00.000Z
-dateStr: 8/4/2024
-location: Bald Mountain Brook Lean-to
+start: null
 destination: Horseshoe Canyon Lean-to
-start: 2060.7
 end: 2073.7
 sleep: Shelter
 mood: 🙂
-title: "AT Day 124: Bald Mountain Brook Lean-to to Horseshoe Canyon Lean-to"
 sleepScore: 84
 garminFeedback: GOOD_SLEEP_LAST_NIGHT
 recoveryTime: 1

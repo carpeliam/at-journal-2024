@@ -1,14 +1,11 @@
 ---
 day: 75
 date: 2024-06-16T00:00:00.000Z
-dateStr: 6/16/2024
-location: George W. Outerbridge Shelter
+start: null
 destination: Campsite before Wind Gap
-start: 1260.3
 end: 1280.6
 sleep: Tent
 mood: 🙂
-title: "AT Day 75: George W. Outerbridge Shelter to Campsite before Wind Gap"
 sleepScore: 39
 garminFeedback: TIME_TO_RECHARGE
 recoveryTime: 478

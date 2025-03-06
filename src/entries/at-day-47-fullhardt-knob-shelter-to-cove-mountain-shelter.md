@@ -1,14 +1,11 @@
 ---
 day: 47
 date: 2024-05-19T00:00:00.000Z
-dateStr: 5/19/2024
-location: Fullhardt Knob Shelter
+start: null
 destination: Cove Mountain Shelter
-start: 735.6
 end: 755.6
 sleep: Tent
 mood: 🙂
-title: "AT Day 47: Fullhardt Knob Shelter to Cove Mountain Shelter"
 sleepScore: 76
 garminFeedback: WELL_RECOVERED
 recoveryTime: 210

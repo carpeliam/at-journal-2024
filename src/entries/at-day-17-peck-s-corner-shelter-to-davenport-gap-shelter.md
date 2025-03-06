@@ -1,14 +1,11 @@
 ---
 day: 17
 date: 2024-04-19T00:00:00.000Z
-dateStr: 4/19/2024
-location: Peck's Corner Shelter
+start: null
 destination: Davenport Gap Shelter
-start: 218.5
 end: 238.3
 sleep: Shelter
 mood: 🙂
-title: "AT Day 17: Peck's Corner Shelter to Davenport Gap Shelter"
 sleepScore: 73
 garminFeedback: LISTEN_TO_YOUR_BODY
 recoveryTime: 368

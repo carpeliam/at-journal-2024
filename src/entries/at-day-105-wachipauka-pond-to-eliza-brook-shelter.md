@@ -1,14 +1,11 @@
 ---
 day: 105
 date: 2024-07-16T00:00:00.000Z
-dateStr: 7/16/2024
-location: Wachipauka Pond
+start: null
 destination: Eliza Brook Shelter
-start: 1796.4
 end: 1815.3
 sleep: Tent
 mood: 🙂
-title: "AT Day 105: Wachipauka Pond to Eliza Brook Shelter"
 sleepScore: 68
 garminFeedback: FOCUS_ON_SLEEP_QUALITY
 recoveryTime: 1

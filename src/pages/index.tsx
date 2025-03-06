@@ -79,18 +79,12 @@ type ImageFileNode = {
 };
 type MarkdownNode = {
   frontmatter: {
-    title: string;
     day: number;
-    location: string;
-    destination: string | undefined;
     date: string;
-    start: number;
+    start: string | null;
+    destination: string | null;
     end: number;
   }
-  // fields: {
-  //   slug: string;
-  // }
-  excerpt: string;
   html: string;
 }
 type IndexData = {
@@ -149,7 +143,7 @@ function title(today: MarkdownNode["frontmatter"], yesterday: Pick<MarkdownNode[
   let startLocation;
   let daySummary;
   if (!yesterday) {
-    startLocation = 'Amicalola Falls';
+    startLocation = today.start;
   } else {
     startLocation = yesterday.destination || `Mile ${yesterday.end}`;
   }
@@ -162,7 +156,7 @@ function title(today: MarkdownNode["frontmatter"], yesterday: Pick<MarkdownNode[
   return `AT Day ${today.day}: ${daySummary}`
 }
 
-function Entry({ frontmatter, html, excerpt, previous }: MarkdownNode & { previous: Pick<MarkdownNode["frontmatter"], "destination" | "end"> | undefined }) {
+function Entry({ frontmatter, html, previous }: MarkdownNode & { previous: Pick<MarkdownNode["frontmatter"], "destination" | "end"> | undefined }) {
   const { setActiveEntry } = useContext(ActiveEntryContext)!;
   const { ref } = useInView({
     /* Optional options */
@@ -186,7 +180,7 @@ function Entry({ frontmatter, html, excerpt, previous }: MarkdownNode & { previo
       </h3>
       <small>{new Date(frontmatter.date).toLocaleDateString('en-US', { timeZone: 'UTC'})}</small>
       <div>{miles} miles</div>
-      <div dangerouslySetInnerHTML={{ __html: html }}>{excerpt}</div>
+      <div dangerouslySetInnerHTML={{ __html: html }} />
     </article>
   )
 }
@@ -247,19 +241,17 @@ export const pageQuery = graphql`
       edges {
         node {
           frontmatter {
-            title
             day
-            location
-            destination
             date
             start
+            destination
             end
           }
           html
         }
         previous {
           frontmatter {
-            location
+            start
             destination
             end
           }

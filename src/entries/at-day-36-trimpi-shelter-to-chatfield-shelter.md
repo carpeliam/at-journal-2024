@@ -1,14 +1,11 @@
 ---
 day: 36
 date: 2024-05-08T00:00:00.000Z
-dateStr: 5/8/2024
-location: Trimpi Shelter
+start: null
 destination: Chatfield Shelter
-start: 524.6
 end: 541.4
 sleep: Shelter
 mood: 🙂
-title: "AT Day 36: Trimpi Shelter to Chatfield Shelter"
 sleepScore: 56
 garminFeedback: TAKE_IT_EASY
 recoveryTime: 59

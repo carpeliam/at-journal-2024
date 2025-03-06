@@ -1,14 +1,11 @@
 ---
 day: 6
 date: 2024-04-08T00:00:00.000Z
-dateStr: 4/8/2024
-location: Tray Mountain Shelter
+start: null
 destination: Plum Orchard Gap Shelter
-start: 58.4
 end: 73.9
 sleep: Tent
 mood: 🙂
-title: "AT Day 6: Tray Mountain Shelter to Plum Orchard Gap Shelter"
 sleepScore: 70
 garminFeedback: LET_YOUR_BODY_RECOVER
 recoveryTime: 2576

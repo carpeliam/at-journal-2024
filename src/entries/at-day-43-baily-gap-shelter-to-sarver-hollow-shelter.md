@@ -1,14 +1,11 @@
 ---
 day: 43
 date: 2024-05-15T00:00:00.000Z
-dateStr: 5/15/2024
-location: Bailey Gap Shelter
+start: null
 destination: Sarver Hollow Shelter
-start: 660.9
 end: 682.1
 sleep: Shelter
 mood: 🙂
-title: "AT Day 43: Bailey Gap Shelter to Sarver Hollow Shelter"
 sleepScore: 68
 garminFeedback: TAKE_ON_THE_DAY
 recoveryTime: 345

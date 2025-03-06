@@ -1,14 +1,11 @@
 ---
 day: 4
 date: 2024-04-06T00:00:00.000Z
-dateStr: 4/6/2024
-location: Bull Gap
+start: null
 destination: Low Gap Shelter
-start: 32.4
 end: 43
 sleep: Tent
 mood: 🙂
-title: "AT Day 4: Bull Gap to Low Gap Shelter"
 sleepScore: 40
 garminFeedback: TIME_TO_RECHARGE
 recoveryTime: 4155

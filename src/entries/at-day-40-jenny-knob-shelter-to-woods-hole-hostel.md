@@ -1,14 +1,11 @@
 ---
 day: 40
 date: 2024-05-12T00:00:00.000Z
-dateStr: 5/12/2024
-location: Jenny Knob Shelter
+start: null
 destination: Woods Hole Hostel
-start: 604
 end: 625.8
 sleep: Tent
 mood: 🙂
-title: "AT Day 40: Jenny Knob Shelter to Woods Hole Hostel"
 sleepScore: 69
 garminFeedback: TAKE_IT_EASY
 recoveryTime: 104

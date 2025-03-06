@@ -1,14 +1,11 @@
 ---
 day: 3
 date: 2024-04-05T00:00:00.000Z
-dateStr: 4/5/2024
-location: Gooch Mountain Shelter
+start: null
 destination: Bull Gap
-start: 15.7
 end: 32.4
 sleep: Tent
 mood: 🙂
-title: "AT Day 3: Gooch Mountain Shelter to Bull Gap"
 sleepScore: 50
 garminFeedback: TIME_TO_RECHARGE
 recoveryTime: 1850

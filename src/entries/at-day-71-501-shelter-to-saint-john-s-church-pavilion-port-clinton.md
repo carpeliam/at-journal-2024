@@ -1,14 +1,11 @@
 ---
 day: 71
 date: 2024-06-12T00:00:00.000Z
-dateStr: 6/12/2024
-location: 501 Shelter
+start: null
 destination: Saint John's Church Pavilion, Port Clinton
-start: 1196.7
 end: 1220.4
 sleep: Tent
 mood: 😐
-title: "AT Day 71: 501 Shelter to Saint John's Church Pavilion, Port Clinton"
 sleepScore: 76
 garminFeedback: FOCUS_ON_SLEEP_QUALITY
 recoveryTime: 1259

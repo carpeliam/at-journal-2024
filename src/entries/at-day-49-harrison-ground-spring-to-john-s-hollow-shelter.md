@@ -1,14 +1,11 @@
 ---
 day: 49
 date: 2024-05-21T00:00:00.000Z
-dateStr: 5/21/2024
-location: Harrison Ground Spring
+start: null
 destination: John's Hollow Shelter
-start: 776.1
 end: 789.3
 sleep: Shelter
 mood: 🙂
-title: "AT Day 49: Harrison Ground Spring to John's Hollow Shelter"
 sleepScore: 69
 garminFeedback: READY_FOR_THE_DAY
 recoveryTime: 1

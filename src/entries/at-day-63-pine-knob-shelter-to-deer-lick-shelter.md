@@ -1,14 +1,11 @@
 ---
 day: 63
 date: 2024-06-04T00:00:00.000Z
-dateStr: 6/4/2024
-location: Pine Knob Shelter
+start: null
 destination: Deer Lick Shelter
-start: 1049.6
 end: 1072.3
 sleep: Tent
 mood: 🙂
-title: "AT Day 63: Pine Knob Shelter to Deer Lick Shelter"
 sleepScore: 44
 garminFeedback: TIME_TO_RECHARGE
 recoveryTime: 246

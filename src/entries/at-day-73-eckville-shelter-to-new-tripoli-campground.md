@@ -1,14 +1,11 @@
 ---
 day: 73
 date: 2024-06-14T00:00:00.000Z
-dateStr: 6/14/2024
-location: Eckville Shelter
+start: null
 destination: New Tripoli Campground
-start: 1235.4
 end: 1248.7
 sleep: Tent
 mood: 🙂
-title: "AT Day 73: Eckville Shelter to New Tripoli Campground"
 sleepScore: 72
 garminFeedback: FOCUS_ON_SLEEP_QUALITY
 recoveryTime: 1

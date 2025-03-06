@@ -1,14 +1,11 @@
 ---
 day: 117
 date: 2024-07-28T00:00:00.000Z
-dateStr: 7/28/2024
-location: Hall Mountain Lean-to
+start: null
 destination: Bemis Mountain Lean-to
-start: 1946.3
 end: 1959.1
 sleep: Shelter
 mood: 🙂
-title: "AT Day 117: Hall Mountain Lean-to to Bemis Mountain Lean-to"
 sleepScore: 64
 garminFeedback: GOOD_RECOVERY
 recoveryTime: 84

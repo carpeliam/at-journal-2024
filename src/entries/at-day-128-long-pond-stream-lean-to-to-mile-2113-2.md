@@ -1,13 +1,11 @@
 ---
 day: 128
 date: 2024-08-08T00:00:00.000Z
-dateStr: 8/8/2024
-location: Long Pond Stream Lean-to
-start: 2097.8
+start: null
+destination: null
 end: 2113.2
 sleep: Tent
 mood: 😐
-title: "AT Day 128: Long Pond Stream Lean-to to Mile 2113.2"
 sleepScore: 52
 garminFeedback: FIND_TIME_TO_RELAX
 recoveryTime: 783

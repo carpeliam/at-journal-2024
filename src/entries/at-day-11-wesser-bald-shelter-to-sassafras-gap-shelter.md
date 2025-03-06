@@ -1,14 +1,11 @@
 ---
 day: 11
 date: 2024-04-13T00:00:00.000Z
-dateStr: 4/13/2024
-location: Wesser Bald Shelter
+start: null
 destination: Sassafras Gap Shelter
-start: 131.2
 end: 144
 sleep: Tent
 mood: 🙂
-title: "AT Day 11: Wesser Bald Shelter to Sassafras Gap Shelter"
 sleepScore: 49
 garminFeedback: TIME_TO_RECHARGE
 recoveryTime: 609

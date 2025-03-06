@@ -1,14 +1,11 @@
 ---
 day: 1
 date: 2024-04-03T00:00:00.000Z
-dateStr: 4/3/2024
-location: Amicalola Falls
+start: Amicalola Falls
 destination: Stover Creek Shelter
-start: 0
 end: 2.8
 sleep: Tent
 mood: 🙂
-title: "AT Day 1: Amicalola Falls to Stover Creek Shelter"
 sleepScore: 52
 garminFeedback: TIME_TO_RECHARGE
 recoveryTime: 2875

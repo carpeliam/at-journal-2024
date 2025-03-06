@@ -1,14 +1,11 @@
 ---
 day: 62
 date: 2024-06-03T00:00:00.000Z
-dateStr: 6/3/2024
-location: Ed Garvey Shelter
+start: null
 destination: Pine Knob Shelter
-start: 1033
 end: 1049.6
 sleep: Tent
 mood: 🙂
-title: "AT Day 62: Ed Garvey Shelter to Pine Knob Shelter"
 sleepScore: 76
 garminFeedback: GOOD_RECOVERY
 recoveryTime: 632

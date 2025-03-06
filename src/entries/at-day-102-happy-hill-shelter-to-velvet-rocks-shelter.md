@@ -1,14 +1,11 @@
 ---
 day: 102
 date: 2024-07-13T00:00:00.000Z
-dateStr: 7/13/2024
-location: Happy Hill Shelter
+start: null
 destination: Velvet Rocks Shelter
-start: 1749.2
 end: 1756.5
 sleep: Tent
 mood: 🙂
-title: "AT Day 102: Happy Hill Shelter to Velvet Rocks Shelter"
 sleepScore: 67
 garminFeedback: FOCUS_ON_SLEEP_QUALITY
 recoveryTime: 513

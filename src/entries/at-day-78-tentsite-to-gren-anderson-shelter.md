@@ -1,14 +1,11 @@
 ---
 day: 78
 date: 2024-06-19T00:00:00.000Z
-dateStr: 6/19/2024
-location: Tentsite
+start: null
 destination: Gren Anderson Shelter
-start: 1311.1
 end: 1329
 sleep: Tent
 mood: 🙂
-title: "AT Day 78: Tentsite to Gren Anderson Shelter"
 sleepScore: 41
 garminFeedback: TIME_TO_SLOW_DOWN
 recoveryTime: 712

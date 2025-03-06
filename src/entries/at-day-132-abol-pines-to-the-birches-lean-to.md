@@ -1,14 +1,11 @@
 ---
 day: 132
 date: 2024-08-12T00:00:00.000Z
-dateStr: 8/12/2024
-location: Abol Pines
+start: null
 destination: The Birches Lean-to
-start: 2182.4
 end: 2192.1
 sleep: Tent
 mood: 🙂
-title: "AT Day 132: Abol Pines to The Birches Lean-to"
 sleepScore: 45
 garminFeedback: FIND_TIME_TO_RELAX
 recoveryTime: 448

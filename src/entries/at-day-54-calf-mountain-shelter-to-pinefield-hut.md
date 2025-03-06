@@ -1,14 +1,11 @@
 ---
 day: 54
 date: 2024-05-26T00:00:00.000Z
-dateStr: 5/26/2024
-location: Calf Mountain Shelter
+start: null
 destination: Pinefield Hut
-start: 872.3
 end: 898.5
 sleep: Tent
 mood: 🙂
-title: "AT Day 54: Calf Mountain Shelter to Pinefield Hut"
 sleepScore: 43
 garminFeedback: FIND_TIME_TO_RELAX
 recoveryTime: 390

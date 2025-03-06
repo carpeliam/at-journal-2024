@@ -1,14 +1,11 @@
 ---
 day: 72
 date: 2024-06-13T00:00:00.000Z
-dateStr: 6/13/2024
-location: Saint John's Church Pavilion, Port Clinton
+start: null
 destination: Eckville Shelter
-start: 1220.4
 end: 1235.4
 sleep: Tent
 mood: 🙂
-title: "AT Day 72: Saint John's Church Pavilion, Port Clinton to Eckville Shelter"
 sleepScore: 33
 garminFeedback: TIME_TO_RECHARGE
 recoveryTime: 390

@@ -1,14 +1,11 @@
 ---
 day: 46
 date: 2024-05-18T00:00:00.000Z
-dateStr: 5/18/2024
-location: Lamberts Meadow Shelter
+start: null
 destination: Fullhardt Knob Shelter
-start: 721.2
 end: 735.6
 sleep: Shelter
 mood: 🙂
-title: "AT Day 46: Lamberts Meadow Shelter to Fullhardt Knob Shelter"
 sleepScore: 73
 garminFeedback: READY_FOR_THE_DAY
 recoveryTime: 130

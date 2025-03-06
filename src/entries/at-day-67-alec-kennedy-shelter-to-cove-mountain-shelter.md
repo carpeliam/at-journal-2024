@@ -1,14 +1,11 @@
 ---
 day: 67
 date: 2024-06-08T00:00:00.000Z
-dateStr: 6/8/2024
-location: Alec Kennedy Shelter
+start: null
 destination: Cove Mountain Shelter
-start: 1120.7
 end: 1146.2
 sleep: Tent
 mood: 🙂
-title: "AT Day 67: Alec Kennedy Shelter to Cove Mountain Shelter"
 sleepScore: 58
 garminFeedback: LISTEN_TO_YOUR_BODY
 recoveryTime: 101

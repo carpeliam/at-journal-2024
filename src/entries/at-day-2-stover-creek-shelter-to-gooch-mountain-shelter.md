@@ -1,14 +1,11 @@
 ---
 day: 2
 date: 2024-04-04T00:00:00.000Z
-dateStr: 4/4/2024
-location: Stover Creek Shelter
+start: null
 destination: Gooch Mountain Shelter
-start: 2.8
 end: 15.7
 sleep: Tent
 mood: 🙂
-title: "AT Day 2: Stover Creek Shelter to Gooch Mountain Shelter"
 sleepScore: 58
 garminFeedback: TIME_TO_RECHARGE
 recoveryTime: 2267

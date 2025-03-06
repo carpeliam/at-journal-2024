@@ -1,14 +1,11 @@
 ---
 day: 106
 date: 2024-07-17T00:00:00.000Z
-dateStr: 7/17/2024
-location: Eliza Brook Shelter
+start: null
 destination: The Notch Hostel
-start: 1815.3
 end: 1824.2
 sleep: Building
 mood: 🙂
-title: "AT Day 106: Eliza Brook Shelter to The Notch Hostel"
 sleepScore: 67
 garminFeedback: READY_FOR_THE_DAY
 recoveryTime: 695

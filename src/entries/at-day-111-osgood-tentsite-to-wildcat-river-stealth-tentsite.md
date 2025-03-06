@@ -1,14 +1,11 @@
 ---
 day: 111
 date: 2024-07-22T00:00:00.000Z
-dateStr: 7/22/2024
-location: Osgood Tentsite
+start: null
 destination: Wildcat River Stealth Tentsite
-start: 1873
 end: 1883.7
 sleep: Tent
 mood: 🙂
-title: "AT Day 111: Osgood Tentsite to Wildcat River Stealth Tentsite"
 sleepScore: 76
 garminFeedback: BALANCE_STRESS_AND_RECOVERY
 recoveryTime: 245

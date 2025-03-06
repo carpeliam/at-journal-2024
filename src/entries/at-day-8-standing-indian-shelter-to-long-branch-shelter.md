@@ -1,14 +1,11 @@
 ---
 day: 8
 date: 2024-04-10T00:00:00.000Z
-dateStr: 4/10/2024
-location: Standing Indian Shelter
+start: null
 destination: Long Branch Shelter
-start: 86.1
 end: 102.4
 sleep: Shelter
 mood: 🙂
-title: "AT Day 8: Standing Indian Shelter to Long Branch Shelter"
 sleepScore: 48
 garminFeedback: TIME_TO_RECHARGE
 recoveryTime: 1053

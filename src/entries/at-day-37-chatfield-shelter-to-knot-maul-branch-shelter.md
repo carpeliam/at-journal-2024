@@ -1,14 +1,11 @@
 ---
 day: 37
 date: 2024-05-09T00:00:00.000Z
-dateStr: 5/9/2024
-location: Chatfield Shelter
+start: null
 destination: Knot Maul Branch Shelter
-start: 541.4
 end: 560.7
 sleep: Shelter
 mood: 🙂
-title: "AT Day 37: Chatfield Shelter to Knot Maul Branch Shelter"
 sleepScore: 44
 garminFeedback: FOCUS_ON_RECOVERY
 recoveryTime: 245

@@ -1,14 +1,11 @@
 ---
 day: 16
 date: 2024-04-18T00:00:00.000Z
-dateStr: 4/18/2024
-location: Double Spring Gap Shelter
+start: null
 destination: Peck's Corner Shelter
-start: 197.5
 end: 218.5
 sleep: Shelter
 mood: 🙂
-title: "AT Day 16: Double Spring Gap Shelter to Peck's Corner Shelter"
 sleepScore: 50
 garminFeedback: LISTEN_TO_YOUR_BODY
 recoveryTime: 407

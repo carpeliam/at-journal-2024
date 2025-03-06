@@ -1,14 +1,11 @@
 ---
 day: 83
 date: 2024-06-24T00:00:00.000Z
-dateStr: 6/24/2024
-location: Fingerboard Shelter
+start: null
 destination: Fort Montgomery
-start: 1392.6
 end: 1410.3
 sleep: Building
 mood: 🙂
-title: "AT Day 83: Fingerboard Shelter to Fort Montgomery"
 sleepScore: 42
 garminFeedback: TIME_TO_RECHARGE
 recoveryTime: 1968

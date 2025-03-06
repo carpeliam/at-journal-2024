@@ -1,14 +1,11 @@
 ---
 day: 98
 date: 2024-07-09T00:00:00.000Z
-dateStr: 7/9/2024
-location: Griffith Lake
+start: null
 destination: Clarendon Shelter
-start: 1668.7
 end: 1691.5
 sleep: Tent
 mood: 🙂
-title: "AT Day 98: Griffith Lake to Clarendon Shelter"
 sleepScore: 76
 garminFeedback: READY_FOR_THE_DAY
 recoveryTime: 424

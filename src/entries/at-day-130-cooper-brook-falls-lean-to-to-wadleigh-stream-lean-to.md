@@ -1,14 +1,11 @@
 ---
 day: 130
 date: 2024-08-10T00:00:00.000Z
-dateStr: 8/10/2024
-location: Cooper Brook Falls Lean-to
+start: null
 destination: Wadleigh Stream Lean-to
-start: 2137.7
 end: 2159.2
 sleep: Tent
 mood: 🙂
-title: "AT Day 130: Cooper Brook Falls Lean-to to Wadleigh Stream Lean-to"
 sleepScore: 48
 garminFeedback: FIND_TIME_TO_RELAX
 recoveryTime: 731

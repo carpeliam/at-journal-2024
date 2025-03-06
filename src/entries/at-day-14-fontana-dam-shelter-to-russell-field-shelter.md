@@ -1,14 +1,11 @@
 ---
 day: 14
 date: 2024-04-16T00:00:00.000Z
-dateStr: 4/16/2024
-location: Fontana Dam Shelter
+start: null
 destination: Russell Field Shelter
-start: 166
 end: 181.1
 sleep: Shelter
 mood: 🙂
-title: "AT Day 14: Fontana Dam Shelter to Russell Field Shelter"
 sleepScore: 84
 garminFeedback: TAKE_ON_THE_DAY
 recoveryTime: 1

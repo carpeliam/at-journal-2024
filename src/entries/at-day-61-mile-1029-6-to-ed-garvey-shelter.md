@@ -1,14 +1,11 @@
 ---
 day: 61
 date: 2024-06-02T00:00:00.000Z
-dateStr: 6/2/2024
-location: undefined
+start: null
 destination: Ed Garvey Shelter
-start: 1029.6
 end: 1033
 sleep: Tent
 mood: 🙂
-title: "AT Day 61: Mile 1029.6 to Ed Garvey Shelter"
 sleepScore: 31
 garminFeedback: TIME_TO_RECHARGE
 recoveryTime: 498

@@ -1,14 +1,11 @@
 ---
 day: 23
 date: 2024-04-25T00:00:00.000Z
-dateStr: 4/25/2024
-location: Flint Mountain Shelter
+start: null
 destination: Bald Mountain Shelter
-start: 308.8
 end: 327.7
 sleep: Shelter
 mood: 🙂
-title: "AT Day 23: Flint Mountain Shelter to Bald Mountain Shelter"
 sleepScore: 66
 garminFeedback: LISTEN_TO_YOUR_BODY
 recoveryTime: 724

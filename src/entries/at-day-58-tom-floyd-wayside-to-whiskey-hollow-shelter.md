@@ -1,14 +1,11 @@
 ---
 day: 58
 date: 2024-05-30T00:00:00.000Z
-dateStr: 5/30/2024
-location: Tom Floyd Wayside
+start: null
 destination: Whiskey Hollow Shelter
-start: 969.5
 end: 987.6
 sleep: Tent
 mood: 🙂
-title: "AT Day 58: Tom Floyd Wayside to Whiskey Hollow Shelter"
 sleepScore: 69
 garminFeedback: READY_FOR_THE_DAY
 recoveryTime: 551

@@ -1,14 +1,11 @@
 ---
 day: 5
 date: 2024-04-07T00:00:00.000Z
-dateStr: 4/7/2024
-location: Low Gap Shelter
+start: null
 destination: Tray Mountain Shelter
-start: 43
 end: 58.4
 sleep: Tent
 mood: 🙂
-title: "AT Day 5: Low Gap Shelter to Tray Mountain Shelter"
 sleepScore: 61
 garminFeedback: LET_YOUR_BODY_RECOVER
 recoveryTime: 2710

@@ -1,14 +1,11 @@
 ---
 day: 79
 date: 2024-06-20T00:00:00.000Z
-dateStr: 6/20/2024
-location: Gren Anderson Shelter
+start: null
 destination: Unionville
-start: 1329
 end: 1349.1
 sleep: Tent
 mood: 🙂
-title: "AT Day 79: Gren Anderson Shelter to Unionville"
 sleepScore: 52
 garminFeedback: TIME_TO_SLOW_DOWN
 recoveryTime: 116

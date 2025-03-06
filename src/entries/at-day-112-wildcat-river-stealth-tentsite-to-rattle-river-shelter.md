@@ -1,14 +1,11 @@
 ---
 day: 112
 date: 2024-07-23T00:00:00.000Z
-dateStr: 7/23/2024
-location: Wildcat River Stealth Tentsite
+start: null
 destination: Rattle River Shelter
-start: 1883.7
 end: 1897
 sleep: Tent
 mood: 😐
-title: "AT Day 112: Wildcat River Stealth Tentsite to Rattle River Shelter"
 sleepScore: null
 garminFeedback: RECOVERY_IN_PROGRESS
 recoveryTime: 1119

@@ -1,13 +1,11 @@
 ---
 day: 60
 date: 2024-06-01T00:00:00.000Z
-dateStr: 6/1/2024
-location: David Lesser Memorial Shelter
-start: 1017.1
+start: null
+destination: null
 end: 1029.6
 sleep: Tent
 mood: 🙂
-title: "AT Day 60: David Lesser Memorial Shelter to Mile 1029.6"
 sleepScore: 62
 garminFeedback: FOCUS_ON_ENERGY_LEVELS
 recoveryTime: 1491

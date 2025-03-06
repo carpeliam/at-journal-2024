@@ -1,14 +1,11 @@
 ---
 day: 118
 date: 2024-07-29T00:00:00.000Z
-dateStr: 7/29/2024
-location: Bemis Mountain Lean-to
+start: null
 destination: Piazza Rock Lean-to
-start: 1959.1
 end: 1978.6
 sleep: Shelter
 mood: 🙂
-title: "AT Day 118: Bemis Mountain Lean-to to Piazza Rock Lean-to"
 sleepScore: 39
 garminFeedback: TIME_TO_RECHARGE
 recoveryTime: 1148

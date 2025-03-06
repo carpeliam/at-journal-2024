@@ -1,14 +1,11 @@
 ---
 day: 103
 date: 2024-07-14T00:00:00.000Z
-dateStr: 7/14/2024
-location: Velvet Rocks Shelter
+start: null
 destination: Smarts Mountain Fire Warden's Cabin
-start: 1756.5
 end: 1778.4
 sleep: Shelter
 mood: 🙂
-title: "AT Day 103: Velvet Rocks Shelter to Smarts Mountain Fire Warden's Cabin"
 sleepScore: 55
 garminFeedback: FIND_TIME_TO_RELAX
 recoveryTime: 73

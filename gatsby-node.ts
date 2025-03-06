@@ -1,7 +1,5 @@
-// import slugify from '@sindresorhus/slugify';
 import { read as readExif } from 'fast-exif';
 import type { CreateNodeArgs, GatsbyNode } from 'gatsby';
-
 
 type SiteNode = Record<string, unknown> & {
   frontmatter: {
@@ -12,27 +10,19 @@ type SiteNode = Record<string, unknown> & {
 
 export const onCreateNode: GatsbyNode["onCreateNode"] = async ({ node, actions }: CreateNodeArgs<SiteNode>) => {
   const { createNodeField } = actions
-  // if (node.internal.type === `Mdx` || node.internal.type === 'MarkdownRemark') {
-  //   createNodeField({
-  //     node,
-  //     name: `slug`,
-  //     value: slugify(node.frontmatter.title)
-  //   })
-  // } else {
-    if (node.internal.type === 'File' && node.sourceInstanceName === 'images') {
-      const exif = await readExif(node.absolutePath).catch((e) => { console.error('Failed to read', node.relativePath) });
-      if (exif?.gps) {
-        createNodeField({
-          node,
-          name: 'coordinates',
-          value: {
-            latitude: decimalLatitudeFor(exif.gps),
-            longitude: decimalLongitudeFor(exif.gps),
-          }
-        });
-      }
+  if (node.internal.type === 'File' && node.sourceInstanceName === 'images') {
+    const exif = await readExif(node.absolutePath).catch((e) => { console.error('Failed to read', node.relativePath) });
+    if (exif?.gps) {
+      createNodeField({
+        node,
+        name: 'coordinates',
+        value: {
+          latitude: decimalLatitudeFor(exif.gps),
+          longitude: decimalLongitudeFor(exif.gps),
+        }
+      });
     }
-  // }
+  }
 }
 
 function degreesMinutesSecondsToDecimal([degrees, minutes, seconds]: number[]) {

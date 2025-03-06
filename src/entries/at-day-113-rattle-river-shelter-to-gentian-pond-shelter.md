@@ -1,14 +1,11 @@
 ---
 day: 113
 date: 2024-07-24T00:00:00.000Z
-dateStr: 7/24/2024
-location: Rattle River Shelter
+start: null
 destination: Gentian Pond Shelter
-start: 1897
 end: 1910.7
 sleep: Shelter
 mood: 🙂
-title: "AT Day 113: Rattle River Shelter to Gentian Pond Shelter"
 sleepScore: 49
 garminFeedback: FIND_TIME_TO_RELAX
 recoveryTime: 160

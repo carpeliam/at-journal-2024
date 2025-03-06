@@ -1,14 +1,11 @@
 ---
 day: 22
 date: 2024-04-24T00:00:00.000Z
-dateStr: 4/24/2024
-location: Spring Mountain Shelter
+start: null
 destination: Flint Mountain Shelter
-start: 286.2
 end: 308.8
 sleep: Shelter
 mood: 🙂
-title: "AT Day 22: Spring Mountain Shelter to Flint Mountain Shelter"
 sleepScore: 41
 garminFeedback: TIME_TO_SLOW_DOWN
 recoveryTime: 2174

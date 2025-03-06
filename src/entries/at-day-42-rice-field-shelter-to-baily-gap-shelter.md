@@ -1,14 +1,11 @@
 ---
 day: 42
 date: 2024-05-14T00:00:00.000Z
-dateStr: 5/14/2024
-location: Rice Field Shelter
+start: null
 destination: Bailey Gap Shelter
-start: 644.5
 end: 660.9
 sleep: Shelter
 mood: 🙂
-title: "AT Day 42: Rice Field Shelter to Bailey Gap Shelter"
 sleepScore: 76
 garminFeedback: TAKE_ON_THE_DAY
 recoveryTime: 142

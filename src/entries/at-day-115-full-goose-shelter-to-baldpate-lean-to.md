@@ -1,14 +1,11 @@
 ---
 day: 115
 date: 2024-07-26T00:00:00.000Z
-dateStr: 7/26/2024
-location: Full Goose Shelter
+start: null
 destination: Baldpate Lean-to
-start: 1920.5
 end: 1932.3
 sleep: Tent
 mood: 🙂
-title: "AT Day 115: Full Goose Shelter to Baldpate Lean-to"
 sleepScore: 49
 garminFeedback: FIND_TIME_TO_RELAX
 recoveryTime: 193

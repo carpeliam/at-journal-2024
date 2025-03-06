@@ -1,14 +1,11 @@
 ---
 day: 93
 date: 2024-07-04T00:00:00.000Z
-dateStr: 7/4/2024
-location: Tom Levardi's, Dalton MA
+start: null
 destination: Bascom Lodge, Mount Greylock
-start: 1576.1
 end: 1593.3
 sleep: Building
 mood: 🙂
-title: "AT Day 93: Tom Levardi's, Dalton MA to Bascom Lodge, Mount Greylock"
 sleepScore: 48
 garminFeedback: FIND_TIME_TO_RELAX
 recoveryTime: 174

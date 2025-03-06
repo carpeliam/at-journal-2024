@@ -1,14 +1,11 @@
 ---
 day: 88
 date: 2024-06-29T00:00:00.000Z
-dateStr: 6/29/2024
-location: Cesar Brook Campsite
+start: null
 destination: Limestone Spring Shelter
-start: 1487
 end: 1503.1
 sleep: Shelter
 mood: 🙂
-title: "AT Day 88: Cesar Brook Campsite to Limestone Spring Shelter"
 sleepScore: 59
 garminFeedback: FIND_TIME_TO_RELAX
 recoveryTime: 758

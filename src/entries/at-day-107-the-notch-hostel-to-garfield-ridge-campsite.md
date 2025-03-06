@@ -1,14 +1,11 @@
 ---
 day: 107
 date: 2024-07-18T00:00:00.000Z
-dateStr: 7/18/2024
-location: The Notch Hostel
+start: null
 destination: Garfield Ridge Campsite
-start: 1824.2
 end: 1834.3
 sleep: Tent
 mood: 🙂
-title: "AT Day 107: The Notch Hostel to Garfield Ridge Campsite"
 sleepScore: 37
 garminFeedback: TIME_TO_RECHARGE
 recoveryTime: 450

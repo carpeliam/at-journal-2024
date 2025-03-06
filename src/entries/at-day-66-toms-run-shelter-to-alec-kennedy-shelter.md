@@ -1,14 +1,11 @@
 ---
 day: 66
 date: 2024-06-07T00:00:00.000Z
-dateStr: 6/7/2024
-location: Toms Run Shelter
+start: null
 destination: Alec Kennedy Shelter
-start: 1101.7
 end: 1120.7
 sleep: Tent
 mood: 🙂
-title: "AT Day 66: Toms Run Shelter to Alec Kennedy Shelter"
 sleepScore: 71
 garminFeedback: TAKE_ON_THE_DAY
 recoveryTime: 170

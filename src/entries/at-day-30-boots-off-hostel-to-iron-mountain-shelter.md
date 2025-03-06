@@ -1,14 +1,11 @@
 ---
 day: 30
 date: 2024-05-02T00:00:00.000Z
-dateStr: 5/2/2024
-location: Boots Off Hostel
+start: null
 destination: Iron Mountain Shelter
-start: 428.8
 end: 444.8
 sleep: Shelter
 mood: 🙂
-title: "AT Day 30: Boots Off Hostel to Iron Mountain Shelter"
 sleepScore: 43
 garminFeedback: FOCUS_ON_RECOVERY
 recoveryTime: 246

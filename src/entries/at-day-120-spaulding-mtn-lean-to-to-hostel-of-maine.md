@@ -1,14 +1,11 @@
 ---
 day: 120
 date: 2024-07-31T00:00:00.000Z
-dateStr: 7/31/2024
-location: Spaulding Mtn Lean-to
+start: null
 destination: Hostel of Maine
-start: 1995.5
 end: 2009
 sleep: Building
 mood: 🙂
-title: "AT Day 120: Spaulding Mtn Lean-to to Hostel of Maine"
 sleepScore: 59
 garminFeedback: FIND_TIME_TO_RELAX
 recoveryTime: 397

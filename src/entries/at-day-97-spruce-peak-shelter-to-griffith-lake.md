@@ -1,14 +1,11 @@
 ---
 day: 97
 date: 2024-07-08T00:00:00.000Z
-dateStr: 7/8/2024
-location: Spruce Peak Shelter
+start: null
 destination: Griffith Lake
-start: 1655.3
 end: 1668.7
 sleep: Tent
 mood: 🙂
-title: "AT Day 97: Spruce Peak Shelter to Griffith Lake"
 sleepScore: 74
 garminFeedback: GOOD_RECOVERY
 recoveryTime: 195

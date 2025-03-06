@@ -1,14 +1,11 @@
 ---
 day: 28
 date: 2024-04-30T00:00:00.000Z
-dateStr: 4/30/2024
-location: Mountain Harbour B&B
+start: null
 destination: Moreland Gap Shelter
-start: 395.6
 end: 414
 sleep: Shelter
 mood: 🙂
-title: "AT Day 28: Mountain Harbour B&B to Moreland Gap Shelter"
 sleepScore: 42
 garminFeedback: FOCUS_ON_RECOVERY
 recoveryTime: 1048

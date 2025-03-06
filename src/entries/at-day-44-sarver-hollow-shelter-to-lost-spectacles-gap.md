@@ -1,14 +1,11 @@
 ---
 day: 44
 date: 2024-05-16T00:00:00.000Z
-dateStr: 5/16/2024
-location: Sarver Hollow Shelter
+start: null
 destination: Lost Spectacles Gap
-start: 682.1
 end: 703.3
 sleep: Tent
 mood: 🙂
-title: "AT Day 44: Sarver Hollow Shelter to Lost Spectacles Gap"
 sleepScore: 78
 garminFeedback: READY_FOR_THE_DAY
 recoveryTime: 468

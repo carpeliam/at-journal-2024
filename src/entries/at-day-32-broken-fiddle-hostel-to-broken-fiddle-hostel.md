@@ -1,14 +1,11 @@
 ---
 day: 32
 date: 2024-05-04T00:00:00.000Z
-dateStr: 5/4/2024
-location: Broken Fiddle Hostel
+start: null
 destination: Broken Fiddle Hostel
-start: 471.3
 end: 471.3
 sleep: Building
 mood: 🙂
-title: "AT Day 32: Broken Fiddle Hostel to Broken Fiddle Hostel"
 sleepScore: 49
 garminFeedback: FOCUS_ON_RECOVERY
 recoveryTime: 404

@@ -1,14 +1,11 @@
 ---
 day: 80
 date: 2024-06-21T00:00:00.000Z
-dateStr: 6/21/2024
-location: Unionville
+start: null
 destination: Wawayanda Shelter
-start: 1349.1
 end: 1365.9
 sleep: Tent
 mood: 🙂
-title: "AT Day 80: Unionville to Wawayanda Shelter"
 sleepScore: 30
 garminFeedback: TIME_TO_SLOW_DOWN
 recoveryTime: 481

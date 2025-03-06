@@ -1,14 +1,11 @@
 ---
 day: 15
 date: 2024-04-17T00:00:00.000Z
-dateStr: 4/17/2024
-location: Russell Field Shelter
+start: null
 destination: Double Spring Gap Shelter
-start: 181.1
 end: 197.5
 sleep: Shelter
 mood: 🙂
-title: "AT Day 15: Russell Field Shelter to Double Spring Gap Shelter"
 sleepScore: 69
 garminFeedback: READY_FOR_THE_DAY
 recoveryTime: 506

@@ -1,14 +1,11 @@
 ---
 day: 85
 date: 2024-06-26T00:00:00.000Z
-dateStr: 6/26/2024
-location: RPH Shelter
+start: null
 destination: Edward R Murrow Park, Pawling, NY
-start: 1434.5
 end: 1451.9
 sleep: Tent
 mood: 🙂
-title: "AT Day 85: RPH Shelter to Edward R Murrow Park, Pawling, NY"
 sleepScore: 47
 garminFeedback: TIME_TO_RECHARGE
 recoveryTime: 536

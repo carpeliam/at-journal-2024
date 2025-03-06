@@ -1,14 +1,11 @@
 ---
 day: 90
 date: 2024-07-01T00:00:00.000Z
-dateStr: 7/1/2024
-location: Race Brook Falls Campsite
+start: null
 destination: South Mount Wilcox Shelter
-start: 1518
 end: 1539.8
 sleep: Shelter
 mood: 🙂
-title: "AT Day 90: Race Brook Falls Campsite to South Mount Wilcox Shelter"
 sleepScore: 55
 garminFeedback: FIND_TIME_TO_RELAX
 recoveryTime: 756

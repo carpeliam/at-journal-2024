@@ -1,14 +1,11 @@
 ---
 day: 56
 date: 2024-05-28T00:00:00.000Z
-dateStr: 5/28/2024
-location: Bearfence Mountain Hut
+start: null
 destination: Pass Mountain Hut
-start: 919.1
 end: 945.9
 sleep: Tent
 mood: 🙂
-title: "AT Day 56: Bearfence Mountain Hut to Pass Mountain Hut"
 sleepScore: 63
 garminFeedback: READY_FOR_THE_DAY
 recoveryTime: 567

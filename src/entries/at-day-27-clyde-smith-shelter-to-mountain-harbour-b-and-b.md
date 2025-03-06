@@ -1,14 +1,11 @@
 ---
 day: 27
 date: 2024-04-29T00:00:00.000Z
-dateStr: 4/29/2024
-location: Clyde Smith Shelter
+start: null
 destination: Mountain Harbour B&B
-start: 370.8
 end: 395.6
 sleep: Tent
 mood: 🙂
-title: "AT Day 27: Clyde Smith Shelter to Mountain Harbour B&B"
 sleepScore: 78
 garminFeedback: TAKE_IT_EASY
 recoveryTime: 203

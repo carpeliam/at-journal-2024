@@ -1,14 +1,11 @@
 ---
 day: 95
 date: 2024-07-06T00:00:00.000Z
-dateStr: 7/6/2024
-location: Sherman Brook Campsite
+start: null
 destination: Goddard Shelter
-start: 1601.3
 end: 1628.1
 sleep: Tent
 mood: 🙂
-title: "AT Day 95: Sherman Brook Campsite to Goddard Shelter"
 sleepScore: 49
 garminFeedback: TIME_TO_RECHARGE
 recoveryTime: 582

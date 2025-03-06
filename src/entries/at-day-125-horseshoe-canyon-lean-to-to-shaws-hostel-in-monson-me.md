@@ -1,14 +1,11 @@
 ---
 day: 125
 date: 2024-08-05T00:00:00.000Z
-dateStr: 8/5/2024
-location: Horseshoe Canyon Lean-to
+start: null
 destination: Shaw's Hostel in Monson, ME
-start: 2073.7
 end: 2082.7
 sleep: Building
 mood: 🙂
-title: "AT Day 125: Horseshoe Canyon Lean-to to Shaw's Hostel in Monson, ME"
 sleepScore: 62
 garminFeedback: READY_FOR_THE_DAY
 recoveryTime: 1

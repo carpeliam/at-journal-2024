@@ -1,14 +1,11 @@
 ---
 day: 64
 date: 2024-06-05T00:00:00.000Z
-dateStr: 6/5/2024
-location: Deer Lick Shelter
+start: null
 destination: Thru It All Hostel
-start: 1072.3
 end: 1085.5
 sleep: Tent
 mood: 🙂
-title: "AT Day 64: Deer Lick Shelter to Thru It All Hostel"
 sleepScore: 68
 garminFeedback: FOCUS_ON_SLEEP_QUALITY
 recoveryTime: 67

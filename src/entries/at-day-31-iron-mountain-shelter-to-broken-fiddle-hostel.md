@@ -1,14 +1,11 @@
 ---
 day: 31
 date: 2024-05-03T00:00:00.000Z
-dateStr: 5/3/2024
-location: Iron Mountain Shelter
+start: null
 destination: Broken Fiddle Hostel
-start: 444.8
 end: 471.3
 sleep: Building
 mood: 🙂
-title: "AT Day 31: Iron Mountain Shelter to Broken Fiddle Hostel"
 sleepScore: 47
 garminFeedback: FOCUS_ON_RECOVERY
 recoveryTime: 756

@@ -1,14 +1,11 @@
 ---
 day: 109
 date: 2024-07-20T00:00:00.000Z
-dateStr: 7/20/2024
-location: Ethan Pond Campsite
+start: null
 destination: Lake of the Clouds Hut
-start: 1848.9
 end: 1862.9
 sleep: Building
 mood: 🙂
-title: "AT Day 109: Ethan Pond Campsite to Lake of the Clouds Hut"
 sleepScore: 87
 garminFeedback: GOOD_SLEEP_LAST_NIGHT
 recoveryTime: 1

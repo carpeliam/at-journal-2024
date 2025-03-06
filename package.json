@@ -19,7 +19,6 @@
   },
   "dependencies": {
     "@mdx-js/react": "^2.0.0",
-    "@sindresorhus/slugify": "^2.2.1",
     "@tailwindcss/postcss": "^4.0.3",
     "autoprefixer": "^10.4.20",
     "fast-exif": "^2.0.1",

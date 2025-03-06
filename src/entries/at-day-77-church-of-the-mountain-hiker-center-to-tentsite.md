@@ -1,14 +1,11 @@
 ---
 day: 77
 date: 2024-06-18T00:00:00.000Z
-dateStr: 6/18/2024
-location: Church of the Mountain Hiker Center
+start: null
 destination: Tentsite
-start: 1297.4
 end: 1311.1
 sleep: Tent
 mood: 🙂
-title: "AT Day 77: Church of the Mountain Hiker Center to Tentsite"
 sleepScore: 59
 garminFeedback: FIND_TIME_TO_RELAX
 recoveryTime: 15

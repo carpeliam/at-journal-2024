@@ -1,14 +1,11 @@
 ---
 day: 48
 date: 2024-05-20T00:00:00.000Z
-dateStr: 5/20/2024
-location: Cove Mountain Shelter
+start: null
 destination: Harrison Ground Spring
-start: 755.6
 end: 776.1
 sleep: Tent
 mood: 😐
-title: "AT Day 48: Cove Mountain Shelter to Harrison Ground Spring"
 sleepScore: 78
 garminFeedback: WELL_RECOVERED
 recoveryTime: 1

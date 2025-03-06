@@ -1,14 +1,11 @@
 ---
 day: 119
 date: 2024-07-30T00:00:00.000Z
-dateStr: 7/30/2024
-location: Piazza Rock Lean-to
+start: null
 destination: Spaulding Mtn Lean-to
-start: 1978.6
 end: 1995.5
 sleep: Shelter
 mood: 🙂
-title: "AT Day 119: Piazza Rock Lean-to to Spaulding Mtn Lean-to"
 sleepScore: 64
 garminFeedback: GOOD_RECOVERY
 recoveryTime: 1

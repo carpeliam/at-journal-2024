@@ -1,14 +1,11 @@
 ---
 day: 108
 date: 2024-07-19T00:00:00.000Z
-dateStr: 7/19/2024
-location: Garfield Ridge Campsite
+start: null
 destination: Ethan Pond Campsite
-start: 1834.3
 end: 1848.9
 sleep: Tent
 mood: 😐
-title: "AT Day 108: Garfield Ridge Campsite to Ethan Pond Campsite"
 sleepScore: 48
 garminFeedback: FIND_TIME_TO_RELAX
 recoveryTime: 333

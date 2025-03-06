@@ -1,14 +1,11 @@
 ---
 day: 116
 date: 2024-07-27T00:00:00.000Z
-dateStr: 7/27/2024
-location: Baldpate Lean-to
+start: null
 destination: Hall Mountain Lean-to
-start: 1932.3
 end: 1946.3
 sleep: Shelter
 mood: 🙂
-title: "AT Day 116: Baldpate Lean-to to Hall Mountain Lean-to"
 sleepScore: 55
 garminFeedback: FIND_TIME_TO_RELAX
 recoveryTime: 466

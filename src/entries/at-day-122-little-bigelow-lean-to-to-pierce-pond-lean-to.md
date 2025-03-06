@@ -1,14 +1,11 @@
 ---
 day: 122
 date: 2024-08-02T00:00:00.000Z
-dateStr: 8/2/2024
-location: Little Bigelow Lean-to
+start: null
 destination: Pierce Pond Lean-to
-start: 2024.3
 end: 2042
 sleep: Shelter
 mood: 🙂
-title: "AT Day 122: Little Bigelow Lean-to to Pierce Pond Lean-to"
 sleepScore: 46
 garminFeedback: TIME_TO_RECHARGE
 recoveryTime: 507

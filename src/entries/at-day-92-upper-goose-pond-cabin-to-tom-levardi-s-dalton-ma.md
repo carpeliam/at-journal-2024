@@ -1,14 +1,11 @@
 ---
 day: 92
 date: 2024-07-03T00:00:00.000Z
-dateStr: 7/3/2024
-location: Upper Goose Pond Cabin
+start: null
 destination: Tom Levardi's, Dalton MA
-start: 1555.7
 end: 1576.1
 sleep: Tent
 mood: 🙂
-title: "AT Day 92: Upper Goose Pond Cabin to Tom Levardi's, Dalton MA"
 sleepScore: 78
 garminFeedback: GOOD_RECOVERY
 recoveryTime: 1

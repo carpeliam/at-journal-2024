@@ -1,14 +1,11 @@
 ---
 day: 74
 date: 2024-06-15T00:00:00.000Z
-dateStr: 6/15/2024
-location: New Tripoli Campground
+start: null
 destination: George W. Outerbridge Shelter
-start: 1248.7
 end: 1260.3
 sleep: Tent
 mood: 🙂
-title: "AT Day 74: New Tripoli Campground to George W. Outerbridge Shelter"
 sleepScore: 53
 garminFeedback: FIND_TIME_TO_RELAX
 recoveryTime: 114

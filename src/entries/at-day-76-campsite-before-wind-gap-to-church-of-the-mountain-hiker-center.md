@@ -1,14 +1,11 @@
 ---
 day: 76
 date: 2024-06-17T00:00:00.000Z
-dateStr: 6/17/2024
-location: Campsite before Wind Gap
+start: null
 destination: Church of the Mountain Hiker Center
-start: 1280.6
 end: 1297.4
 sleep: Tent
 mood: 🙂
-title: "AT Day 76: Campsite before Wind Gap to Church of the Mountain Hiker Center"
 sleepScore: null
 garminFeedback: RECOVERED_AND_READY
 recoveryTime: 1

@@ -1,14 +1,11 @@
 ---
 day: 57
 date: 2024-05-29T00:00:00.000Z
-dateStr: 5/29/2024
-location: Pass Mountain Hut
+start: null
 destination: Tom Floyd Wayside
-start: 945.9
 end: 969.5
 sleep: Tent
 mood: 🙂
-title: "AT Day 57: Pass Mountain Hut to Tom Floyd Wayside"
 sleepScore: 68
 garminFeedback: READY_FOR_THE_DAY
 recoveryTime: 141
