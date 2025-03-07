@@ -56,6 +56,21 @@ export const onCreateNode: GatsbyNode["onCreateNode"] = async ({ node, actions }
   }
 }
 
+export const onCreateWebpackConfig: GatsbyNode["onCreateWebpackConfig"] = ({ stage, loaders, actions }) => {
+  if (stage === "build-html" || stage === "develop-html") {
+    actions.setWebpackConfig({
+      module: {
+        rules: [
+          {
+            test: /react-leaflet-cluster/,
+            use: loaders.null(),
+          },
+        ],
+      },
+    });
+  }
+}
+
 function degreesMinutesSecondsStringToLatLng(dms: string): number | undefined {
   const [_whole, degrees, minutes, seconds, direction] = dms.match(/(\d+) deg (\d+)' (\d+.?\d+)" ([NSEW])/)!;
   const degreesMinutesSeconds = [degrees, minutes, seconds].map(parseFloat);
