@@ -6,10 +6,9 @@ import { MapContainer, TileLayer, GeoJSON, useMap, Marker, CircleMarker } from '
 import MarkerClusterGroup from 'react-leaflet-cluster';
 import { LatLngBounds, LatLngTuple } from 'leaflet';
 import Modal from 'react-modal';
-import { useInView } from 'react-intersection-observer';
 import type { Feature, LineString } from 'geojson';
 import Epilogue from '../content/Epilogue.mdx';
-import { ActiveEntryContext, isActiveEntry } from '../ActiveEntryContext';
+import { activateOnFocus, ActiveEntryContext, isActiveEntry } from '../ActiveEntryContext';
 
 Modal.setAppElement("#___gatsby");
 
@@ -127,17 +126,7 @@ type IndexData = {
 }
 
 function Preface({ metadata }: { metadata: IndexData["site"]["siteMetadata"] }) {
-  const { setActiveEntry } = useContext(ActiveEntryContext)!;
-  const { ref } = useInView({
-    /* Optional options */
-    threshold: 0,
-    rootMargin: '0px 0px -96% 0px',
-    onChange: (_inView, entry) => {
-      if (entry.isIntersecting) {
-        setActiveEntry(undefined);
-      }
-    }
-  });
+  const ref = activateOnFocus(undefined);
   return (
     <header className="mb-12" ref={ref}>
       <div style={{ display: "grid" }}>
@@ -174,25 +163,13 @@ function title(today: MarkdownNode["frontmatter"], yesterday: Pick<MarkdownNode[
 }
 
 function Entry({ frontmatter, html, previous }: MarkdownNode & { previous: Pick<MarkdownNode["frontmatter"], "destination" | "end"> | undefined }) {
-  const { setActiveEntry } = useContext(ActiveEntryContext)!;
+  const date = frontmatter.date.split('T')[0];
   const linkRef = useRef<HTMLElement | null>(null);
-  const { ref } = useInView({
-    /* Optional options */
-    threshold: 0,
-    rootMargin: '0px 0px -96% 0px',
-    // TODO consider sending more updates to context and letting a reducer sift through and return the active entry
-    onChange: (_inView, entry) => {
-      if (entry.isIntersecting) {
-        setActiveEntry(frontmatter.date.split('T')[0]);
-      }
-    }
-  });
+  const focusRef = activateOnFocus(date);
   const combinedRef = (element: HTMLElement) => {
     linkRef.current = element;
-    ref(element);
+    focusRef(element);
   }
-  // FIXME use the slug, if we can get that into activeEntry
-  const pocId = frontmatter.date.split('T')[0];
   const miles = {
     traveled: (frontmatter.end - (previous?.end || 0)).toFixed(1),
     start: previous?.end || 0,
@@ -200,8 +177,8 @@ function Entry({ frontmatter, html, previous }: MarkdownNode & { previous: Pick<
   };
 
   return (
-    <article ref={combinedRef} className={(isActiveEntry(pocId) ? "entry entry-active" : "entry")}>
-      <h3 className="m-0 cursor-pointer" id={pocId} onClick={() => linkRef.current?.scrollIntoView()}>
+    <article ref={combinedRef} className={(isActiveEntry(date) ? "entry entry-active" : "entry")}>
+      <h3 className="m-0 cursor-pointer" id={date} onClick={() => linkRef.current?.scrollIntoView()}>
         {title(frontmatter, previous)}
       </h3>
       <div className="flex gap-4 text-sm">
