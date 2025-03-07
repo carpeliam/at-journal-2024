@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useContext, useRef } from 'react';
+import React, { useEffect, useState, useContext, useRef, PropsWithChildren } from 'react';
 import type { PageProps } from 'gatsby';
 import { graphql } from 'gatsby';
 import { StaticImage, GatsbyImage, IGatsbyImageData } from 'gatsby-plugin-image';
@@ -48,16 +48,55 @@ function GeoJSONForUrl({ publicURL, name } : GeoJSONFileNode) {
     </>;
 }
 
-function ImageAtLocation({ fields, birthTime, childImageSharp: { gatsbyImageData } }: ImageFileNode) {
+function MediaAtLocation({ birthTime, fields, children }: Omit<MediaNode, 'id'> & PropsWithChildren) {
   const [isOpen, setOpen] = useState(false);
   return isActiveEntry(birthTime) && <>
     <Marker position={[fields.coordinates.latitude, fields.coordinates.longitude]} eventHandlers={{
       click: () => { setOpen(true); }
     }} />
-    <Modal style={{ overlay: { display: 'flex', justifyContent: 'center' }, content: { position: 'static', margin: 40, maxWidth: gatsbyImageData.width, maxHeight: gatsbyImageData.height }}} isOpen={isOpen} onRequestClose={() => { setOpen(false); }}>
-      <GatsbyImage image={gatsbyImageData} style={{ maxWidth: '100%', maxHeight: '100%' }} alt={`image taken at ${new Date(birthTime).toLocaleString('en-US', { timeZone: 'America/New_York' })}`} />
+    <Modal style={{ overlay: { display: 'flex', justifyContent: 'center' }, content: { position: 'static', margin: 40 }}} isOpen={isOpen} onRequestClose={() => { setOpen(false); }}>
+      {children}
     </Modal>
   </>;
+}
+
+function ImageAtLocation({ childImageSharp, birthTime, fields }: ImageFileNode) {
+  return (
+    <MediaAtLocation birthTime={birthTime} fields={fields}>
+      <GatsbyImage image={childImageSharp!.gatsbyImageData} style={{ maxWidth: '100%', maxHeight: '100%' }} alt={`image taken at ${new Date(birthTime).toLocaleString('en-US', { timeZone: 'America/New_York' })}`} />
+    </MediaAtLocation>
+  );
+}
+
+function MovieAtLocation({ publicURL, ...mediaProps }: MovieNode) {
+  return (
+    <MediaAtLocation {...mediaProps}>
+      <video src={publicURL} autoPlay controls style={{ maxWidth: '100%', maxHeight: '100%' }} />
+    </MediaAtLocation>
+  );
+}
+
+type GeoJSONFileNode = {
+  publicURL: string;
+  name: string;
+}
+type MediaNode = {
+  fields: {
+    coordinates: {
+      latitude: number;
+      longitude: number;
+    }
+  }
+  id: string;
+  birthTime: string;  
+};
+type ImageFileNode = MediaNode & {
+  childImageSharp: null | {
+    gatsbyImageData: IGatsbyImageData;
+  };
+};
+type MovieNode = MediaNode & {
+  publicURL: string;
 }
 
 type GarminFeedback =
@@ -70,24 +109,6 @@ type GarminFeedback =
   'GOOD_SLEEP_LAST_NIGHT' | 'GOOD_RECOVERY' | 'WELL_RECOVERED' |
 
   'RECOVERED_AND_READY' | 'READY_FOR_THE_DAY' | 'TAKE_ON_THE_DAY';
-
-type GeoJSONFileNode = {
-  publicURL: string;
-  name: string;
-}
-type ImageFileNode = {
-  fields: {
-    coordinates: {
-      latitude: number;
-      longitude: number;
-    }
-  }
-  id: string;
-  birthTime: string;
-  childImageSharp: {
-    gatsbyImageData: IGatsbyImageData;
-  }
-};
 type MarkdownNode = {
   frontmatter: {
     day: number;
@@ -112,10 +133,13 @@ type IndexData = {
     }
   }
   geojson: {
-    edges: { node: GeoJSONFileNode }[];
+    nodes: GeoJSONFileNode[];
   }
   images: {
-    edges: { node: ImageFileNode }[];
+    nodes: ImageFileNode[];
+  }
+  movies: {
+    nodes: MovieNode[];
   }
   allMarkdownRemark: {
     edges: {
@@ -208,8 +232,9 @@ function ScreenListener() {
 }
 
 export default function IndexPage({ data }: PageProps<IndexData>) {
-  const geojsonComponents = data.geojson.edges.map(({node }) => <GeoJSONForUrl key={node.name} {...node} />);
-  const images = data.images.edges.map(({ node }) => <ImageAtLocation key={node.id} {...node} />);
+  const geojsonComponents = data.geojson.nodes.map(node => <GeoJSONForUrl key={node.name} {...node} />);
+  const images = data.images.nodes.map(node => <ImageAtLocation key={node.id} {...node} />);
+  const movies = data.movies.nodes.map(node => <MovieAtLocation key={node.id} {...node} />);
   const [activeEntry, setActiveEntry] = useState<string>();
   return (
     <main>
@@ -223,7 +248,7 @@ export default function IndexPage({ data }: PageProps<IndexData>) {
           />
           {geojsonComponents}
           <MarkerClusterGroup maxClusterRadius={15} showCoverageOnHover={false}>
-            {images}
+            {[...images, ...movies]}
           </MarkerClusterGroup>
         </MapContainer>
       </div>
@@ -243,9 +268,9 @@ export const pageQuery = graphql`
   query {
     site {
       siteMetadata {
-        description
-        siteUrl
         title
+        siteUrl
+        description
       }
     }
     allMarkdownRemark(
@@ -278,30 +303,43 @@ export const pageQuery = graphql`
       }
     }
     geojson: allFile(filter: {sourceInstanceName: {eq: "geojson"}}) {
-      edges {
-        node {
-          publicURL
-          name
-        }
+      nodes {
+        name
+        publicURL
       }
     }
     images: allFile(
-      filter: {sourceInstanceName: {eq: "images"}, fields: {coordinates: {latitude: {ne: null}, longitude: {ne: null}}}}
+      filter: {sourceInstanceName: {eq: "images"}, extension: {eq: "jpeg"}, fields: {coordinates: {latitude: {ne: null}, longitude: {ne: null}}}}
+      sort: {birthTime: ASC}
     ) {
-      edges {
-        node {
-          fields {
-            coordinates {
-              latitude
-              longitude
-            }
-          }
-          id
-          birthTime
-          childImageSharp {
-            gatsbyImageData
+      nodes {
+        id
+        birthTime
+        fields {
+          coordinates {
+            latitude
+            longitude
           }
         }
+        childImageSharp {
+          gatsbyImageData
+        }
+      }
+    }
+    movies: allFile(
+      filter: {sourceInstanceName: {eq: "images"}, extension: {eq: "mov"}, fields: {coordinates: {latitude: {ne: null}, longitude: {ne: null}}}}
+      sort: {birthTime: ASC}
+    ) {
+      nodes {
+        id
+        birthTime
+        fields {
+          coordinates {
+            latitude
+            longitude
+          }
+        }
+        publicURL
       }
     }
   }

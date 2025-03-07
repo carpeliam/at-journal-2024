@@ -4,3 +4,4 @@ public
 src/gatsby-types.d.ts
 journal*.txt
 scripts/*.json
+src/images/

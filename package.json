@@ -21,6 +21,7 @@
     "@mdx-js/react": "^2.0.0",
     "@tailwindcss/postcss": "^4.0.3",
     "autoprefixer": "^10.4.20",
+    "exiftool": "^0.0.3",
     "fast-exif": "^2.0.1",
     "gatsby": "^5.14.1",
     "gatsby-plugin-image": "^3.14.0",
