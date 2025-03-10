@@ -48,9 +48,9 @@ function GeoJSONForUrl({ publicURL, name } : GeoJSONFileNode) {
     </>;
 }
 
-function MediaAtLocation({ birthTime, fields, children }: Omit<MediaNode, 'id'> & PropsWithChildren) {
+function MediaAtLocation({ fields, children }: Omit<MediaNode, 'id'> & PropsWithChildren) {
   const [isOpen, setOpen] = useState(false);
-  return isActiveEntry(birthTime) && <>
+  return isActiveEntry(fields.createDate) && <>
     <Marker position={[fields.coordinates.latitude, fields.coordinates.longitude]} eventHandlers={{
       click: () => { setOpen(true); }
     }} />
@@ -60,10 +60,10 @@ function MediaAtLocation({ birthTime, fields, children }: Omit<MediaNode, 'id'> 
   </>;
 }
 
-function ImageAtLocation({ childImageSharp, birthTime, fields }: ImageFileNode) {
+function ImageAtLocation({ childImageSharp, fields }: ImageFileNode) {
   return (
-    <MediaAtLocation birthTime={birthTime} fields={fields}>
-      <GatsbyImage image={childImageSharp!.gatsbyImageData} style={{ maxWidth: '100%', maxHeight: '100%' }} alt={`image taken at ${new Date(birthTime).toLocaleString('en-US', { timeZone: 'America/New_York' })}`} />
+    <MediaAtLocation fields={fields}>
+      <GatsbyImage image={childImageSharp!.gatsbyImageData} style={{ maxWidth: '100%', maxHeight: '100%' }} alt={`image taken at ${new Date(fields.createDate).toLocaleString('en-US', { timeZone: 'America/New_York' })}`} />
     </MediaAtLocation>
   );
 }
@@ -86,9 +86,9 @@ type MediaNode = {
       latitude: number;
       longitude: number;
     }
+    createDate: string;  
   }
   id: string;
-  birthTime: string;  
 };
 type ImageFileNode = MediaNode & {
   childImageSharp: null | {
@@ -314,12 +314,12 @@ export const pageQuery = graphql`
     ) {
       nodes {
         id
-        birthTime
         fields {
           coordinates {
             latitude
             longitude
           }
+          createDate
         }
         childImageSharp {
           gatsbyImageData
@@ -327,17 +327,17 @@ export const pageQuery = graphql`
       }
     }
     movies: allFile(
-      filter: {sourceInstanceName: {eq: "images"}, extension: {eq: "mov"}, fields: {coordinates: {latitude: {ne: null}, longitude: {ne: null}}}}
+      filter: {sourceInstanceName: {eq: "images"}, extension: {eq: "mp4"}, fields: {coordinates: {latitude: {ne: null}, longitude: {ne: null}}}}
       sort: {birthTime: ASC}
     ) {
       nodes {
         id
-        birthTime
         fields {
           coordinates {
             latitude
             longitude
           }
+          createDate
         }
         publicURL
       }

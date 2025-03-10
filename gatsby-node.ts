@@ -2,6 +2,7 @@ import fs from 'fs';
 import { read as readExif } from 'fast-exif';
 import exiftool from 'exiftool';
 import type { CreateNodeArgs, GatsbyNode } from 'gatsby';
+import { parse as parseExifDate } from 'exif-date';
 
 type SiteNode = Record<string, unknown> & {
   frontmatter: {
@@ -14,32 +15,49 @@ type SiteNode = Record<string, unknown> & {
 export const onCreateNode: GatsbyNode["onCreateNode"] = async ({ node, actions }: CreateNodeArgs<SiteNode>) => {
   const { createNodeField } = actions
   if (node.internal.type === 'File' && node.sourceInstanceName === 'images') {
-    if (node.extension === 'mov') {
+    if (node.extension === 'mp4') {
       fs.readFile(node.absolutePath, function (err, data) {
         if (err)
           console.error(err);
         else {
-          exiftool.metadata(data, ['-gpsLatitude', '-gpsLongitude'], (err, { gpsLatitude, gpsLongitude }) => {
+          exiftool.metadata(data, ['-gpsLatitude', '-gpsLongitude', '-creationDate'], (err, { gpsLatitude, gpsLongitude, creationDate }) => {
             if (err)
               console.error(err);
-            else if (gpsLatitude && gpsLongitude) {
-              // console.log(node.birthTime, node.base, gpsLatitude, degreesMinutesSecondsStringToLatLng(gpsLatitude), gpsLongitude, degreesMinutesSecondsStringToLatLng(gpsLongitude));
-              createNodeField({
-                node,
-                name: 'coordinates',
-                value: {
-                  latitude: degreesMinutesSecondsStringToLatLng(gpsLatitude),
-                  longitude: degreesMinutesSecondsStringToLatLng(gpsLongitude),
-                }
-              });
-            } else {
-              console.debug('no GPS data for', node.relativePath);
+            else {
+              if (creationDate) {
+                createNodeField({
+                  node,
+                  name: 'createDate',
+                  value: parseExifDate(creationDate),
+                });
+              }
+              if (gpsLatitude && gpsLongitude) {
+                // console.log(node.birthTime, node.base, gpsLatitude, degreesMinutesSecondsStringToLatLng(gpsLatitude), gpsLongitude, degreesMinutesSecondsStringToLatLng(gpsLongitude));
+                createNodeField({
+                  node,
+                  name: 'coordinates',
+                  value: {
+                    latitude: degreesMinutesSecondsStringToLatLng(gpsLatitude),
+                    longitude: degreesMinutesSecondsStringToLatLng(gpsLongitude),
+                  }
+                });
+              } else {
+                console.debug('no GPS data for', node.relativePath, creationDate);
+              }
             }
           });
         }
       });
     } else {
       const exif = await readExif(node.absolutePath).catch((e) => { console.error('Failed to read', node.relativePath) });
+      
+      if (exif?.exif?.DateTimeOriginal) {
+        createNodeField({
+          node,
+          name: 'createDate',
+          value: exif.exif.DateTimeOriginal,
+        });
+      }
       if (exif?.gps) {
         createNodeField({
           node,
@@ -50,7 +68,7 @@ export const onCreateNode: GatsbyNode["onCreateNode"] = async ({ node, actions }
           }
         });
       } else {
-        console.debug('no GPS data for', node.relativePath);
+        console.debug('no GPS data for', node.relativePath, exif?.exif?.DateTimeOriginal);
       }
     }
   }
