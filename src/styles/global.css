@@ -36,6 +36,51 @@ blockquote p {
     overflow: hidden;
 }
 
+.map {
+    position: fixed;
+    z-index: 1;
+    width: 425px;
+    transition: width 0.3s ease-in-out;
+}
+.map.closed {
+    width: 0;
+}
+
+.toggle-map {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    padding: 3px 0;
+    box-sizing: content-box;
+    font-size: 1.5em;
+    color: brown;
+    background-color: wheat;
+    cursor: pointer;
+    z-index: 1000;
+}
+.toggle-map.closed {
+    transform: translateX(100%);
+}
+@media screen and (max-width: 768px) {
+    main {
+        overflow-x: hidden;
+    }
+    .map {
+        width: 100vw;
+    }
+    .articles {
+        width: 100%;
+    }
+}
+
+.articles {
+    margin-left: 425px;
+    padding: 10px;
+}
+.articles.full {
+    margin-left: 0;
+}
+
 .entry {
     @apply p-2;
     @apply border-2 border-hidden rounded-sm;

@@ -3,6 +3,8 @@ import { graphql, PageProps } from 'gatsby';
 import { MapContainer, TileLayer } from 'react-leaflet';
 import MarkerClusterGroup from 'react-leaflet-cluster';
 import Modal from 'react-modal';
+import { TbMapPlus, TbMapMinus } from 'react-icons/tb';
+import classNames from 'classnames';
 import { ActiveEntryContext } from '../ActiveEntryContext';
 import { IndexData } from '../types';
 import Epilogue from '../content/Epilogue.mdx';
@@ -18,6 +20,7 @@ export default function IndexPage({ data }: PageProps<IndexData>) {
   const images = data.images.nodes.map(node => <ImageAtLocation key={node.id} {...node} />);
   const movies = data.movies.nodes.map(node => <MovieAtLocation key={node.id} {...node} />);
   const [activeEntry, setActiveEntry] = useState<string>();
+  const [isMapHidden, setMapHidden] = useState(false);
   useEffect(() => {
     if (process.env.NODE_ENV !== 'test')
       Modal.setAppElement('#___gatsby');
@@ -25,26 +28,30 @@ export default function IndexPage({ data }: PageProps<IndexData>) {
   return (
     <main>
       <ActiveEntryContext.Provider value={{ activeEntry, setActiveEntry }}>
-      <div style={{position: 'fixed'}}>
-        <MapContainer style={{ height: '100vh', width: 425 }} center={[39.717330464, -77.503664652]} zoom={5} scrollWheelZoom={false}>
-          <ScreenListener />
-          <TileLayer
-            attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-            url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-          />
-          {geojsonComponents}
-          <MarkerClusterGroup maxClusterRadius={15} showCoverageOnHover={false}>
-            {[...images, ...movies]}
-          </MarkerClusterGroup>
-        </MapContainer>
-      </div>
-      <div style={{ marginLeft: 425, padding: 10 }}>
-        <Preface metadata={data.site.siteMetadata} />
-        {data.allMarkdownRemark.edges.map(({ node, previous }) => (
-          <Entry key={node.frontmatter.day} previous={previous?.frontmatter} {...node} />
-        ))}
-        <Epilogue />
-      </div>
+        <div className={classNames('map', { closed: isMapHidden })}>
+          <MapContainer style={{ height: '100vh' }} center={[39.717330464, -77.503664652]} zoom={5} scrollWheelZoom={false}>
+            <ScreenListener />
+            <TileLayer
+              attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+              url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+            />
+            {geojsonComponents}
+            <MarkerClusterGroup maxClusterRadius={15} showCoverageOnHover={false}>
+              {[...images, ...movies]}
+            </MarkerClusterGroup>
+          </MapContainer>
+          {isMapHidden
+            ? <TbMapPlus className="toggle-map closed" onClick={() => setMapHidden(false)} />
+            : <TbMapMinus className="toggle-map" onClick={() => setMapHidden(true)} />
+          }
+        </div>
+        <div className={classNames('articles', { full: isMapHidden })}>
+          <Preface metadata={data.site.siteMetadata} />
+          {data.allMarkdownRemark.edges.map(({ node, previous }) => (
+            <Entry key={node.frontmatter.day} previous={previous?.frontmatter} {...node} />
+          ))}
+          <Epilogue />
+        </div>
       </ActiveEntryContext.Provider>
     </main>
   )
@@ -131,6 +138,6 @@ export const pageQuery = graphql`
   }
 `;
 
-export function Head ({ data }: PageProps<IndexData>) {
+export function Head({ data }: PageProps<IndexData>) {
   return <title>{data.site.siteMetadata.title}</title>;
 }
