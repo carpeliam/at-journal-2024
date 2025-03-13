@@ -1,9 +1,6 @@
-import { describe, it, expect } from '@jest/globals';
+import { describe, it, expect } from 'vitest';
 import React from 'react';
 import { render, screen } from '@testing-library/react';
-
-
-
 import { ActiveEntryContext, isActiveEntry } from '../src/ActiveEntryContext';
 
 function activeEntryValue(value: string | undefined) {
@@ -42,7 +39,7 @@ describe('ActiveEntryContext', () => {
           <IsActiveEntry entry={dateString} />
         </ActiveEntryContext.Provider>
       );
-      screen.getByText('true');
+      expect(screen.getByText('true')).toBeInTheDocument();
     });
 
     it('returns false if it is not the same date', () => {
@@ -51,7 +48,7 @@ describe('ActiveEntryContext', () => {
           <IsActiveEntry entry="2022-01-01" />
         </ActiveEntryContext.Provider>
       );
-      screen.getByText('false');
+      expect(screen.getByText('false')).toBeInTheDocument();
     });
 
     it('returns true if it is the same date in a different timezone', () => {
@@ -60,7 +57,7 @@ describe('ActiveEntryContext', () => {
           <IsActiveEntry entry={new Date('2022-04-03T22:00:00-04:00').toISOString()} />
         </ActiveEntryContext.Provider>
       );
-      screen.getByText('true');
+      expect(screen.getByText('true')).toBeInTheDocument();
     });
   });
 });

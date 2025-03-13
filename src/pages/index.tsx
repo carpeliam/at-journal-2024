@@ -1,241 +1,27 @@
-import React, { useEffect, useState, useContext, useRef, PropsWithChildren } from 'react';
-import type { PageProps } from 'gatsby';
-import { graphql } from 'gatsby';
-import { StaticImage, GatsbyImage, IGatsbyImageData } from 'gatsby-plugin-image';
-import { MapContainer, TileLayer, GeoJSON, useMap, Marker, CircleMarker } from 'react-leaflet';
+import React, { useEffect, useState } from 'react';
+import { graphql, PageProps } from 'gatsby';
+import { MapContainer, TileLayer } from 'react-leaflet';
 import MarkerClusterGroup from 'react-leaflet-cluster';
-import { LatLngBounds, LatLngTuple } from 'leaflet';
 import Modal from 'react-modal';
-import type { Feature, LineString } from 'geojson';
+import { ActiveEntryContext } from '../ActiveEntryContext';
+import { IndexData } from '../types';
 import Epilogue from '../content/Epilogue.mdx';
-import { activateOnFocus, ActiveEntryContext, isActiveEntry } from '../ActiveEntryContext';
+import ScreenListener from '../components/ScreenListener';
+import GeoJSONForUrl from '../components/GeoJSONForUrl';
+import Entry from '../components/Entry';
+import { ImageAtLocation, MovieAtLocation } from '../components/MediaAtLocation';
+import Preface from '../components/Preface';
 
-Modal.setAppElement("#___gatsby");
-
-function GeoJSONForUrl({ publicURL, name } : GeoJSONFileNode) {
-  const [geoJson, setGeoJson] = useState<Feature<LineString>>();
-  const map = useMap();
-  const [date, _activityType] = name.split('_');
-  const isActive = isActiveEntry(date) && geoJson?.properties?.activityType === 'hiking';
-  const color = isActive ? '#228B22' : 'gray';
-  if (geoJson && isActive) {
-    const bounds = new LatLngBounds(
-      [geoJson.bbox![1], geoJson.bbox![0]], // Southwest corner
-      [geoJson.bbox![4]!, geoJson.bbox![3]]  // Northeast corner
-    );
-    map.flyToBounds(bounds, { duration: 1 });
-  }
-  useEffect(() => {
-    fetch(publicURL)
-      .then(resp => resp.json())
-      .then(setGeoJson);
-  }, []);
-  const firstCoordinateCenter = (coords: number[][]) => [coords[0][1], coords[0][0]] as LatLngTuple;
-  const lastCoordinateCenter = (coords: number[][]) => {
-    const lastCoord = coords[coords.length - 1];
-    return [lastCoord[1], lastCoord[0]] as LatLngTuple;
-  }
-  return geoJson &&
-    <>
-      <GeoJSON data={geoJson} style={{ color }} eventHandlers={{
-        click: () => { document.getElementById(date)!.scrollIntoView(true); }
-      }} />
-      {isActive &&
-        <>
-          <CircleMarker center={firstCoordinateCenter(geoJson.geometry.coordinates)} radius={6} color={color} pathOptions={{ fillOpacity: 0.9 }} />
-          <CircleMarker center={lastCoordinateCenter(geoJson.geometry.coordinates)} radius={6} color="black" pathOptions={{ fillOpacity: 0.5 }} />
-        </>}
-    </>;
-}
-
-function MediaAtLocation({ fields, children }: Omit<MediaNode, 'id'> & PropsWithChildren) {
-  const [isOpen, setOpen] = useState(false);
-  return isActiveEntry(fields.createDate) && <>
-    <Marker position={[fields.coordinates.latitude, fields.coordinates.longitude]} eventHandlers={{
-      click: () => { setOpen(true); }
-    }} />
-    <Modal style={{ overlay: { display: 'flex', justifyContent: 'center' }, content: { position: 'static', margin: 40 }}} isOpen={isOpen} onRequestClose={() => { setOpen(false); }}>
-      {children}
-    </Modal>
-  </>;
-}
-
-function ImageAtLocation({ childImageSharp, fields }: ImageFileNode) {
-  return (
-    <MediaAtLocation fields={fields}>
-      <GatsbyImage image={childImageSharp!.gatsbyImageData} style={{ maxWidth: '100%', maxHeight: '100%' }} alt={`image taken at ${new Date(fields.createDate).toLocaleString('en-US', { timeZone: 'America/New_York' })}`} />
-    </MediaAtLocation>
-  );
-}
-
-function MovieAtLocation({ publicURL, ...mediaProps }: MovieNode) {
-  return (
-    <MediaAtLocation {...mediaProps}>
-      <video src={publicURL} autoPlay controls style={{ maxWidth: '100%', maxHeight: '100%' }} />
-    </MediaAtLocation>
-  );
-}
-
-type GeoJSONFileNode = {
-  publicURL: string;
-  name: string;
-}
-type MediaNode = {
-  fields: {
-    coordinates: {
-      latitude: number;
-      longitude: number;
-    }
-    createDate: string;  
-  }
-  id: string;
-};
-type ImageFileNode = MediaNode & {
-  childImageSharp: null | {
-    gatsbyImageData: IGatsbyImageData;
-  };
-};
-type MovieNode = MediaNode & {
-  publicURL: string;
-}
-
-type GarminFeedback =
-  'TIME_TO_RECHARGE' | 'LISTEN_TO_YOUR_BODY' | 'FOCUS_ON_RECOVERY' | 'FIND_TIME_TO_RELAX' | 'LET_YOUR_BODY_RECOVER' | 'TAKE_IT_EASY' | 'TIME_TO_SLOW_DOWN' |
-
-  'BALANCE_STRESS_AND_RECOVERY' | 'FOCUS_ON_SLEEP_PATTERNS' | 'FOCUS_ON_SLEEP_QUALITY' | 'FOCUS_ON_ENERGY_LEVELS' |
-
-  'RECOVERY_IN_PROGRESS' |
-
-  'GOOD_SLEEP_LAST_NIGHT' | 'GOOD_RECOVERY' | 'WELL_RECOVERED' |
-
-  'RECOVERED_AND_READY' | 'READY_FOR_THE_DAY' | 'TAKE_ON_THE_DAY';
-type MarkdownNode = {
-  frontmatter: {
-    day: number;
-    date: string;
-    start: string | null;
-    destination: string | null;
-    end: number;
-    sleep: 'Tent' | 'Shelter' | 'Building';
-    mood: '🙂' | '😐';
-    sleepScore: number;
-    garminFeedback: GarminFeedback;
-    trainingReadiness: number;
-}
-  html: string;
-}
-type IndexData = {
-  site: {
-    siteMetadata: {
-      description: string;
-      siteUrl: string;
-      title: string;
-    }
-  }
-  geojson: {
-    nodes: GeoJSONFileNode[];
-  }
-  images: {
-    nodes: ImageFileNode[];
-  }
-  movies: {
-    nodes: MovieNode[];
-  }
-  allMarkdownRemark: {
-    edges: {
-      node: MarkdownNode;
-      previous: Pick<MarkdownNode, "frontmatter"> | null;
-    }[];
-  }
-}
-
-function Preface({ metadata }: { metadata: IndexData["site"]["siteMetadata"] }) {
-  const ref = activateOnFocus(undefined);
-  return (
-    <header className="mb-12" ref={ref}>
-      <div style={{ display: "grid" }}>
-      <StaticImage
-        src="../images/trail-with-blaze.jpeg" alt="My tent on the trail"
-        style={{ gridArea: "1/1" }}
-        layout="fullWidth"
-        aspectRatio={2 / 1}
-      />
-      <div className="relative grid place-items-center" style={{ gridArea: "1/1" }}>
-        <h1 className="text-center lg:text-5xl text-gray-100">{metadata.title}</h1>
-      </div>
-      </div>
-      {metadata.description}
-    </header>
-  )
-}
-
-function title(today: MarkdownNode["frontmatter"], yesterday: Pick<MarkdownNode["frontmatter"], "destination" | "end"> | undefined) {
-  let startLocation;
-  let daySummary;
-  if (!yesterday) {
-    startLocation = today.start;
-  } else {
-    startLocation = yesterday.destination || `Mile ${yesterday.end}`;
-  }
-  const endLocation = today.destination || `Mile ${today.end}`;
-  if (startLocation === endLocation) {
-    daySummary = endLocation;
-  } else {
-    daySummary = `${startLocation} to ${endLocation}`;
-  }
-  return `AT Day ${today.day}: ${daySummary}`
-}
-
-function Entry({ frontmatter, html, previous }: MarkdownNode & { previous: Pick<MarkdownNode["frontmatter"], "destination" | "end"> | undefined }) {
-  const date = frontmatter.date.split('T')[0];
-  const linkRef = useRef<HTMLElement | null>(null);
-  const focusRef = activateOnFocus(date);
-  const combinedRef = (element: HTMLElement) => {
-    linkRef.current = element;
-    focusRef(element);
-  }
-  const miles = {
-    traveled: (frontmatter.end - (previous?.end || 0)).toFixed(1),
-    start: previous?.end || 0,
-    end: frontmatter.end,
-  };
-
-  return (
-    <article ref={combinedRef} className={(isActiveEntry(date) ? "entry entry-active" : "entry")}>
-      <h3 className="m-0 cursor-pointer" id={date} onClick={() => linkRef.current?.scrollIntoView()}>
-        {title(frontmatter, previous)}
-      </h3>
-      <div className="flex gap-4 text-sm">
-        <div>{new Date(frontmatter.date).toLocaleDateString('en-US', { timeZone: 'UTC'})}</div>
-        <div>{miles.traveled} miles</div>
-        <div>{miles.start} to {miles.end} miles</div>
-      </div>
-      <div className="flex gap-4 text-sm">
-        <div>Sleep: {frontmatter.sleep}</div>
-        <div>Sleep score: {frontmatter.sleepScore}/100</div>
-        <div>State: {frontmatter.garminFeedback}</div>
-        <div>Mood: {frontmatter.mood}</div>
-        <div>Readiness: {frontmatter.trainingReadiness}/100</div>
-      </div>
-      <div dangerouslySetInnerHTML={{ __html: html }} />
-    </article>
-  )
-}
-
-function ScreenListener() {
-  const { activeEntry } = useContext(ActiveEntryContext)!;
-  const map = useMap();
-  if (activeEntry === undefined) {
-    map.flyTo([39.717330464, -77.503664652], 5, { duration: 0.75 });
-  }
-  return false;
-}
 
 export default function IndexPage({ data }: PageProps<IndexData>) {
   const geojsonComponents = data.geojson.nodes.map(node => <GeoJSONForUrl key={node.name} {...node} />);
   const images = data.images.nodes.map(node => <ImageAtLocation key={node.id} {...node} />);
   const movies = data.movies.nodes.map(node => <MovieAtLocation key={node.id} {...node} />);
   const [activeEntry, setActiveEntry] = useState<string>();
+  useEffect(() => {
+    if (process.env.NODE_ENV !== 'test')
+      Modal.setAppElement('#___gatsby');
+  }, []);
   return (
     <main>
       <ActiveEntryContext.Provider value={{ activeEntry, setActiveEntry }}>

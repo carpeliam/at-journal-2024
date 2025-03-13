@@ -28,7 +28,7 @@ export function activateOnFocus(entry: string | undefined): InViewHookResponse["
   const { ref } = useInView({
     /* Optional options */
     threshold: 0,
-    rootMargin: '0px 0px -99% 0px',
+    rootMargin: '0px 0px -98% 0px',
     // TODO consider sending more updates to context and letting a reducer sift through and return the active entry
     onChange: (_inView, intersectionObserverEntry) => {
       if (intersectionObserverEntry.isIntersecting) {
