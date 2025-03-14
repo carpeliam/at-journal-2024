@@ -4,11 +4,12 @@ import React, { PropsWithChildren, useState } from 'react';
 import { isActiveEntry } from '../ActiveEntryContext';
 import { MediaNode, ImageFileNode, MovieNode } from '../types';
 import Modal from 'react-modal';
+import PhotoMarker from './PhotoMarker';
 
-function MediaAtLocation({ fields, children }: Omit<MediaNode, 'id'> & PropsWithChildren) {
+function MediaAtLocation({ fields, image, children }: Omit<MediaNode, 'id'> & {image: ImageFileNode | undefined} & PropsWithChildren) {
   const [isOpen, setOpen] = useState(false);
   return isActiveEntry(fields.createDate) && <>
-    <Marker position={[fields.coordinates.latitude, fields.coordinates.longitude]} eventHandlers={{
+    <PhotoMarker position={[fields.coordinates.latitude, fields.coordinates.longitude]} image={image} eventHandlers={{
       click: () => { setOpen(true); }
     }} />
     <Modal style={{ overlay: { display: 'flex', justifyContent: 'center', alignItems: 'center' }, content: { position: 'static', margin: 40 } }} isOpen={isOpen} onRequestClose={() => { setOpen(false); }}>
@@ -19,7 +20,7 @@ function MediaAtLocation({ fields, children }: Omit<MediaNode, 'id'> & PropsWith
 
 export function ImageAtLocation(image: ImageFileNode) {
   return (
-    <MediaAtLocation fields={image.fields}>
+    <MediaAtLocation fields={image.fields} image={image}>
       <GatsbyImage image={getImage(image)!} style={{ maxWidth: '100%', maxHeight: '100%' }} alt={`image taken at ${new Date(image.fields.createDate).toLocaleString('en-US', { timeZone: 'America/New_York' })}`} />
     </MediaAtLocation>
   );
