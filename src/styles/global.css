@@ -14,7 +14,11 @@ h2 {
 p { margin: 1.12em 0 }
 
 a {
-    color: blue;
+    color: #355e3b;
+    font-weight: bold;
+}
+a:hover {
+    text-decoration: underline;
 }
 
 abbr:where([title]) {
@@ -54,7 +58,7 @@ blockquote p {
     box-sizing: content-box;
     font-size: 1.5em;
     color: brown;
-    background-color: wheat;
+    background-color: #f0c564;
     cursor: pointer;
     z-index: 1000;
 }
