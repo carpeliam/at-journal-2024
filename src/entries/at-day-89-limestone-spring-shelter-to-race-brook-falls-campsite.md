@@ -27,4 +27,4 @@ Immediately after entering MA, I came up on Sage Ravine, and it's gorgeous. I'm 
 
 Initially I wanted to get to the first shelter in MA, which falls after 2 peaks. I got to the first peak and took a look around, and the storm clouds looked like they were headed my way. There was a campground in between the peaks, so I settled for that rather than take my chances with the storm. My mom and John would have been proud.
 
-This was the longest "short" day in some time that I can remember - the trail is getting hard again!
+This was the longest "short" day in some time that I can remember -- the trail is getting hard again!

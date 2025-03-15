@@ -15,7 +15,7 @@ trainingReadiness: 16
 ---
 *DELI BLAZING IS AMAZING.* I was so concerned about the logistics of deli blazing, but it's pretty simple: every day, plan on having at least one meal at a deli. I don't know how long it'll last, but I don't look a gift deli in the mouth. I had a great late breakfast/early lunch today.
 
-I tried my hand at hitching when I got to Pawling - it went well, except for the fact that my driver took me to the wrong park, and I had to walk from one park in Pawling to the other. Can't win them all!
+I tried my hand at hitching when I got to Pawling -- it went well, except for the fact that my driver took me to the wrong park, and I had to walk from one park in Pawling to the other. Can't win them all!
 
 This park has two levels: an upper pavilion and a lower pavilion. Word is that, during the extreme flooding last year, the lower pavilion suffered a flash flood. Last year's rains were definitely extra crazy, but as it was supposed to storm tonight, I decided on the upper pavilion. After getting set up, I headed down to the parking lot and caught up with Beat Box and Beatnik, who had already called a taxi to bring them into town. I hitched along and got some tasty food in town. Just around sundown, I got a text from Beat Box that they had called the taxi to head back.
 

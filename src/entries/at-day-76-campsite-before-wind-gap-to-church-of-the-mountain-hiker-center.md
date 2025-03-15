@@ -13,7 +13,7 @@ recoveryTimeFactorFeedback: GOOD
 sleepHistoryFactorFeedback: POOR
 trainingReadiness: 61
 ---
-Another long water carry! Stopped early at the Gateway Hotel to grab water and borrow the bathroom. After reading the FarOut comments a little more carefully, I guess I was supposed to message him in advance - I'm afraid I woke him up. When departing, though, he handed me a meditation pamphlet, I guess he gives that out to everyone. Over all, a nice guy making his way in the world, though the hotel was in various states of disrepair and I refilled my water directly from his kitchen tap.
+Another long water carry! Stopped early at the Gateway Hotel to grab water and borrow the bathroom. After reading the FarOut comments a little more carefully, I guess I was supposed to message him in advance -- I'm afraid I woke him up. When departing, though, he handed me a meditation pamphlet, I guess he gives that out to everyone. Over all, a nice guy making his way in the world, though the hotel was in various states of disrepair and I refilled my water directly from his kitchen tap.
 
 Right after I crossed the street after leaving the hotel, there was a water cache at the base of Wind Gap parking lot. Maybe I didn't need to stop at the hotel after all, but it was good to make the human connection. I stopped again for water at the next shelter which had it flowing from the faucet, and chatted with some day hikers there.
 

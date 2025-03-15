@@ -19,7 +19,7 @@ Before setting out, I spent the early morning grabbing breakfast and drying out 
 
 At 10am, today was one of my later starts, but it was probably worth it to get breakfast and dry out a bit, and I don't think I would have gone any further had I started much earlier. Today was my last day in the Whites, and I *almost* made it through unscathed from wet weather. While last night was a proper hard rain, today was a classic New England rain, just wet all day long.
 
-I passed Java and Stumbles going southbound on one of the Carters - they didn't want to go up Wildcat in wet weather (maybe they already knew how steep it was?). They were planning to make it to Carter Notch Hut, I hope they make it!
+I passed Java and Stumbles going southbound on one of the Carters -- they didn't want to go up Wildcat in wet weather (maybe they already knew how steep it was?). They were planning to make it to Carter Notch Hut, I hope they make it!
 
 Tonight for dinner, I realized I had miscounted ramen packets during my hasty shopping trip to Walmart, and I ate a lonesome tuna packet for dinner. Definitely getting food in Gorham tomorrow.
 

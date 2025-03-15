@@ -18,3 +18,5 @@ This morning was a classic "always the last one out of camp", hostel edition. I 
 Poet has got his shuttle run speech down pat, like a good city bus tour guide. "And if you look to your left, you'll see the largest waterfall on the AT." "Is it taller than Amicalola Falls?" "Well no, but WATER GOOD. VERY PRETTY. YOU SAY AHH." Entertaining, informative, guaranteed to get you excited for all of the remaining miles.
 
 I had planned to keep my phone turned off for big chunks of the 100 mile wilderness, and I almost immediately regretted it- it's so pretty! I turned my phone back on for a few spots including a cool waterfall, but (I'm sorry Poet) I have no idea if it's the same waterfall Poet was pointing out from the car.
+
+I'm seeing different people here inside the 100 Mile Wilderness than before; it's strange, I don't know if I should expect to see the same familiar faces, but there's just a different crowd here with just a slightly different vibe. Maybe it's because I was off trail for a day. Tonight in the shelter, it's Bonk and me, and some other folks named MacGyver and Sweaty Beattie.

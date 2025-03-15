@@ -19,6 +19,6 @@ Today was a balance of pretty scenery and feeling pretty weak. It was really pre
 
 When I got to shelter, I saw that all the FarOut comments mentioned that someone here had norovirus last week, so everyone is tenting. That's fair.'
 
-A number of the people tenting here know each other - there's a lot of people hiking that are part of an ex-military thing, I think to help them transition back into civilian life. We all ate dinner while sitting on a giant log to avoid sitting on any surfaces near the shelter.
+A number of the people tenting here know each other -- there's a lot of people hiking that are part of an ex-military thing, I think to help them transition back into civilian life. We all ate dinner while sitting on a giant log to avoid sitting on any surfaces near the shelter.
 
 On some of the trees by my tent site, I could literally see leaves growing out of the stems of the branch tips. I've never spent so much time with trees.

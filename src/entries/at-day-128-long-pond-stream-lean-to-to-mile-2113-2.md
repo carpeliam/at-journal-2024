@@ -13,7 +13,7 @@ recoveryTimeFactorFeedback: GOOD
 sleepHistoryFactorFeedback: POOR
 trainingReadiness: 31
 ---
-Hard day. It was settling in to be a hard day right from the start - after only a mile or so, I came up on a beautiful spot overlooking, well, everything, and I sat and ate probably too much food. Even here, I can see evidence of people (a logging road, maybe? or electricity wires?), but you really have to look for it. For the most part, it's just open sky, trees, and lakes.
+Hard day. It was settling in to be a hard day right from the start -- after only a mile or so, I came up on a beautiful spot overlooking, well, everything, and I sat and ate probably too much food. Even here, I can see evidence of people (a logging road, maybe? or electricity wires?), but you really have to look for it. For the most part, it's just open sky, trees, and lakes.
 
 Almost immediately after an extended breakfast, I saw another moose! Err, I saw a moose butt. Its head was hidden by some trees, but I assume it was at least attached to the butt. Indirectly. And almost immediately after the moose butt, I crossed the last milestone: 2100 miles. I don't know what to do with that.
 

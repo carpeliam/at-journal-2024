@@ -17,7 +17,7 @@ I saw what I think is my first undercast today! And then I took a little side tr
 
 Virginia isn't actually flat, but it probably spends more time being relatively flat than some of the other states. That being said, it invites you out into these wide valleys where you get a beautiful view of everything around you, with forest to one side and the rest of the world to the other. Really pretty.
 
-I saw 'Roid again and met Fish Stick today, having lunch at War Spur shelter. They happened to mention while chatting that they had both been passed by Rabbit, and how fast she was; I had to tell them that she had to get off trail, and I wasn't sure if she'd be back. I ended up passing Fish Stick later on in the day - he was moving at a good clip, and I felt compelled for some reason to keep up, and I guess I wore him down, as he ended up giving way to me. I didn't mean to be competitive, but sometimes it comes out.
+I saw 'Roid again and met Fish Stick today, having lunch at War Spur shelter. They happened to mention while chatting that they had both been passed by Rabbit, and how fast she was; I had to tell them that she had to get off trail, and I wasn't sure if she'd be back. I ended up passing Fish Stick later on in the day -- he was moving at a good clip, and I felt compelled for some reason to keep up, and I guess I wore him down, as he ended up giving way to me. I didn't mean to be competitive, but sometimes it comes out.
 
 I saw cows today! They were close by and mobile, so I did kind of a shit job at getting photos of them. But cows are pretty cool.
 

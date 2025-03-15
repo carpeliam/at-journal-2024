@@ -15,7 +15,7 @@ trainingReadiness: 36
 ---
 Some days it feels like I'm just walking from a shelter on the side of one mountain to a different shelter on the side of a different mountain. This morning, I walked over the Hudson River.
 
-One of the New York trail aspects people talk about is deli blazing, where you're supposed to be able to get all your calories from just visiting a NY deli. This sounds amazing, but I've been trying to figure out the logistics a bit - where are the delis? How many are there, and how do I time them right? Today was an exercise in "don't overthink it", as the trail literally goes right by a deli called "Appalachian Market". I was able to order hot food, drink a cold gatorade, and round off my snack collection. I ran into Freedom and Dax while I chilled out for a while.
+One of the New York trail aspects people talk about is deli blazing, where you're supposed to be able to get all your calories from just visiting a NY deli. This sounds amazing, but I've been trying to figure out the logistics a bit -- where are the delis? How many are there, and how do I time them right? Today was an exercise in "don't overthink it", as the trail literally goes right by a deli called "Appalachian Market". I was able to order hot food, drink a cold gatorade, and round off my snack collection. I ran into Freedom and Dax while I chilled out for a while.
 
 It's still hot, but not quite as hot during the day as it was when I was in New Jersey, and I was able to make decent time. I've been using the log books to see how far ahead of me people are, and I opened a log book expecting to find a sign-in sheet, but found individual cards instead, and felt compelled to write poetry. I think I said something like,
 > What is the universe but dying, \
