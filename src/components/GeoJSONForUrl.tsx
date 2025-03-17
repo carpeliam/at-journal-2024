@@ -4,6 +4,7 @@ import { LatLngBounds, LatLngTuple } from 'leaflet';
 import { Feature, LineString } from 'geojson';
 import { GeoJSONFileNode } from '../types';
 import { isActiveEntry } from '../ActiveEntryContext';
+import Elevation from './Elevation';
 
 export default function GeoJSONForUrl({ publicURL, name } : GeoJSONFileNode) {
     const [geoJson, setGeoJson] = useState<Feature<LineString>>();
@@ -37,6 +38,7 @@ export default function GeoJSONForUrl({ publicURL, name } : GeoJSONFileNode) {
           <>
             <CircleMarker center={firstCoordinateCenter(geoJson.geometry.coordinates)} radius={6} color={color} pathOptions={{ fillOpacity: 0.9 }} />
             <CircleMarker center={lastCoordinateCenter(geoJson.geometry.coordinates)} radius={6} color="black" pathOptions={{ fillOpacity: 0.5 }} />
+            <Elevation url={publicURL} />
           </>}
       </>;
   }
