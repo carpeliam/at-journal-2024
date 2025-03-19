@@ -83,10 +83,6 @@ export const onCreateWebpackConfig: GatsbyNode["onCreateWebpackConfig"] = ({ sta
             test: /react-leaflet-cluster/,
             use: loaders.null(),
           },
-          // {
-          //   test: /leaflet-elevation/,
-          //   use: loaders.null(),
-          // },
         ],
       },
     });
