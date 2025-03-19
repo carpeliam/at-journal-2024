@@ -30,17 +30,9 @@ export default function GeoJSONForUrl({ publicURL, name } : GeoJSONFileNode) {
       return [lastCoord[1], lastCoord[0]] as LatLngTuple;
     }
     return geoJson &&
-      <>
-        <GeoJSON data={geoJson} style={{ color }} eventHandlers={{
+        (isActive ? (<Elevation data={geoJson} />) : (<GeoJSON data={geoJson} style={{ color }} eventHandlers={{
           click: () => { document.getElementById(date)!.scrollIntoView(true); }
-        }} />
-        {isActive &&
-          <>
-            <CircleMarker center={firstCoordinateCenter(geoJson.geometry.coordinates)} radius={6} color={color} pathOptions={{ fillOpacity: 0.9 }} />
-            <CircleMarker center={lastCoordinateCenter(geoJson.geometry.coordinates)} radius={6} color="black" pathOptions={{ fillOpacity: 0.5 }} />
-            <Elevation url={publicURL} />
-          </>}
-      </>;
+        }} />))
   }
   
   
