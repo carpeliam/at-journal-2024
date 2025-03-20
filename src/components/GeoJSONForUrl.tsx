@@ -14,7 +14,7 @@ export default function GeoJSONForUrl({ publicURL, name }: GeoJSONFileNode) {
     fetch(publicURL)
       .then(resp => resp.json())
       .then(setGeoJson);
-  }, []);
+  }, [publicURL]);
   return geoJson &&
     (
       (isActive)

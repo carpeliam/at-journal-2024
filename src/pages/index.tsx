@@ -20,7 +20,7 @@ export default function IndexPage({ data }: PageProps<IndexData>) {
   const images = data.images.nodes.map(node => <ImageAtLocation key={node.id} {...node} />);
   const movies = data.movies.nodes.map(node => <MovieAtLocation key={node.id} {...node} />);
   const [activeEntry, setActiveEntry] = useState<string>();
-  const [isMapHidden, setMapHidden] = useState(false);
+  const [isMapVisible, setMapVisible] = useState(true);
   useEffect(() => {
     if (process.env.NODE_ENV !== 'test')
       Modal.setAppElement('#___gatsby');
@@ -28,24 +28,24 @@ export default function IndexPage({ data }: PageProps<IndexData>) {
   return (
     <main>
       <ActiveEntryContext.Provider value={{ activeEntry, setActiveEntry }}>
-        <div className={classNames('map', { closed: isMapHidden })}>
+        <div className={classNames('map', { open: isMapVisible })}>
           <MapContainer style={{ height: '100vh' }} center={[39.717330464, -77.503664652]} zoom={5} scrollWheelZoom={false}>
-            <ScreenListener />
+            <ScreenListener isVisible={isMapVisible} />
             <TileLayer
               attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
               url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
             />
-            {geojsonComponents}
-            <MarkerClusterGroup maxClusterRadius={15} showCoverageOnHover={false}>
+            {isMapVisible && geojsonComponents}
+            <MarkerClusterGroup maxClusterRadius={15} showCoverageOnHover={true}>
               {[...images, ...movies]}
             </MarkerClusterGroup>
           </MapContainer>
-          {isMapHidden
-            ? <TbMapPlus className="toggle-map closed" onClick={() => setMapHidden(false)} />
-            : <TbMapMinus className="toggle-map" onClick={() => setMapHidden(true)} />
+          {isMapVisible
+            ? <TbMapMinus className="toggle-map" onClick={() => setMapVisible(false)} />
+            : <TbMapPlus className="toggle-map closed" onClick={() => setMapVisible(true)} />
           }
         </div>
-        <div className={classNames('articles', { full: isMapHidden })}>
+        <div className={classNames('articles', { 'with-map': isMapVisible })}>
           <Preface metadata={data.site.siteMetadata} />
           {data.allMarkdownRemark.edges.map(({ node, previous }) => (
             <Entry key={node.frontmatter.day} previous={previous?.frontmatter} {...node} />

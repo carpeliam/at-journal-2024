@@ -45,12 +45,12 @@ blockquote p {
 
 .map {
     position: fixed;
-    z-index: 1;
-    width: 425px;
     transition: width 0.3s ease-in-out;
-}
-.map.closed {
     width: 0;
+    z-index: 1;
+}
+.map.open {
+    width: 425px;
 }
 
 .toggle-map {
@@ -81,11 +81,11 @@ blockquote p {
 }
 
 .articles {
-    margin-left: 425px;
+    margin-left: 0;
     padding: 10px;
 }
-.articles.full {
-    margin-left: 0;
+.articles.with-map   {
+    margin-left: 425px;
 }
 
 .entry {

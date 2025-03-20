@@ -48,7 +48,7 @@ function createElevation({ data, position = 'bottomleft' }: ElevationProps): Con
     edgeScale: false,
     imperial: true,
     legend: false,
-    marker: 'position-marker',
+    marker: undefined,
     // theme: 'steelblue-theme',
     time: false,
     handlers: [
