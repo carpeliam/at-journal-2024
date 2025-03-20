@@ -24,11 +24,11 @@ declare namespace L {
             __LCHART?: string;
             __LMARKER?: string;
             __LSUMMARY?: string;
-    
+
             __btnIcon?: string;
             import?(src: string | string[], component?: Object): Promise<Object | undefined>;
         }
-    
+
         export function include(obj: IncludeType);
     }
 
@@ -36,21 +36,23 @@ declare namespace L {
         type ElevationOptions = {
             almostOver?: boolean;
             collapsed?: boolean;
-            theme?: string;
             detached?: boolean;
-            time?: boolean;
             distance?: boolean;
-            imperial?: boolean;
-            summary?: boolean;
-            downloadLink?: boolean;
-            ruler?: boolean;
-            legend?: boolean;
             distanceMarkers?: boolean;
+            downloadLink?: boolean;
+            edgeScale?: boolean;
+            followMarker?: boolean;
+            handlers?: Function[];
+            imperial?: boolean;
+            legend?: boolean;
+            marker?: 'position-marker' | 'elevation-line';
+            position?: string;
+            ruler?: boolean;
+            summary?: boolean;
+            theme?: string;
+            time?: boolean;
             waypoints?: boolean;
             wptLabels?: boolean;
-            edgeScale?: boolean;
-            position?: string;
-            handlers?: Function[];
         }
 
         class ElevationControl extends Control {
@@ -63,15 +65,3 @@ declare namespace L {
         export function elevation(options: ElevationOptions): ElevationControl;
     }
 }
-
-// export as namespace toGeoJSON;
-// export function toGeoJSON() {}
-
-// declare global {
-//     interface Global {
-//       toGeoJSON: typeof toGeoJSON;
-//     }
-//   }
-// declare global {
-//     function toGeoJSON(): Object;
-// }

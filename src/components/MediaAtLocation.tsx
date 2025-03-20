@@ -1,13 +1,19 @@
-import { GatsbyImage, getImage } from 'gatsby-plugin-image';
-import { Marker } from 'react-leaflet';
 import React, { PropsWithChildren, useState } from 'react';
-import { isActiveEntry } from '../ActiveEntryContext';
-import { MediaNode, ImageFileNode, MovieNode } from '../types';
+import { GatsbyImage, getImage } from 'gatsby-plugin-image';
 import Modal from 'react-modal';
 import { useMediaQuery } from 'react-responsive';
 import { TbX } from 'react-icons/tb';
+import { isActiveEntry } from '../ActiveEntryContext';
+import { MediaNode, ImageFileNode, MovieNode } from '../types';
+import MediaMarker from './MediaMarker';
 
-function MediaAtLocation({ fields, children }: Omit<MediaNode, 'id'> & PropsWithChildren) {
+type MediaProps = PropsWithChildren & {
+  media: ImageFileNode | { fields: MediaNode["fields"], type: 'video' };
+}
+
+function MediaAtLocation({ media: imageOrMovie, children }: MediaProps) {
+  const media = imageOrMovie.type || imageOrMovie;
+  const { createDate, coordinates: { latitude, longitude } } = imageOrMovie.fields;
   const isFullscreen = useMediaQuery({ maxWidth: 768 });
   const [isOpen, setOpen] = useState(false);
   const style: Modal.Styles = (isFullscreen)
@@ -20,8 +26,8 @@ function MediaAtLocation({ fields, children }: Omit<MediaNode, 'id'> & PropsWith
       content: { position: 'relative', margin: 40, inset: 0, maxHeight: '100vh' },
     };
 
-  return isActiveEntry(fields.createDate) && <>
-    <Marker position={[fields.coordinates.latitude, fields.coordinates.longitude]}
+  return isActiveEntry(createDate) && <>
+    <MediaMarker media={media} position={[latitude, longitude]}
       eventHandlers={{ click: () => { setOpen(true); } }} />
     <Modal style={style} isOpen={isOpen} onRequestClose={() => { setOpen(false); }}>
       <button onClick={() => setOpen(false)}
@@ -35,15 +41,15 @@ function MediaAtLocation({ fields, children }: Omit<MediaNode, 'id'> & PropsWith
 
 export function ImageAtLocation(image: ImageFileNode) {
   return (
-    <MediaAtLocation fields={image.fields}>
+    <MediaAtLocation media={image}>
       <GatsbyImage image={getImage(image)!} objectFit="contain" style={{ maxWidth: '100%', maxHeight: '100%' }} alt={`image taken at ${new Date(image.fields.createDate).toLocaleString('en-US', { timeZone: 'America/New_York' })}`} />
     </MediaAtLocation>
   );
 }
 
-export function MovieAtLocation({ publicURL, ...mediaProps }: MovieNode) {
+export function MovieAtLocation({ publicURL, fields }: MovieNode) {
   return (
-    <MediaAtLocation {...mediaProps}>
+    <MediaAtLocation media={{ fields, type: 'video' }}>
       <video src={publicURL} autoPlay controls style={{ maxWidth: '100%', maxHeight: '100%' }} />
     </MediaAtLocation>
   );
