@@ -6,3 +6,4 @@ journal*.txt
 scripts/*.json
 src/images/
 TODO
+.vscode/

@@ -1,11 +1,11 @@
 import React, { PropsWithChildren, useState } from 'react';
 import { GatsbyImage, getImage } from 'gatsby-plugin-image';
 import Modal from 'react-modal';
-import { useMediaQuery } from 'react-responsive';
 import { TbX } from 'react-icons/tb';
 import { isActiveEntry } from '../ActiveEntryContext';
 import { MediaNode, ImageFileNode, MovieNode } from '../types';
 import MediaMarker from './MediaMarker';
+import { useIsMobile } from '../mediaQueries';
 
 type MediaProps = PropsWithChildren & {
   media: ImageFileNode | { fields: MediaNode["fields"], type: 'video' };
@@ -14,7 +14,7 @@ type MediaProps = PropsWithChildren & {
 function MediaAtLocation({ media: imageOrMovie, children }: MediaProps) {
   const media = imageOrMovie.type || imageOrMovie;
   const { createDate, coordinates: { latitude, longitude } } = imageOrMovie.fields;
-  const isFullscreen = useMediaQuery({ maxWidth: 768 });
+  const isFullscreen = useIsMobile();
   const [isOpen, setOpen] = useState(false);
   const style: Modal.Styles = (isFullscreen)
     ? {

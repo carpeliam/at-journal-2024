@@ -17,7 +17,7 @@ h2 {
 p { margin: 1.12em 0 }
 
 a {
-    color: #355e3b;
+    @apply text-green-900;
     font-weight: bold;
 }
 a:hover {
@@ -43,16 +43,6 @@ blockquote p {
     overflow: hidden;
 }
 
-.map {
-    position: fixed;
-    transition: width 0.3s ease-in-out;
-    width: 0;
-    z-index: 1;
-}
-.map.open {
-    width: 425px;
-}
-
 .toggle-map {
     position: absolute;
     top: 50%;
@@ -63,29 +53,9 @@ blockquote p {
     color: brown;
     background-color: #f0c564;
     cursor: pointer;
-    z-index: 1000;
 }
 .toggle-map.closed {
     transform: translateX(100%);
-}
-@media screen and (max-width: 768px) {
-    main {
-        overflow-x: hidden;
-    }
-    .map {
-        width: 100vw;
-    }
-    .articles {
-        width: 100%;
-    }
-}
-
-.articles {
-    margin-left: 0;
-    padding: 10px;
-}
-.articles.with-map   {
-    margin-left: 425px;
 }
 
 .entry {

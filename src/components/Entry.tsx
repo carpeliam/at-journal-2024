@@ -118,7 +118,7 @@ export default function Entry({ frontmatter, html, previous }: MarkdownNode & { 
 
   return (
     <article ref={combinedRef} className={classNames('entry', { 'entry-active': isActiveEntry(date) })}>
-      <h2 className="cursor-pointer" id={date} onClick={() => linkRef.current?.scrollIntoView()}>
+      <h2 className="cursor-pointer text-green-900 hover:underline" id={date} onClick={() => linkRef.current?.scrollIntoView()}>
         {title(frontmatter, previous)}
       </h2>
       <div className="flex gap-4 text-sm">
