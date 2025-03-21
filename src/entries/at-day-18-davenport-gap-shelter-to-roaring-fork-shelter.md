@@ -13,7 +13,7 @@ recoveryTimeFactorFeedback: GOOD
 sleepHistoryFactorFeedback: MODERATE
 trainingReadiness: 62
 ---
-I'm wearing a Garmin watch during the trail, and one of its features is to recommend a workout every morning based on my current training load. On my first morning on the trail, it said ooh, yesterday was a lot, and you should rest, and I ignored this. On my second morning on the trail, it said it didn't know what the hell was going on but yesterday looked pretty tough, and I should rest. I didn't rest. On the third day, rinse and repeat. Every morning since my first day, my watch has told me to stop hiking, enough is enough. UNTIL TODAY. Today, my watch said, hey, today looks like a good day to go for walk. Ok, it didn't phrase it like that, but we speak a language.
+I'm wearing a Garmin watch during the trail, and one of its features is to recommend a workout every morning based on my current training load. On my first morning on the trail, it said ooh, yesterday was a lot, and you should rest, and I ignored this. On my second morning on the trail, it said it didn't know what the hell was going on but yesterday looked pretty tough, and I should rest. I didn't rest. On the third day, rinse and repeat. Every morning since my first day, my watch has told me to stop hiking, enough is enough. UNTIL TODAY. Today, my watch said, hey, today looks like a good day to go for a walk. Ok, it didn't phrase it like that, but we speak a language.
 
 *I think my watch just told me I've got my trail legs.*
 
