@@ -20,11 +20,15 @@ class PanelEventListener {
   constructor() {
     this.eventTarget = new EventTarget();
   }
-  dispatch = (type: 'resize') => {
+  dispatchResize = () => this.dispatch('resize')
+  dispatchCollapse = () => this.dispatch('collapse')
+  onResize = (callback: EventListener) => this.on('resize', callback)
+  onCollapse = (callback: EventListener) => this.on('collapse', callback)
+  private dispatch(type: 'resize' | 'collapse') {
     this.eventTarget.dispatchEvent(new Event(type));
   }
-  onResize = (callback: EventListener) => {
-    this.eventTarget.addEventListener('resize', callback);
+  private on(type: 'resize' | 'collapse', callback: EventListener) {
+    this.eventTarget.addEventListener(type, callback);
   }
 }
 
@@ -33,6 +37,8 @@ export default function IndexPage({ data }: PageProps<IndexData>) {
   const images = data.images.nodes.map(node => <ImageAtLocation key={node.id} {...node} />);
   const movies = data.movies.nodes.map(node => <MovieAtLocation key={node.id} {...node} />);
   const [activeEntry, setActiveEntry] = useState<string>();
+  const panelGroupRef = useRef<ImperativePanelGroupHandle>(null);
+  const listener = new PanelEventListener();
   const mapWidth = useMapWidth();
 
   useEffect(() => {
@@ -40,14 +46,11 @@ export default function IndexPage({ data }: PageProps<IndexData>) {
       Modal.setAppElement('#___gatsby');
   }, []);
 
-  const listener = new PanelEventListener();
-  const panelGroupRef = useRef<ImperativePanelGroupHandle>(null);
-
   return (
     <main>
       <ActiveEntryContext.Provider value={{ activeEntry, setActiveEntry }}>
         <PanelGroup direction="horizontal" style={{ overflow: 'visible' }} ref={panelGroupRef}>
-          <Panel style={{ overflow: 'visible' }} defaultSize={mapWidth.initial} onResize={() => listener.dispatch('resize') }>
+          <Panel collapsible defaultSize={mapWidth.initial} style={{ overflow: 'visible' }} onResize={listener.dispatchResize} onCollapse={listener.dispatchCollapse}>
             <MapContainer style={{ position: 'sticky', top: 0, height: '100vh' }} center={[39.717330464, -77.503664652]} zoom={5} scrollWheelZoom={false}>
               <ScreenListener onResize={listener.onResize} />
               <TileLayer
@@ -55,13 +58,13 @@ export default function IndexPage({ data }: PageProps<IndexData>) {
                 url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
               />
               {geojsonComponents}
-              <MarkerClusterGroup maxClusterRadius={15} showCoverageOnHover={true}>
+              <MarkerClusterGroup maxClusterRadius={15} showCoverageOnHover>
                 {[...images, ...movies]}
               </MarkerClusterGroup>
             </MapContainer>
           </Panel>
           <PanelResizeHandle style={{ position: 'sticky', top: 0, height: '100vh', zIndex: 1 }} className="w-1 bg-green-950">
-            <MapToggle panelGroupRef={panelGroupRef} />
+            <MapToggle panelGroupRef={panelGroupRef} onCollapse={listener.onCollapse} />
           </PanelResizeHandle>
           <Panel defaultSize={100 - mapWidth.initial}>
             <div style={{ padding: 10 }}>
