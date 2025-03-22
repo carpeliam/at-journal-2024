@@ -1,7 +1,7 @@
 import React from 'react';
 import { Icon, icon as leafletIcon, divIcon, BaseIconOptions } from 'leaflet';
 import { Marker, MarkerProps } from 'react-leaflet';
-import { getImage, getSrcSet, ImageDataLike } from 'gatsby-plugin-image';
+import { getImage, getSrcSet, IGatsbyImageData, ImageDataLike } from 'gatsby-plugin-image';
 import { FcVideoCall } from "react-icons/fc";
 import { renderToString } from 'react-dom/server';
 
@@ -22,9 +22,17 @@ export default function MediaMarker({ media, ...markerProps }: MediaMarkerProps)
         const srcSet = getSrcSet(media)!;
         const smallestImage = srcSet.split(',').sort((a, b) => sourceInfo(a).width - sourceInfo(b).width)[0];
         const iconUrl = sourceInfo(smallestImage).url;
-        icon = leafletIcon({ iconUrl, iconSize: [image.width / 25, image.height / 25] });
+        icon = leafletIcon({ iconUrl, iconSize: iconSize(image) });
     }
     return <Marker icon={icon} {...markerProps} />;
+}
+
+function iconSize(image: IGatsbyImageData): [number, number] {
+    const { width, height } = image;
+    const pixelCount = width * height;
+    const desiredPixelCount = 50 * 40;
+    const divisor = Math.sqrt(pixelCount / desiredPixelCount);
+    return [width / divisor, height / divisor];
 }
 
 function sourceInfo(srcSetMember: string) {

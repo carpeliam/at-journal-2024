@@ -5,26 +5,38 @@ import MediaMarker from '../src/components/MediaMarker';
 import { IGatsbyImageData } from 'gatsby-plugin-image';
 import { MapContainer } from 'react-leaflet';
 
-const position = [0, 0];
-
 describe('MediaMarker', () => {
     describe('for photos', () => {
         it('shrinks landscape photos', () => {
             renderPhotoMarker({ dimensions: [1280, 960] });
             const { width, height } = screen.getByRole('button', { name: 'Marker' }).style;
-            expect([width, height]).toEqual(['51.2px', '38.4px']);
+            expect(pixelsFor(width)).toBeCloseTo(51.6, 1);
+            expect(pixelsFor(height)).toBeCloseTo(38.7, 1);
         });
 
         it('shrinks portrait photos', () => {
             renderPhotoMarker({ dimensions: [960, 1280] });
             const { width, height } = screen.getByRole('button', { name: 'Marker' }).style;
-            expect([width, height]).toEqual(['38.4px', '51.2px']);
+            expect(pixelsFor(width)).toBeCloseTo(38.7, 1);
+            expect(pixelsFor(height)).toBeCloseTo(51.6, 1);
+        });
+
+        it('shrinks smaller images to a lesser degree', () => {
+            renderPhotoMarker({ dimensions: [768, 1024] });
+            const { width, height } = screen.getByRole('button', { name: 'Marker' }).style;
+            expect(pixelsFor(width)).toBeCloseTo(38.7, 1);
+            expect(pixelsFor(height)).toBeCloseTo(51.6, 1);
         });
 
         it('uses the smallest image from the source set as an icon', () => {
             renderPhotoMarker({ srcSet: 'img1.jpg 360w\nimg2.jpg 720w' });
             expect(screen.getByRole('button', { name: 'Marker' }).getAttribute('src')).toEqual('img1.jpg');
         });
+
+        function pixelsFor(dimension: string) {
+            expect(dimension).to.match(/(\d*\.?\d+)px/);
+            return parseFloat(dimension);
+        }
 
         function renderPhotoMarker({ dimensions = [1, 1], srcSet = 'img1.jpg' }: { dimensions?: [number, number], srcSet?: string }) {
             const [width, height] = dimensions;
