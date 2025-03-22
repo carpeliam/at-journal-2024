@@ -2,7 +2,6 @@ import fs from 'fs';
 import { read as readExif } from 'fast-exif';
 import exiftool from 'exiftool';
 import type { CreateNodeArgs, GatsbyNode } from 'gatsby';
-import { parse as parseExifDate } from 'exif-date';
 
 type SiteNode = Record<string, unknown> & {
   frontmatter: {
@@ -122,4 +121,34 @@ function decimalLongitudeFor(gps: Record<string, unknown>) {
   } else {
     console.log('no longitude for', gps);
   }
+}
+
+// currently unable to use exif-date library until https://github.com/blakeembrey/exif-date/pull/18 is addressed
+const EXIF_DATE_REGEXP = new RegExp(
+  "^(\\d{4}):(\\d{2}):(\\d{2}) (\\d{2}):(\\d{2}):(\\d{2})" +
+    "(?:\\.(\\d{1,3}))?(?:([zZ])|([-+])(\\d{2}):(\\d{2}))?$"
+);
+function parseExifDate(value: string): Date {
+  const m = EXIF_DATE_REGEXP.exec(value);
+
+  if (m == null) {
+    return new Date(NaN);
+  }
+
+  const date = new Date();
+  const offset = m[8]
+    ? 0
+    : m[9]
+    ? (Number(m[10]) * 60 + Number(m[11])) * (m[9] === "+" ? -1 : 1)
+    : 0;
+
+  date.setUTCFullYear(Number(m[1]));
+  date.setUTCMonth(Number(m[2]) - 1);
+  date.setUTCDate(Number(m[3]));
+  date.setUTCHours(Number(m[4]));
+  date.setUTCMinutes(Number(m[5]) + offset);
+  date.setUTCSeconds(Number(m[6]));
+  date.setUTCMilliseconds(Number(m[7]) || 0);
+
+  return date;
 }
