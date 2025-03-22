@@ -9,9 +9,10 @@ import { useIsMobile } from '../mediaQueries';
 
 type MediaProps = PropsWithChildren & {
   media: ImageFileNode | { fields: MediaNode["fields"], type: 'video' };
+  title?: string;
 }
 
-function MediaAtLocation({ media: imageOrMovie, children }: MediaProps) {
+function MediaAtLocation({ media: imageOrMovie, title, children }: MediaProps) {
   const media = imageOrMovie.type || imageOrMovie;
   const { createDate, coordinates: { latitude, longitude } } = imageOrMovie.fields;
   const isFullscreen = useIsMobile();
@@ -27,7 +28,7 @@ function MediaAtLocation({ media: imageOrMovie, children }: MediaProps) {
     };
 
   return isActiveEntry(createDate) && <>
-    <MediaMarker media={media} position={[latitude, longitude]}
+    <MediaMarker media={media} position={[latitude, longitude]} title={title}
       eventHandlers={{ click: () => { setOpen(true); } }} />
     <Modal style={style} isOpen={isOpen} onRequestClose={() => { setOpen(false); }}>
       <button onClick={() => setOpen(false)}
@@ -40,17 +41,19 @@ function MediaAtLocation({ media: imageOrMovie, children }: MediaProps) {
 }
 
 export function ImageAtLocation(image: ImageFileNode) {
+  const title = `photo taken at ${new Date(image.fields.createDate).toLocaleString('en-US', { timeZone: 'America/New_York' })}`
   return (
-    <MediaAtLocation media={image}>
-      <GatsbyImage image={getImage(image)!} objectFit="contain" style={{ maxWidth: '100%', maxHeight: '100%' }} alt={`image taken at ${new Date(image.fields.createDate).toLocaleString('en-US', { timeZone: 'America/New_York' })}`} />
+    <MediaAtLocation media={image} title={title}>
+      <GatsbyImage image={getImage(image)!} objectFit="contain" style={{ maxWidth: '100%', maxHeight: '100%' }} title={title} alt={title} />
     </MediaAtLocation>
   );
 }
 
 export function MovieAtLocation({ publicURL, fields }: MovieNode) {
+  const title = `video taken at ${new Date(fields.createDate).toLocaleString('en-US', { timeZone: 'America/New_York' })}`;
   return (
-    <MediaAtLocation media={{ fields, type: 'video' }}>
-      <video src={publicURL} autoPlay controls style={{ maxWidth: '100%', maxHeight: '100%' }} />
+    <MediaAtLocation media={{ fields, type: 'video' }} title={title}>
+      <video src={publicURL} autoPlay controls style={{ maxWidth: '100%', maxHeight: '100%' }} title={title} />
     </MediaAtLocation>
   );
 }
