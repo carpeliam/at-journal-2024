@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { graphql, PageProps } from 'gatsby';
-import { MapContainer, TileLayer } from 'react-leaflet';
+import { LayersControl, MapContainer, TileLayer } from 'react-leaflet';
 import MarkerClusterGroup from 'react-leaflet-cluster';
 import { ImperativePanelGroupHandle, Panel, PanelGroup, PanelResizeHandle } from 'react-resizable-panels';
 import Modal from 'react-modal';
@@ -36,6 +36,7 @@ export default function IndexPage({ data }: PageProps<IndexData>) {
   const geojsonComponents = data.geojson.nodes.map(node => <GeoJSONForUrl key={node.name} {...node} />);
   const images = data.images.nodes.map(node => <ImageAtLocation key={node.id} {...node} />);
   const movies = data.movies.nodes.map(node => <MovieAtLocation key={node.id} {...node} />);
+  const { mapBoxApiToken } = data.site.siteMetadata;
   const [activeEntry, setActiveEntry] = useState<string>();
   const panelGroupRef = useRef<ImperativePanelGroupHandle>(null);
   const listener = new PanelEventListener();
@@ -54,13 +55,19 @@ export default function IndexPage({ data }: PageProps<IndexData>) {
             <MapContainer style={{ position: 'sticky', top: 0, height: '100vh' }} center={[39.717330464, -77.503664652]} zoom={5} scrollWheelZoom={false}>
               <ScreenListener onResize={listener.onResize} />
               <TileLayer
-                attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-                url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+                attribution='&copy; <a href="https://www.mapbox.com/about/maps">Mapbox</a>
+                  &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>
+                  <a href="https://apps.mapbox.com/feedback/" target="_blank">Improve this map</a>'
+                url={`https://api.mapbox.com/styles/v1/mapbox/outdoors-v12/tiles/256/{z}/{x}/{y}@2x?access_token=${mapBoxApiToken}`}
               />
               {geojsonComponents}
-              <MarkerClusterGroup maxClusterRadius={15} showCoverageOnHover>
-                {[...images, ...movies]}
-              </MarkerClusterGroup>
+              <LayersControl position="topright">
+                <LayersControl.Overlay name="Photos/Videos" checked>
+                  <MarkerClusterGroup maxClusterRadius={15} showCoverageOnHover>
+                    {[...images, ...movies]}
+                  </MarkerClusterGroup>
+                </LayersControl.Overlay>
+              </LayersControl>
             </MapContainer>
           </Panel>
           <PanelResizeHandle style={{ position: 'sticky', top: 0, height: '100vh', zIndex: 1 }} className="w-1 bg-green-950">
@@ -86,8 +93,8 @@ export const pageQuery = graphql`
     site {
       siteMetadata {
         title
-        siteUrl
         description
+        mapBoxApiToken
       }
     }
     allMarkdownRemark(

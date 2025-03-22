@@ -49,7 +49,7 @@ export type GeoJSONFileNode = {
     site: {
       siteMetadata: {
         description: string;
-        siteUrl: string;
+        mapBoxApiToken: string;
         title: string;
       }
     }
