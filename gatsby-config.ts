@@ -1,10 +1,12 @@
+import 'dotenv/config';
 import type { GatsbyConfig } from 'gatsby';
 
 const config: GatsbyConfig = {
   siteMetadata: {
     title: 'Marathon From Georgia To Maine',
     description: 'Between April 3rd and August 13th of 2024, I hiked 2197 miles from Georgia to Maine. This is the story of the steps.',
-    siteUrl: 'https://www.yourdomain.tld'
+    siteUrl: 'https://www.carpeliam.com',
+    mapBoxApiToken: process.env.MAPBOX_API_TOKEN,
   },
   pathPrefix: '/at-journal-2024',
   // More easily incorporate content into your pages through automatic TypeScript type generation and better GraphQL IntelliSense.

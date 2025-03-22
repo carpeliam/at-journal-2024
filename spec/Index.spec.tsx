@@ -11,7 +11,7 @@ describe('IndexPage', () => {
       site: {
         siteMetadata: {
           description: '',
-          siteUrl: '',
+          mapBoxApiToken: '',
           title: 'Some stupid website'
         }
       },
