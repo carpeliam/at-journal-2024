@@ -1,5 +1,6 @@
 import { createContext, useContext } from 'react';
 import { InViewHookResponse, useInView } from 'react-intersection-observer';
+import { useTimeZone } from './timeZone';
 
 type ActiveEntryContextType = {
     activeEntry: string | undefined;
@@ -9,6 +10,7 @@ export const ActiveEntryContext = createContext<ActiveEntryContextType | undefin
 
 export function isActiveEntry(entry: string): boolean {
   const activeEntryContext = useContext(ActiveEntryContext);
+  const localTimeZone = useTimeZone();
   if (!activeEntryContext) {
     return false;
   }
@@ -16,9 +18,9 @@ export function isActiveEntry(entry: string): boolean {
   if (!activeEntry) {
     return false;
   }
-  const activeDate = new Date(activeEntry).toLocaleDateString('en-US', { timeZone: 'UTC'});
-  const entryTimeZone = (entry.indexOf('T') !== -1) ? 'America/New_York' : 'UTC';
-  const entryDate = new Date(entry).toLocaleDateString('en-US', { timeZone: entryTimeZone});
+  const activeDate = new Date(activeEntry).toLocaleDateString('en-US', { timeZone: 'UTC' });
+  const entryTimeZone = (entry.indexOf('T') !== -1) ? localTimeZone : 'UTC';
+  const entryDate = new Date(entry).toLocaleDateString('en-US', { timeZone: entryTimeZone });
   return activeDate === entryDate;
 }
 

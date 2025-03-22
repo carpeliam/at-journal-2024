@@ -1,18 +1,32 @@
-import { describe, it, expect } from 'vitest';
+import { vi, describe, it, expect, beforeEach, afterEach, Mock } from 'vitest';
 import React from 'react';
+import { useStaticQuery, PageProps } from 'gatsby';
 import { render, screen } from '@testing-library/react';
 import IndexPage from '../src/pages/index.tsx';
-import { PageProps } from 'gatsby';
 import { IndexData } from '../src/types.ts';
 
 describe('IndexPage', () => {
+  beforeEach(() => {
+    (useStaticQuery as Mock).mockImplementation(() => ({
+      site: {
+        siteMetadata: {
+          timeZone: 'America/New_York',
+        }
+      },
+    }));
+  });
+
+  afterEach(() => {
+    vi.restoreAllMocks();
+  });
+
   it('renders successfully', () => {
     const data: IndexData = {
       site: {
         siteMetadata: {
           description: '',
           mapBoxApiToken: '',
-          title: 'Some stupid website'
+          title: 'Some stupid website',
         }
       },
       geojson: {

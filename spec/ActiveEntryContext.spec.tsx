@@ -1,5 +1,6 @@
-import { describe, it, expect } from 'vitest';
+import { vi, describe, it, expect, beforeEach, afterEach, Mock } from 'vitest';
 import React from 'react';
+import { useStaticQuery } from 'gatsby';
 import { render, screen } from '@testing-library/react';
 import { ActiveEntryContext, isActiveEntry } from '../src/ActiveEntryContext';
 
@@ -15,6 +16,20 @@ function IsActiveEntry({ entry }) {
 }
 
 describe('ActiveEntryContext', () => {
+  beforeEach(() => {
+    (useStaticQuery as Mock).mockImplementation(() => ({
+      site: {
+        siteMetadata: {
+          timeZone: 'America/New_York',
+        }
+      },
+    }));
+  });
+
+  afterEach(() => {
+    vi.restoreAllMocks();
+  });
+
   describe('isActiveEntry', () => {
     it('returns false if no ActiveEntryContext', () => {
       render(

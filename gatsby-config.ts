@@ -6,6 +6,7 @@ const config: GatsbyConfig = {
     title: 'Marathon From Georgia To Maine',
     description: 'Between April 3rd and August 13th of 2024, I hiked 2197 miles from Georgia to Maine. This is the story of the steps.',
     siteUrl: 'https://www.carpeliam.com',
+    timeZone: 'America/New_York',
     mapBoxApiToken: process.env.MAPBOX_API_TOKEN,
   },
   pathPrefix: '/at-journal-2024',

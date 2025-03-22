@@ -6,6 +6,7 @@ import { isActiveEntry } from '../ActiveEntryContext';
 import { MediaNode, ImageFileNode, MovieNode } from '../types';
 import MediaMarker from './MediaMarker';
 import { useIsMobile } from '../mediaQueries';
+import { useDateFormat } from '../timeZone';
 
 type MediaProps = PropsWithChildren & {
   media: ImageFileNode | { fields: MediaNode["fields"], type: 'video' };
@@ -41,7 +42,8 @@ function MediaAtLocation({ media: imageOrMovie, title, children }: MediaProps) {
 }
 
 export function ImageAtLocation(image: ImageFileNode) {
-  const title = `photo taken at ${new Date(image.fields.createDate).toLocaleString('en-US', { timeZone: 'America/New_York' })}`
+  const dateFormat = useDateFormat();
+  const title = `photo taken at ${dateFormat.format(new Date(image.fields.createDate))}`
   return (
     <MediaAtLocation media={image} title={title}>
       <GatsbyImage image={getImage(image)!} objectFit="contain" style={{ maxWidth: '100%', maxHeight: '100%' }} title={title} alt={title} />
@@ -50,7 +52,8 @@ export function ImageAtLocation(image: ImageFileNode) {
 }
 
 export function MovieAtLocation({ publicURL, fields }: MovieNode) {
-  const title = `video taken at ${new Date(fields.createDate).toLocaleString('en-US', { timeZone: 'America/New_York' })}`;
+  const dateFormat = useDateFormat();
+  const title = `video taken at ${dateFormat.format(new Date(fields.createDate))}`;
   return (
     <MediaAtLocation media={{ fields, type: 'video' }} title={title}>
       <video src={publicURL} autoPlay controls style={{ maxWidth: '100%', maxHeight: '100%' }} title={title} />
